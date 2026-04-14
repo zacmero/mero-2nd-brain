@@ -1,0 +1,7 @@
+mero-vault/
+en_backup.db
+evernote_dump/
+evernote_venv/
+node_modules/
+.npm-global/
+!obsidian-config/
