@@ -172,21 +172,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-livesync:P2P Replicator": false,
-      "obsidian-livesync:Replicate": false,
-      "obsidian-livesync:Show Log": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-livesync:Show Customization sync": false
+      "bases:Create new base": false
     }
   },
   "active": "bb7ec93676542d2d",
   "lastOpenFiles": [
+    "2_ Areas Stack/Finances/Keys_.md",
     "2_ Areas Stack/Finances/Finanças Casa 2026.md",
     "Attachments/passos.resources/passos.txt~",
     "Language Models as a Higher Order of Metaprogramming_ From Syntax to Semantic Reflection/DSL -_ DSContexts.md",
@@ -218,7 +215,6 @@
     "Check Later/Programming tattoo3.md",
     "Check Later/Programming tattoo2.md",
     "Check Later/Mangas to Read.1.md",
-    "Check Later/Mangas To Read.md",
-    "Check Later/Instawarmtile backup mumbers.md"
+    "Check Later/Mangas To Read.md"
   ]
 }

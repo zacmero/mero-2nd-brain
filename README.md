@@ -17,8 +17,14 @@ To set up this configuration on a new desktop machine:
 
 ## Sync model
 - `obsidian-config/`: versioned Obsidian desktop config
+- `.obsidian-mobile/` inside the vault: iPhone override config when needed
 - actual vault files: synced directly as files by Syncthing
 - `vps-infra/`: Docker-based Syncthing node for the VPS
+
+## Mobile config workflow
+- iPhone can use `.obsidian-mobile` as its override config folder.
+- The local Git `pre-commit` hook copies `~/Documents/mero-vault/.obsidian-mobile/` into `obsidian-config-mobile/` inside this repo before each commit.
+- That means iPhone-side config changes can still be captured in Git without syncing the desktop `.obsidian` symlink onto mobile.
 
 ## Existing LiveSync installs
 This repo no longer treats LiveSync/CouchDB as the source of truth.

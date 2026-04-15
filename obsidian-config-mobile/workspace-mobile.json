@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "36100920802f5dff",
+    "type": "split",
+    "children": [
+      {
+        "id": "154808ea7642a48a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f408154e94b146b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2_ Areas Stack/Finances/Finanças Casa 2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Finanças Casa 2026"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8f64337d9ba47c7",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7a2e7539523483e5",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "98a776d56ee201fa",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "9ccafd6cb137b214",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "b5983829122715d8",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "2f0a21f555762548",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "1e7a5b6bdb246f9c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d4215f7db55f4359",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "2_ Areas Stack/Finances/Finanças Casa 2026.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "78b7b30757e45d42",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "2_ Areas Stack/Finances/Finanças Casa 2026.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "18a69bcd8c3bda74",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "2_ Areas Stack/Finances/Finanças Casa 2026.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f408154e94b146b3",
+  "lastOpenFiles": [
+    "3_ Resources Stack/Crypto/Crypto Yield Farming Tutorial (Strategies Explained).md",
+    "3_ Resources Stack/Crypto/NFTs.md",
+    "3_ Resources Stack/Philosophy/determinismo vs livre arbítrio.md",
+    "3_ Resources Stack/Philosophy/Early Wittgenstain.md",
+    "3_ Resources Stack/Philosophy/Bertrand Russell.md",
+    "3_ Resources Stack/Philosophy/Information Theory.md",
+    "3_ Resources Stack/Philosophy/fake inclusion.md",
+    "3_ Resources Stack/Philosophy/The restructure of data management and interaction in the AI agent era.md",
+    "3_ Resources Stack/Cidadania Italiana/Chegada portuária - relatório completo - dbo.Imigrante_Vapor.md",
+    "3_ Resources Stack/Cidadania Italiana/CPF Abel Jose Gardini.md",
+    "3_ Resources Stack/Cidadania Italiana/Chegada portuária.md",
+    "3_ Resources Stack/Cidadania Italiana/Herança de Terras - Antepassados.md",
+    "3_ Resources Stack/Cidadania Italiana/Nascimento Ines gardini.1.md",
+    "3_ Resources Stack/Cidadania Italiana/Audio Vô.md",
+    "3_ Resources Stack/Cidadania Italiana/Casamento Abel Gardini - Corrigido.md",
+    "3_ Resources Stack/Cidadania Italiana/Pistas.md",
+    "3_ Resources Stack/Cidadania Italiana/Links Importantes.md",
+    "3_ Resources Stack/Cidadania Italiana/CPF Honorina Rosinha B Gardini.md",
+    "3_ Resources Stack/Cidadania Italiana/Shared notes.md",
+    "3_ Resources Stack/Cidadania Italiana/Nascimento Ines Gardini.md",
+    "3_ Resources Stack/Photography _ Cinematography/Lens.md",
+    "3_ Resources Stack/Photography _ Cinematography/Video Editing Techniques.md",
+    "3_ Resources Stack/Photography _ Cinematography/Make Photage Look Like Film.md",
+    "3_ Resources Stack/A.I./How to Train and Run a Simple Language Model __ Luke Salamone's Blog.md",
+    "3_ Resources Stack/A.I./Image Prompt Breakdown.md",
+    "3_ Resources Stack/A.I./What is Temperature in NLP_🐭 __ Luke Salamone's Blog.md",
+    "3_ Resources Stack/Crypto",
+    "3_ Resources Stack/Philosophy",
+    "3_ Resources Stack/Cidadania Italiana",
+    "3_ Resources Stack/Photography _ Cinematography",
+    "3_ Resources Stack/A.I.",
+    "3_ Resources Stack/Music Theory",
+    "3_ Resources Stack/Productivity",
+    "3_ Resources Stack/Culinary",
+    "3_ Resources Stack/Coupons",
+    "3_ Resources Stack/Poker",
+    "Attachments/Screen_Capture_-_Nov_8,_11_28_PM.resources/unknown_filename.png",
+    "Attachments/Release_Retain.resources/unknown_filename.jpeg",
+    "Attachments/Funghi_Pasta.resources/unknown_filename.jpeg",
+    "Attachments/Funghi_Pasta.resources/unknown_filename.1.jpeg",
+    "Attachments/Afogamento.resources/unknown_filename.jpeg",
+    "Attachments/Insta_zac_mero_backup_codes.resources/unknown_filename.png",
+    "Attachments/Shared_notes.1.resources/unknown_filename.1.png",
+    "Attachments/Shared_notes.1.resources/unknown_filename.png",
+    "Attachments/Shared_notes.1.resources/unknown_filename.2.png",
+    "Attachments/Shared_notes.1.resources/unknown_filename.3.png"
+  ]
+}
