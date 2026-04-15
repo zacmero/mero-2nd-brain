@@ -5,3 +5,6 @@ evernote_venv/
 node_modules/
 .npm-global/
 !obsidian-config/
+vps-infra/.env
+vps-infra/Caddyfile
+vps-infra/dbdata/

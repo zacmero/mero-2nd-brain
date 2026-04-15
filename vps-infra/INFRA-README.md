@@ -27,6 +27,32 @@ This directory contains the necessary infrastructure as code to run a self-hoste
 
 The script will automatically install Docker, open local OS firewalls, configure the required CORS settings for Obsidian, and spin up Caddy (for auto-SSL) and CouchDB.
 
+## DNS Setup
+Before running the installer, make sure your domain resolves to the VPS public IP.
+
+For DuckDNS:
+1. Find the VPS public IP:
+   ```bash
+   curl -4 ifconfig.me
+   ```
+2. Log in to DuckDNS and open your subdomain settings.
+3. Point the subdomain (for example `mero-vault.duckdns.org`) to that public IP.
+4. Verify DNS from the VPS:
+   ```bash
+   dig +short mero-vault.duckdns.org
+   ```
+   If `dig` is not installed:
+   ```bash
+   getent hosts mero-vault.duckdns.org
+   ```
+5. Confirm the returned IP matches the VPS public IP before starting the stack.
+
+## Generated Local Files
+The installer creates runtime files that should not be committed:
+- `vps-infra/.env`
+- `vps-infra/Caddyfile`
+- `vps-infra/dbdata/`
+
 ## Connecting Obsidian
 1. Install the **Self-hosted LiveSync** plugin in Obsidian.
 2. Enter your setup Server URI: `https://your-domain.com`
