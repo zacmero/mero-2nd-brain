@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  couchdb:
+    image: couchdb:3.3
+    container_name: couchdb
+    restart: unless-stopped
+    environment:
+      - COUCHDB_USER=${DB_USER:-admin}
+      - COUCHDB_PASSWORD=${DB_PASSWORD:-ChangeThisPasswordImmediately}
+    volumes:
+      - ./dbdata:/opt/couchdb/data
+      - ./config/local.ini:/opt/couchdb/etc/local.ini
+    ports:
+      - "127.0.0.1:5984:5984" # Bound to localhost; Caddy exposes it safely
+
+  caddy:
+    image: caddy:2
+    container_name: caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - couchdb
+
+volumes:
+  caddy_data:
+  caddy_config:
