@@ -1,33 +1,18 @@
-version: '3.8'
+version: "3.8"
 
 services:
-  couchdb:
-    image: couchdb:3.3
-    container_name: couchdb
+  syncthing:
+    image: lscr.io/linuxserver/syncthing:latest
+    container_name: mero-syncthing
     restart: unless-stopped
     environment:
-      - COUCHDB_USER=${DB_USER:-admin}
-      - COUCHDB_PASSWORD=${DB_PASSWORD:-ChangeThisPasswordImmediately}
+      - PUID=${PUID:-1000}
+      - PGID=${PGID:-1000}
+      - TZ=${TZ:-UTC}
     volumes:
-      - ./dbdata:/opt/couchdb/data
-      - ./config/local.ini:/opt/couchdb/etc/local.ini
+      - ./data/config:/config
+      - ./data/vault:/data/vault
     ports:
-      - "127.0.0.1:5984:5984" # Bound to localhost; Caddy exposes it safely
-
-  caddy:
-    image: caddy:2
-    container_name: caddy
-    restart: unless-stopped
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile
-      - caddy_data:/data
-      - caddy_config:/config
-    depends_on:
-      - couchdb
-
-volumes:
-  caddy_data:
-  caddy_config:
+      - "127.0.0.1:8384:8384"
+      - "22000:22000/tcp"
+      - "22000:22000/udp"

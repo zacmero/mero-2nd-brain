@@ -6,8 +6,8 @@
   "couchDB_PASSWORD": "",
   "couchDB_DBNAME": "",
   "liveSync": false,
-  "syncOnSave": false,
-  "syncOnStart": false,
+  "syncOnSave": true,
+  "syncOnStart": true,
   "savingDelay": 200,
   "lessInformationInLog": false,
   "gcDelay": 0,
@@ -69,13 +69,13 @@
   "syncAfterMerge": false,
   "configPassphraseStore": "",
   "encryptedPassphrase": "",
-  "encryptedCouchDBConnection": "%$6QHzTGTHMzpa1LN0nNPRXCOKcALkr54qwgE0INKWv1NA8MneY9aDBjQmHVq9WN+xKNK5EKmoI/Hja7aTfbiUgUPgwgKWRBsInMJI4HzRAag4NeUF23BRXmjLIe3GFCez/JDUrguC1nMTfD1exRf+VDUCAQc9i5KEJe9VBDdtJ+tUBVsD2OKkHr9DO0Z+PZjp+WcMPsY8ACpQOBWeRviwnVuAXiOlZ7dqXxrnsEYEM6MZRANV+BSykn7foxW6OkSfEVrIVEKalnZCXOrOJieWtDft6iJGEUPAJBJqnpqXxAVbmtCooMGK9ZmnQmXs5y8xS/AEdD/M3WMZan6xaAJ3tnaKqkfiCeUYzZR19DZEEXsWWUjHmtIUT5NPYLXwlS4+JZhuVn59tHviaw89NsayN2mV/OQEaSQMPgZYXEqiBkzS/nwrOHJ9XN1DAFDlczeoJC0Kpz+hTHLDtOvDGFg+GurMcUHJ0/e9OJ/1vuDP1zrWtbJHYPjFQcv2tm4dh3xTpMQQzf11pPocmXIWqHjFKnjCh3Y4S3OWtifYEfhXO4/BIes2wsYPawxEnpasWx2waVC5Mdfb6Dltxobwtyn/bltNvDRyFAXITKo6M5XUZxg+hX4V41ygIxcuebJnATTfZFv9+xPmf8vjj2wma4ZXZGE/+CEwuMcFpYXeeAmxz5Ce33QGz9fTCSE6kKg2c+SwbLpPj8g=",
+  "encryptedCouchDBConnection": "%$x1sZtlEB70G9PXvQkuFdPrMvxFxgl3k0dBVPV5ZAUKEV+PXfLxFbYShrXZJLrDxXgI4+ftELHTHlxUJ9uSBCn6V4WfGyGRqoYMbMTHlVZEfunZh5pyPEQeh1WHWYZ2PefP5IN/14lyFRFi/BRSd9igUlUqsmHTJr2a51Hr8m5vNJpI4XFbUPqDie5ABrC5z6XhbsBtLP41cJoEv7EqtYC5RJLUJCkXXldcO4Pb9eSd/liaPaYSmVEfxbreP34toSjIuwEInAwvFWv4/XAFhlZ6pEUPBVZX4YWKOfc9xEicNRFXXcQu63/90i44IbpoQfvA8GdgiB5HjvF+vCoxChTyfp4REa5v3PHycg7in9jU1fIJ363txBYnaCms71PWPLkPPBWi2YNSzeHJF9dj2VjhjClxA2zDEOdezTAnugivky3FQGreXh1KzaeuO/IZl0bbOCPbVGHqehUTwgboiVeNh7aVwMujFy/zlUFBew+nRg5vGpZAsYprdoprbD7AgOG6wtlxdWLuxG9jeRv4kqPio9ViIVZpl7G8Yk4xlYKMLMHZQxIb0jAQPOwkmqy6R4aX6QGtYH+eMcVmTTm6CczH5LIWCsb/SRAOn6/sY561YEp/mw1elZ0bucATiway6TrF9fwzm1IXB2ZqpQ325BRuD/S8IQPlbb5ou0VGE344RMHF9f545yJVd8le/floxzpc3Bvq0=",
   "permitEmptyPassphrase": false,
   "remoteConfigurations": {
     "legacy-couchdb": {
       "id": "legacy-couchdb",
       "name": "CouchDB Remote",
-      "uri": "%$6QHzTGTHMzpa1LN0nNPRXCOKcALkr54qwgE0INKWv1N9NzhVvzisf7770oGv94FarcAvK8am9GJDxRCmmFidsKzNNU/Fh2I2JKDtGmbp0BuB8eMxuGFK6t94yRQKvgH8jHuoQ/dqPnJO9TP86ofdfKuYlpn5UgszUVqfYX6kNQE3YI6vcHIeDEJ2JcNZqOBLuhmNSHTP5cKRfoFbJeIx3SmN",
+      "uri": "%$x1sZtlEB70G9PXvQkuFdPrMvxFxgl3k0dBVPV5ZAUKFEBfjKAM8TUFnxaiLu6DnsrdfXEPwD3a46RI/BCq60sSA1LbzFUYcnzHv+/DgoYH1DMS5qqqCCoDDi36wEOKxN8NlS1Xe5jemUR8oQFhNsPWOTsDv5AvilC+Y2VRyDlRVXVXXIHSPwTA+nLIJrrVbuNFTGVb7GfA59UAFcDS63XJFF",
       "isEncrypted": true
     }
   },
@@ -93,7 +93,7 @@
   "doNotSuspendOnFetching": false,
   "useIgnoreFiles": false,
   "ignoreFiles": ".gitignore",
-  "syncOnEditorSave": false,
+  "syncOnEditorSave": true,
   "pluginSyncExtendedSetting": {},
   "syncMaxSizeInMB": 50,
   "settingSyncFile": "",

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "092b09814fce02a8",
+        "id": "38e1c8c110ade02f",
         "type": "tabs",
         "children": [
           {
-            "id": "aed572896b9d1d9a",
+            "id": "bb7ec93676542d2d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2_ Areas Stack/Finances/Finanças Casa 2026.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Finanças Casa 2026"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Mero's Diaries 📓/Daily Journal/Daily Journal - 1_2_2025.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Daily Journal - 1_2_2025"
             }
           },
           {
@@ -180,10 +185,24 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "aed572896b9d1d9a",
+  "active": "bb7ec93676542d2d",
   "lastOpenFiles": [
-    "flag_rebuild.md",
+    "2_ Areas Stack/Finances/Finanças Casa 2026.md",
+    "Attachments/passos.resources/passos.txt~",
+    "Language Models as a Higher Order of Metaprogramming_ From Syntax to Semantic Reflection/DSL -_ DSContexts.md",
+    "5_ Knowledge Library/Sci-Fi/The Three Body Problem.md",
+    "4_ Archives/Cachaçaria/(3) A few pages from my Midjourney produced printed manga, AbsXcess. _ StableDiffusion.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/AEE Features.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Agent Runtime ElizaOS_Documentation.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Accounts.md",
+    "Attachments/Manual.resources/unknown_filename.pdf",
+    "Attachments/determinismo_vs_livre_arbítrio.resources/determinvslivrearb.txt",
+    "Attachments/passos.resources/passos.txt",
+    "Attachments/mental_drugs.resources/medicines.txt",
+    "Mero's Diaries 📓/Daily Journal/Daily Journal - 1_2_2025.md",
+    "test notw.md",
     "Untitled.base",
+    "flag_rebuild.md",
     "5_ Knowledge Library/Information Theory/Decoding the Universe - Charles Seife.md",
     "5_ Knowledge Library/Information Theory/The Information - A History, a Theory, a Flood - James Gleick.md",
     "5_ Knowledge Library/Information Theory/Brainstorming.md",
@@ -200,15 +219,6 @@
     "Check Later/Programming tattoo2.md",
     "Check Later/Mangas to Read.1.md",
     "Check Later/Mangas To Read.md",
-    "Check Later/Instawarmtile backup mumbers.md",
-    "Check Later/Insta zac mero backup codes.md",
-    "1_ Projects Stack/Picture of God - Book/Chapter 3_ Ghosts in the shell & flash.md",
-    "Language Models as a Higher Order of Metaprogramming_ From Syntax to Semantic Reflection/DSL -_ DSContexts.md",
-    "Mero's Diaries 📓/Zac Mero - The One.md",
-    "Work/Customer Relationship Management.md",
-    "1_ Projects Stack/Agent 02_ Anima Mero/IMG_6869.PNG.md",
-    "Home/Grocery List.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Zora NFT Network.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Vps Services.md"
+    "Check Later/Instawarmtile backup mumbers.md"
   ]
 }
