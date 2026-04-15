@@ -46,13 +46,13 @@ remove_if_owned caddy
 for path in "$INFRA_DIR/.env" "$INFRA_DIR/Caddyfile"; do
     if [[ -e "$path" ]]; then
         echo "[+] Deleting $path"
-        rm -f "$path"
+        sudo rm -f "$path"
     fi
 done
 
 if [[ -d "$INFRA_DIR/dbdata" ]]; then
     echo "[+] Deleting $INFRA_DIR/dbdata"
-    rm -rf "$INFRA_DIR/dbdata"
+    sudo rm -rf "$INFRA_DIR/dbdata"
 fi
 
 echo "[+] Legacy CouchDB files removed from $INFRA_DIR"

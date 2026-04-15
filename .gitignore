@@ -8,3 +8,4 @@ node_modules/
 vps-infra/.env
 vps-infra/Caddyfile
 vps-infra/dbdata/
+vps-infra/data/
