@@ -23,6 +23,7 @@ This directory contains the necessary infrastructure as code to run a self-hoste
    ./scripts/setup.sh
    ```
 4. Follow the prompts to enter your domain name and set a secure database password.
+   Use only the hostname, for example `mero-vault.duckdns.org`, not `https://mero-vault.duckdns.org`.
 
 The script will automatically install Docker, open local OS firewalls, configure the required CORS settings for Obsidian, and spin up Caddy (for auto-SSL) and CouchDB.
 
