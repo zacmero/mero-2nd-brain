@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "38e1c8c110ade02f",
+        "id": "8953b923ef7160e4",
         "type": "tabs",
         "children": [
           {
-            "id": "bb7ec93676542d2d",
+            "id": "8dc8f714f585759e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2_ Areas Stack/Finances/Finanças Casa 2026.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Finanças Casa 2026"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "unknown_filename.txt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,10 +178,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "bb7ec93676542d2d",
+  "active": "8dc8f714f585759e",
   "lastOpenFiles": [
-    "2_ Areas Stack/Finances/Keys_.md",
+    "4_ Archives/The Keys/Passwords.md",
+    "3_ Resources Stack/Music Production/Master Chains.md",
+    "2_ Areas Stack/Monza/monza collor.md",
+    "Attachments/passos.resources/unknown_filename.txt.md",
+    "Attachments/determinismo_vs_livre_arbítrio.resources/unknown_filename.txt.md",
+    "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/upvoter_120.png",
+    "Attachments/Advice_From_the_Universe.resources/unknown_filename.jpeg",
+    "Attachments/Afogamento.resources/unknown_filename.jpeg",
+    "Attachments/Agent_Runtime_ElizaOS_Documentation.resources/unknown_filename.1.jpeg",
+    "Attachments/Agent_Runtime_ElizaOS_Documentation.resources/unknown_filename.jpeg",
     "2_ Areas Stack/Finances/Finanças Casa 2026.md",
+    "2_ Areas Stack/Finances/Keys_.md",
     "Attachments/passos.resources/passos.txt~",
     "Language Models as a Higher Order of Metaprogramming_ From Syntax to Semantic Reflection/DSL -_ DSContexts.md",
     "5_ Knowledge Library/Sci-Fi/The Three Body Problem.md",
@@ -210,11 +217,6 @@
     "5_ Knowledge Library/Chaos Theory/Chaos_economy.md",
     "2026-04-14.md",
     "Untitled.canvas",
-    "1_ Projects Stack/Picture of God - Book/Chapter 2_ For the love of god 💘.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/The Master Plan - Suzy's Awakening_.md",
-    "Check Later/Programming tattoo3.md",
-    "Check Later/Programming tattoo2.md",
-    "Check Later/Mangas to Read.1.md",
-    "Check Later/Mangas To Read.md"
+    "1_ Projects Stack/Picture of God - Book/Chapter 2_ For the love of god 💘.md"
   ]
 }
