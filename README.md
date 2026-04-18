@@ -21,6 +21,34 @@ To set up this configuration on a new desktop machine:
 - actual vault files: synced directly as files by Syncthing
 - `vps-infra/`: Docker-based Syncthing node for the VPS
 
+## Auto pull on always-on machines
+If a machine should stay close to the latest repo state, install the user timer:
+
+```bash
+./scripts/install-autopull-systemd.sh
+```
+
+Optional:
+
+```bash
+./scripts/install-autopull-systemd.sh --interval 5 --linger
+```
+
+What it does:
+- installs a `systemd --user` timer and service for this repo
+- runs a conservative pull loop every few minutes
+- only fast-forwards from `origin/<current-branch>`
+- skips pulls when the working tree has local changes or untracked files
+- never merges or resets your local work
+
+Operational commands:
+- check status: `systemctl --user status mero-2nd-brain-autopull.timer`
+- view logs: `journalctl --user -u mero-2nd-brain-autopull.service -f`
+- run once manually: `~/.local/share/mero-2nd-brain-autopull/pull.sh`
+- disable: `systemctl --user disable --now mero-2nd-brain-autopull.timer`
+
+If you want the timer to run on a headless VM without an active login session, pass `--linger` once during install. That enables user lingering for the current account and is the lightweight way to keep a user service alive across reboots.
+
 ## Mobile config workflow
 - iPhone can use `.obsidian-mobile` as its override config folder.
 - The local Git `pre-commit` hook copies `~/Documents/mero-vault/.obsidian-mobile/` into `obsidian-config-mobile/` inside this repo before each commit.
