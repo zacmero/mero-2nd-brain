@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cf2a0dd2542c9538",
+        "id": "70260e21b8b1abe7",
         "type": "tabs",
         "children": [
           {
-            "id": "4f88ee9f89dfcf86",
+            "id": "3ce4b88c08e0cacb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2_ Areas Stack/Finances/Finanças Casa 2026.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Finanças Casa 2026"
+              "title": "New tab"
             }
           }
         ]
@@ -182,8 +178,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "4f88ee9f89dfcf86",
+  "active": "3ce4b88c08e0cacb",
   "lastOpenFiles": [
+    "Mero's Diaries 📓/Zac Mero - The One.md",
     "2_ Areas Stack/Finances/Finanças Casa 2026.md",
     "2_ Areas Stack/Finances/Finanças Casa 2024.md",
     "4_ Archives/Brechó_.md",
@@ -220,7 +217,6 @@
     "5_ Knowledge Library/Chaos Theory/Tasks - Chaos Theory.md",
     "5_ Knowledge Library/Chaos Theory/Strange Attractors.md",
     "5_ Knowledge Library/Chaos Theory/Questionings.md",
-    "5_ Knowledge Library/Chaos Theory/Main concepts_.md",
     "Untitled.canvas"
   ]
 }
