@@ -1,1 +1,10 @@
-{}
+{
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "interfaceFontFamily": "CaskaydiaCove Nerd Font",
+  "textFontFamily": "CaskaydiaCove Nerd Font",
+  "baseFontSize": 18,
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "accentColor": "#ad76b7"
+}
