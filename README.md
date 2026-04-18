@@ -49,6 +49,14 @@ Operational commands:
 
 If you want the timer to run on a headless VM without an active login session, pass `--linger` once during install. That enables user lingering for the current account and is the lightweight way to keep a user service alive across reboots.
 
+For the VPS, use the stack-aware installer instead:
+
+```bash
+./scripts/install-vps-autopull-systemd.sh
+```
+
+That variant does the same fast-forward pull, then refreshes `vps-infra/docker-compose.yml` with `docker compose up -d --remove-orphans` after a successful update.
+
 ## Mobile config workflow
 - iPhone can use `.obsidian-mobile` as its override config folder.
 - The local Git `pre-commit` hook copies `~/Documents/mero-vault/.obsidian-mobile/` into `obsidian-config-mobile/` inside this repo before each commit.

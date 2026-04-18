@@ -163,3 +163,24 @@ At the end, all three devices should know each other directly:
 - The Syncthing GUI stays bound to localhost on the VPS; administer it through SSH tunneling instead of exposing it publicly.
 - At the cloud provider layer, allow only `22000/tcp` and `22000/udp`. Do not expose `8384` publicly.
 - After migration, rotate any secrets that were previously stored for LiveSync/CouchDB.
+
+## Auto pull and reload on the VPS
+If this VPS should keep itself aligned with the repo automatically, install the VPS timer from the repo root:
+
+```bash
+./scripts/install-vps-autopull-systemd.sh --linger
+```
+
+What it does:
+- installs a `systemd --user` timer for the current user
+- fast-forwards `origin/<current-branch>` only
+- skips the pull when the worktree has local changes or untracked files
+- after a successful pull, refreshes the Syncthing compose stack in `vps-infra`
+
+Operational commands:
+- status: `systemctl --user status mero-2nd-brain-vps-autopull.timer`
+- logs: `journalctl --user -u mero-2nd-brain-vps-autopull.service -f`
+- manual run: `~/.local/share/mero-2nd-brain-vps-autopull/pull-and-reload.sh`
+- disable: `systemctl --user disable --now mero-2nd-brain-vps-autopull.timer`
+
+Use `--linger` on a headless VPS so the user timer survives logout and reboot without needing an interactive session.
