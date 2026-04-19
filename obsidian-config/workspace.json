@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "70260e21b8b1abe7",
+        "id": "c758dce6a09877e3",
         "type": "tabs",
         "children": [
           {
-            "id": "3ce4b88c08e0cacb",
+            "id": "a6bedfbebf547efb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5083198547363
+    "width": 212.50831985473633
   },
   "right": {
     "id": "f0e6e285c9d0d9f9",
@@ -180,6 +180,13 @@
   },
   "active": "a670e30564a07b23",
   "lastOpenFiles": [
+    "3_ Resources Stack/A.I./x.com.md",
+    "Untitled.canvas",
+    "3_ Resources Stack/A.I./What is Temperature in NLP_🐭 __ Luke Salamone's Blog.md",
+    "3_ Resources Stack/A.I./AI Training.md",
+    "3_ Resources Stack/A.I./API Tess.md",
+    "3_ Resources Stack/A.I./A.I. For Ads.md",
+    "3_ Resources Stack/A.I./A.I Tools.md",
     "Mero's Diaries 📓/Zac Mero - The One.md",
     "2_ Areas Stack/Finances/Finanças Casa 2026.md",
     "2_ Areas Stack/Finances/Finanças Casa 2024.md",
@@ -209,14 +216,6 @@
     "Attachments/mental_drugs.resources/medicines.txt",
     "Mero's Diaries 📓/Daily Journal/Daily Journal - 1_2_2025.md",
     "test notw.md",
-    "Untitled.base",
-    "flag_rebuild.md",
-    "5_ Knowledge Library/Information Theory/Decoding the Universe - Charles Seife.md",
-    "5_ Knowledge Library/Information Theory/The Information - A History, a Theory, a Flood - James Gleick.md",
-    "5_ Knowledge Library/Information Theory/Brainstorming.md",
-    "5_ Knowledge Library/Chaos Theory/Tasks - Chaos Theory.md",
-    "5_ Knowledge Library/Chaos Theory/Strange Attractors.md",
-    "5_ Knowledge Library/Chaos Theory/Questionings.md",
-    "Untitled.canvas"
+    "Untitled.base"
   ]
 }
