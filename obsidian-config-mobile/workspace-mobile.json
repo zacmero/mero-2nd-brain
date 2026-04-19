@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "154808ea7642a48a",
+        "id": "d5aaed44ffd387d9",
         "type": "tabs",
         "children": [
           {
-            "id": "f408154e94b146b3",
+            "id": "52aa82ccc9e2fc5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_ Areas Stack/Finances/Finanças Casa 2026.md",
+                "file": "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Accounts - Suzy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Finanças Casa 2026"
+              "title": "Accounts - Suzy"
             }
           }
         ]
@@ -153,9 +153,19 @@
           "icon": "lucide-list",
           "title": "Outline"
         }
+      },
+      {
+        "id": "02ba0de1270851a9",
+        "type": "leaf",
+        "state": {
+          "type": "smart-connections-view",
+          "state": {},
+          "icon": "smart-connections",
+          "title": "Connections"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,13 +175,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-connections:Smart Lookup: Open lookup view": false,
+      "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "f408154e94b146b3",
+  "active": "52aa82ccc9e2fc5e",
   "lastOpenFiles": [
-    "Untitled.md",
     "2_ Areas Stack/Finances/Finanças Casa 2026.md",
+    "Untitled.md",
     "3_ Resources Stack/Crypto/Crypto Yield Farming Tutorial (Strategies Explained).md",
     "3_ Resources Stack/Crypto/NFTs.md",
     "3_ Resources Stack/Philosophy/determinismo vs livre arbítrio.md",

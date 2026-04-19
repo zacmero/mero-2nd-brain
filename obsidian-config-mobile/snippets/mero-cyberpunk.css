@@ -52,12 +52,32 @@ body.theme-light {
   background-color: rgba(10, 14, 22, 0.18);
 }
 
-/* Folder tree base: all folders keep a permanent tint */
+/* Folder tree base: all rows keep a permanent tint */
 .nav-files-container .nav-folder-title,
-.nav-files-container .tree-item.nav-folder > .tree-item-self {
+.nav-files-container .tree-item.nav-folder > .tree-item-self,
+.nav-files-container .nav-file-title,
+.nav-files-container .tree-item.nav-file > .tree-item-self {
   color: #d9f8ff;
-  background: rgba(108, 201, 255, 0.035) !important;
   border-radius: 4px;
+  position: relative;
+  isolation: isolate;
+  background: transparent !important;
+}
+
+.nav-files-container .nav-folder-title::before,
+.nav-files-container .tree-item.nav-folder > .tree-item-self::before,
+.nav-files-container .nav-file-title::before,
+.nav-files-container .tree-item.nav-file > .tree-item-self::before {
+  content: "";
+  position: absolute;
+  top: 0.08rem;
+  bottom: 0.08rem;
+  left: var(--row-highlight-left, 0.14rem);
+  right: 0.14rem;
+  background: var(--row-highlight-fill, linear-gradient(90deg, rgba(108, 201, 255, 0.06), rgba(108, 201, 255, 0.02)));
+  border-radius: 4px;
+  z-index: -1;
+  pointer-events: none;
 }
 
 /* Top-level "stacks" folders */
@@ -67,10 +87,13 @@ body.theme-light {
 .nav-folder.mod-root > .nav-folder-title,
 .tree-item.nav-folder.mod-root > .tree-item-self {
   color: #effbff;
-  background: linear-gradient(90deg, rgba(108, 201, 255, 0.3), rgba(108, 201, 255, 0.08)) !important;
-  border-radius: 4px;
-  margin-bottom: 0.25rem;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04), 0 0 18px rgba(108, 201, 255, 0.08);
+  --row-highlight-left: 0.52rem;
+  --row-highlight-fill: linear-gradient(90deg, rgba(108, 201, 255, 0.26), rgba(108, 201, 255, 0.07));
+  --row-highlight-accent: rgba(108, 201, 255, 0.8);
+  padding-block: 0.26rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.48rem;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.025), 0 0 10px rgba(108, 201, 255, 0.05);
   --nav-collapse-icon-color: #9be7ff;
   --nav-collapse-icon-color-collapsed: #6cc9ff;
 }
@@ -89,23 +112,89 @@ body.theme-light {
 .nav-files-container .nav-folder-children > .nav-folder > .nav-folder-title,
 .nav-files-container .tree-item-children > .tree-item.nav-folder > .tree-item-self {
   color: #f3fffd;
-  background: linear-gradient(90deg, rgba(194, 255, 242, 0.08), rgba(194, 255, 242, 0.02)) !important;
+  --row-highlight-left: 0.84rem;
+  --row-highlight-fill: linear-gradient(90deg, rgba(194, 255, 242, 0.07), rgba(194, 255, 242, 0.018));
+  --row-highlight-accent: rgba(194, 255, 242, 0.76);
   --nav-collapse-icon-color: #dcfffa;
   --nav-collapse-icon-color-collapsed: #c2fff2;
+  padding-block: 0.22rem;
+  margin-top: 0.18rem;
+  margin-bottom: 0.18rem;
 }
 
 /* Deeper trees get a quieter cyan-violet tone */
 .nav-files-container .nav-folder-children .nav-folder-children > .nav-folder > .nav-folder-title,
 .nav-files-container .tree-item-children .tree-item-children > .tree-item.nav-folder > .tree-item-self {
   color: #e8e0ff;
-  background: linear-gradient(90deg, rgba(186, 151, 255, 0.14), rgba(186, 151, 255, 0.04)) !important;
+  --row-highlight-left: 1.12rem;
+  --row-highlight-fill: linear-gradient(90deg, rgba(186, 151, 255, 0.11), rgba(186, 151, 255, 0.03));
+  --row-highlight-accent: rgba(186, 151, 255, 0.74);
   --nav-collapse-icon-color: #d8c4ff;
   --nav-collapse-icon-color-collapsed: #b895ff;
+  padding-block: 0.22rem;
+  margin-top: 0.18rem;
+  margin-bottom: 0.18rem;
+}
+
+/* Third and deeper levels keep stepping right instead of flattening back */
+.nav-files-container .nav-folder-children .nav-folder-children .nav-folder-children > .nav-folder > .nav-folder-title,
+.nav-files-container .tree-item-children .tree-item-children .tree-item-children > .tree-item.nav-folder > .tree-item-self {
+  color: #e8e0ff;
+  --row-highlight-left: 1.38rem;
+  --row-highlight-fill: linear-gradient(90deg, rgba(204, 182, 255, 0.1), rgba(204, 182, 255, 0.028));
+  --row-highlight-accent: rgba(204, 182, 255, 0.72);
+  --nav-collapse-icon-color: #e0d2ff;
+  --nav-collapse-icon-color-collapsed: #cdb7ff;
+  padding-block: 0.22rem;
+  margin-top: 0.18rem;
+  margin-bottom: 0.18rem;
+}
+
+.nav-files-container .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children > .nav-folder > .nav-folder-title,
+.nav-files-container .tree-item-children .tree-item-children .tree-item-children .tree-item-children > .tree-item.nav-folder > .tree-item-self {
+  color: #ece4ff;
+  --row-highlight-left: 1.64rem;
+  --row-highlight-fill: linear-gradient(90deg, rgba(214, 198, 255, 0.09), rgba(214, 198, 255, 0.025));
+  --row-highlight-accent: rgba(214, 198, 255, 0.7);
+  --nav-collapse-icon-color: #ebdeff;
+  --nav-collapse-icon-color-collapsed: #d9c9ff;
+  padding-block: 0.22rem;
+  margin-top: 0.18rem;
+  margin-bottom: 0.18rem;
+}
+
+/* Fifth and deeper levels keep stepping right instead of flattening back */
+.nav-files-container .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children > .nav-folder > .nav-folder-title,
+.nav-files-container .tree-item-children .tree-item-children .tree-item-children .tree-item-children .tree-item-children > .tree-item.nav-folder > .tree-item-self {
+  color: #f0ebff;
+  --row-highlight-left: 1.9rem;
+  --row-highlight-fill: linear-gradient(90deg, rgba(224, 214, 255, 0.09), rgba(224, 214, 255, 0.025));
+  --row-highlight-accent: rgba(224, 214, 255, 0.68);
+  --nav-collapse-icon-color: #f0e8ff;
+  --nav-collapse-icon-color-collapsed: #e0d0ff;
+  padding-block: 0.22rem;
+  margin-top: 0.18rem;
+  margin-bottom: 0.18rem;
+}
+
+.nav-files-container .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children > .nav-folder > .nav-folder-title,
+.nav-files-container .tree-item-children .tree-item-children .tree-item-children .tree-item-children .tree-item-children .tree-item-children > .tree-item.nav-folder > .tree-item-self {
+  color: #f5f0ff;
+  --row-highlight-left: 2.16rem;
+  --row-highlight-fill: linear-gradient(90deg, rgba(233, 224, 255, 0.08), rgba(233, 224, 255, 0.022));
+  --row-highlight-accent: rgba(233, 224, 255, 0.66);
+  --nav-collapse-icon-color: #f5edff;
+  --nav-collapse-icon-color-collapsed: #e7d9ff;
+  padding-block: 0.22rem;
+  margin-top: 0.18rem;
+  margin-bottom: 0.18rem;
 }
 
 .nav-folder-children .nav-folder,
 .nav-folder-children .nav-file {
   position: relative;
+  margin-top: 0.28rem;
+  margin-bottom: 0.28rem;
 }
 
 .nav-folder-children .nav-folder::before,
@@ -135,20 +224,45 @@ body.theme-light {
   stroke: currentColor;
 }
 
-/* Notes get the magenta tone */
-.nav-file-title {
+.nav-files-container .tree-item-icon,
+.nav-files-container .nav-file-icon,
+.nav-files-container .nav-folder-icon {
   color: #f2c8ff;
-  border-radius: 4px;
-  background: rgba(214, 120, 255, 0.02);
+  opacity: 1;
+  margin-inline-end: 0.24rem;
+  filter: drop-shadow(0 0 6px rgba(242, 200, 255, 0.22));
 }
 
-.nav-file-title:hover {
+/* Notes get the magenta tone */
+.nav-files-container .nav-file-title,
+.nav-files-container .tree-item.nav-file > .tree-item-self {
+  color: #f2c8ff;
+  --row-highlight-left: 1.04rem;
+  --row-highlight-fill: linear-gradient(90deg, rgba(214, 120, 255, 0.1), rgba(214, 120, 255, 0.026));
+  --row-highlight-accent: rgba(214, 120, 255, 0.78);
+}
+
+.nav-files-container .nav-folder-title-content,
+.nav-files-container .nav-file-title-content,
+.nav-files-container .tree-item-inner {
+  margin-inline-start: 0rem;
+}
+
+.nav-files-container .nav-file-title-content,
+.nav-files-container .tree-item.nav-file > .tree-item-self .tree-item-inner {
+  margin-inline-start: 0rem;
+}
+
+.nav-files-container .nav-file-title:hover,
+.nav-files-container .tree-item.nav-file > .tree-item-self:hover {
   background: rgba(214, 120, 255, 0.08) !important;
 }
 
-.nav-file-title.is-active {
+.nav-files-container .nav-file-title.is-active,
+.nav-files-container .tree-item.nav-file > .tree-item-self.is-active {
   color: #fff2ff;
-  background: linear-gradient(90deg, rgba(214, 120, 255, 0.24), rgba(214, 120, 255, 0.07)) !important;
+  --row-highlight-left: 1.04rem;
+  --row-highlight-fill: linear-gradient(90deg, rgba(214, 120, 255, 0.24), rgba(214, 120, 255, 0.07));
 }
 
 .nav-folder-title:hover {
@@ -159,7 +273,34 @@ body.theme-light {
 .nav-folder-title.is-active,
 .nav-folder.is-collapsed > .nav-folder-title,
 .tree-item.nav-folder.is-collapsed > .tree-item-self {
-  background: linear-gradient(90deg, rgba(108, 201, 255, 0.18), rgba(108, 201, 255, 0.05)) !important;
+  --row-highlight-fill: linear-gradient(90deg, rgba(108, 201, 255, 0.18), rgba(108, 201, 255, 0.05));
+}
+
+button.mod-warning,
+button.mod-danger,
+.modal button.mod-warning,
+.modal button.mod-danger,
+.prompt button.mod-warning,
+.prompt button.mod-danger,
+.modal button.mod-cta.mod-warning,
+.prompt button.mod-cta.mod-warning {
+  background: linear-gradient(180deg, rgba(255, 122, 150, 0.98), rgba(203, 52, 78, 0.96)) !important;
+  color: #fff7fa !important;
+  border: 1px solid rgba(255, 184, 198, 0.32) !important;
+  box-shadow: 0 10px 24px rgba(203, 52, 78, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  --interactive-accent: #ff6a90;
+  --interactive-accent-hover: #ff8fae;
+}
+
+button.mod-warning:hover,
+button.mod-danger:hover,
+.modal button.mod-warning:hover,
+.modal button.mod-danger:hover,
+.prompt button.mod-warning:hover,
+.prompt button.mod-danger:hover,
+.modal button.mod-cta.mod-warning:hover,
+.prompt button.mod-cta.mod-warning:hover {
+  background: linear-gradient(180deg, rgba(255, 140, 165, 1), rgba(224, 65, 96, 0.98)) !important;
 }
 
 .markdown-preview-view table,
