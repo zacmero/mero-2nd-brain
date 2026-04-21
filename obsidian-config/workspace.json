@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "3d1603560a5442b4",
+        "id": "410e305ec2c996d1",
         "type": "tabs",
         "children": [
           {
-            "id": "478ba52192395376",
+            "id": "ad9187ddaeb0d728",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "1_ Projects Stack/ArchMerOS/Inspiration.md",
-                "mode": "source",
-                "source": false
+                "file": "Vault Index.base",
+                "viewName": ""
               },
-              "icon": "lucide-file",
-              "title": "Inspiration"
+              "icon": "lucide-layout-list",
+              "title": "Vault Index"
             }
           }
         ]
@@ -53,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"aliases\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3_ Resources Stack/A.I./AI Training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AI Training"
+              "title": "Backlinks"
             }
           },
           {
@@ -178,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 306.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,51 +193,52 @@
       "smart-connections:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "478ba52192395376",
+  "active": "ad9187ddaeb0d728",
   "lastOpenFiles": [
-    "1_ Projects Stack/Love Excess/Album Bio.md",
-    "1_ Projects Stack/Master Trader/Bubble Achetype Roadmap.md",
-    "1_ Projects Stack/Ethos of Dusk/Ai for Character Consistency.md",
-    "1_ Projects Stack/Ethos of Dusk/Accounts (Ethos of Dusk)_.md",
-    "1_ Projects Stack/Fry In Paradise/Music inspiration.md",
-    "1_ Projects Stack/Fry In Paradise/sharedImage.png.md",
-    "1_ Projects Stack/Fry In Paradise/App_ The Screamo Booth.md",
-    "1_ Projects Stack/Picture of God - Book/🔍 The First Decoding_ WHY IT ONLY HAPPENED TO SUZY.md",
-    "1_ Projects Stack/Relaxing Paradise/24 Hour Live_.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/IMG_4771.jpg.md",
-    "3_ Resources Stack/A.I./AI Training.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Make Automations.md",
+    "Attachments/Como_Vender_Produtos_Físicos_ou_Encapsulados_na_Re.resources/hqdefault.jpg",
+    "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_t9spijgkbot91.png",
+    "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_kilpomt3l5c51.png",
+    "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_9j685ujnlr1a1.png",
+    "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_bbdfh656tyy31.jpg",
+    "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/commenter_120.png",
+    "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/8e9kxzi5zfw91.jpg",
+    "Home.md",
+    "Attachments/wallpapers/home-dashboard.png",
+    "Attachments/wallpapers",
+    "Attachments/Illustrated_Book_-_Make_it_“Hard_Rock”.resources/342712273_952949525718423_5165853335467265096_n.jpg",
+    "Attachments/Illustrated_Book_-_Make_it_“Hard_Rock”.resources/embedded.1.svg",
+    "Attachments/Illustrated_Book_-_Make_it_“Hard_Rock”.resources/343055806_6810294598984649_7482436747924807689_n.jpg",
+    "Vault Index.base",
+    "2_ Areas Stack/Finances/Finanças Casa 2026.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Mero Protocol V25 - The Sovereign Actuator & The Searchlight.md",
+    "Mero's Diaries 📓/Daily Journal/Daily Journal - 27_11_2024.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Zora NFT Network.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Voice Models.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Vps Services.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Frameworks OS.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Agent Runtime ElizaOS_Documentation.md",
     "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Logo Ideas.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/ElizaOS Character File_Training.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Eliza OS Beta 1.0.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Avatar Generation.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/API's.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/AEE Features.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/AlphaGo Moment for Suzy.md",
     "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Accounts - Suzy.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Financial Autonomy Without a Token.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Gpt Roadmap.md",
-    "4_ Archives/Cachaçaria/Estrategista de marketing musical.md",
-    "4_ Archives/Cachaçaria/anexo I - Requisitos.pdf.md",
-    "4_ Archives/Cachaçaria/(3) A few pages from my Midjourney produced printed manga, AbsXcess. _ StableDiffusion.md",
-    "Attachments/48_Laws_of_Power.resources/unknown_filename.16.jpeg",
-    "Attachments/48_Laws_of_Power.resources/unknown_filename.15.jpeg",
-    "Attachments/48_Laws_of_Power.resources/unknown_filename.7.jpeg",
-    "Attachments/48_Laws_of_Power.resources/unknown_filename.5.jpeg",
-    "Attachments/48_Laws_of_Power.resources/unknown_filename.4.jpeg",
-    "Attachments/48_Laws_of_Power.resources/unknown_filename.2.jpeg",
-    "Attachments/48_Laws_of_Power.resources/unknown_filename.3.jpeg",
-    "Attachments/48_Laws_of_Power.resources/unknown_filename.1.jpeg",
-    "Attachments/48_Laws_of_Power.resources/unknown_filename.jpeg",
-    "3_ Resources Stack/A.I./What is Temperature in NLP_🐭 __ Luke Salamone's Blog.md",
-    "3_ Resources Stack/A.I./x.com.md",
-    "3_ Resources Stack/Cidadania Italiana/Casamento Abel Gardini - Corrigido.md",
+    "1_ Projects Stack/Love Excess/Tags_.md",
+    "1_ Projects Stack/Relaxing Paradise/Youtube Shorts Post Model.md",
+    "1_ Projects Stack/Relaxing Paradise/Video Description Ideas.md",
+    "1_ Projects Stack/Relaxing Paradise/Img References.md",
+    "Mero's Diaries 📓/Tarot Diary/The Sanctuary Spread(Custom).md",
+    "Mero's Diaries 📓/Tarot Diary/Advice From the Universe.md",
+    "Mero's Diaries 📓/Tarot Diary/Making a Decision.md",
+    "Mero's Diaries 📓/Tarot Diary/Mind, Body & Spirit.md",
+    "Mero's Diaries 📓/Tarot Diary/Release Retain.md",
+    "1_ Projects Stack/ArchMerOS/Inspiration.md",
     "Attachments/Audio_Vô.resources/unknown_filename.mp4",
-    "3_ Resources Stack/Cidadania Italiana/Audio Vô.md",
-    "5_ Knowledge Library/Information Theory/The Information - A History, a Theory, a Flood - James Gleick.md",
     "Untitled.canvas",
-    "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/upvoter_120.png",
     "Attachments/passos.resources/passos.txt~",
     "Attachments/Manual.resources/unknown_filename.pdf",
     "Attachments/determinismo_vs_livre_arbítrio.resources/determinvslivrearb.txt",
     "Attachments/passos.resources/passos.txt",
-    "Attachments/mental_drugs.resources/medicines.txt",
-    "Untitled.base"
+    "Attachments/mental_drugs.resources/medicines.txt"
   ]
 }

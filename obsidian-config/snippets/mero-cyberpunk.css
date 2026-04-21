@@ -333,3 +333,272 @@ iframe {
   margin: 1rem auto;
   width: min(100%, 72rem);
 }
+
+/* Dashboard home */
+.mero-dashboard .markdown-preview-view,
+.mero-dashboard .markdown-source-view,
+.mero-dashboard .markdown-reading-view {
+  padding-top: 0.35rem;
+}
+
+.mero-dashboard .metadata-container,
+.mero-dashboard .frontmatter-container {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.mero-dashboard .dashboard-hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: 22px;
+  padding: 0;
+  min-height: 260px;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(108, 201, 255, 0.14);
+  background:
+    linear-gradient(135deg, rgba(8, 12, 20, 0.94), rgba(10, 14, 22, 0.66)),
+    radial-gradient(circle at 18% 18%, rgba(108, 201, 255, 0.42), transparent 28%),
+    radial-gradient(circle at 82% 20%, rgba(242, 200, 255, 0.28), transparent 26%),
+    radial-gradient(circle at 58% 78%, rgba(194, 255, 242, 0.16), transparent 24%),
+    linear-gradient(115deg, rgba(23, 30, 48, 0.96), rgba(10, 14, 22, 0.82));
+  box-shadow:
+    0 28px 80px rgba(0, 0, 0, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    inset 0 -1px 0 rgba(108, 201, 255, 0.12);
+}
+
+.mero-dashboard .dashboard-wallpaper {
+  position: relative;
+  height: 142px;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(108, 201, 255, 0.14);
+}
+
+.mero-dashboard .dashboard-wallpaper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  filter: saturate(1.02) contrast(1.03) brightness(0.92);
+}
+
+.mero-dashboard .dashboard-wallpaper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(8, 12, 20, 0.06), rgba(8, 12, 20, 0.48));
+  pointer-events: none;
+}
+
+.mero-dashboard .dashboard-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.06) 14%, transparent 28%),
+    linear-gradient(135deg, transparent 0 34%, rgba(255, 255, 255, 0.05) 34% 36%, transparent 36% 100%);
+  opacity: 0.32;
+  pointer-events: none;
+}
+
+.mero-dashboard .dashboard-hero::after {
+  content: "";
+  position: absolute;
+  left: 1.4rem;
+  right: 1.4rem;
+  bottom: 0.9rem;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(108, 201, 255, 0.05), rgba(108, 201, 255, 0.65), rgba(242, 200, 255, 0.2));
+  pointer-events: none;
+}
+
+.mero-dashboard .dashboard-kicker {
+  position: relative;
+  z-index: 1;
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: rgba(155, 231, 255, 0.9);
+  margin: 1rem 1.4rem 0.55rem;
+}
+
+.mero-dashboard .dashboard-hero h1 {
+  position: relative;
+  z-index: 1;
+  margin: 0 1.4rem;
+  font-size: clamp(2rem, 3vw, 3.3rem);
+  line-height: 0.96;
+  letter-spacing: -0.05em;
+  color: #f5fbff;
+}
+
+.mero-dashboard .dashboard-title {
+  position: relative;
+  z-index: 1;
+  margin: 0 1.4rem;
+  font-size: clamp(2rem, 3vw, 3.3rem);
+  line-height: 0.96;
+  letter-spacing: -0.05em;
+  color: #f5fbff;
+  font-weight: 700;
+}
+
+.mero-dashboard .dashboard-subtitle {
+  position: relative;
+  z-index: 1;
+  max-width: 44rem;
+  margin: 0.9rem 1.4rem 1.1rem;
+  color: rgba(214, 245, 255, 0.82);
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.mero-dashboard .dashboard-quicklinks {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 1.4rem 1.1rem;
+}
+
+.mero-dashboard .dashboard-quicklinks a.internal-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(108, 201, 255, 0.09);
+  border: 1px solid rgba(108, 201, 255, 0.15);
+  color: #dff9ff;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.02), 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.mero-dashboard .dashboard-hero + p {
+  margin: 0 1.4rem 1rem;
+  color: rgba(214, 245, 255, 0.78);
+  line-height: 1.8;
+}
+
+.mero-dashboard .dashboard-hero + p a.internal-link {
+  color: #dff9ff;
+  text-decoration: none;
+}
+
+.mero-dashboard .dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.mero-dashboard .dashboard-card {
+  grid-column: span 6;
+  padding: 1rem 1rem 0.9rem;
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(11, 16, 25, 0.84), rgba(8, 12, 20, 0.64)),
+    linear-gradient(135deg, rgba(108, 201, 255, 0.06), rgba(242, 200, 255, 0.03));
+  border: 1px solid rgba(108, 201, 255, 0.12);
+  box-shadow:
+    0 18px 44px rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+.mero-dashboard .dashboard-card h2 {
+  margin: 0 0 0.8rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #9be7ff;
+}
+
+.mero-dashboard .dashboard-card--wide {
+  grid-column: span 7;
+}
+
+.mero-dashboard .dashboard-card--narrow {
+  grid-column: span 5;
+}
+
+.mero-dashboard .dashboard-card--full {
+  grid-column: 1 / -1;
+}
+
+.mero-dashboard .dashboard-graph-tile {
+  min-height: 17rem;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(108, 201, 255, 0.18), transparent 24%),
+    radial-gradient(circle at 82% 18%, rgba(242, 200, 255, 0.14), transparent 18%),
+    radial-gradient(circle at 45% 80%, rgba(194, 255, 242, 0.12), transparent 22%),
+    linear-gradient(180deg, rgba(11, 16, 25, 0.84), rgba(8, 12, 20, 0.64));
+}
+
+.mero-dashboard .dashboard-idea {
+  font-size: 1.12rem;
+  line-height: 1.55;
+  color: #f3d4ff;
+}
+
+.mero-dashboard .dashboard-table table {
+  width: 100%;
+}
+
+.mero-dashboard .dashboard-table th,
+.mero-dashboard .dashboard-table td {
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
+
+.mero-dashboard .dashboard-meta {
+  margin-top: 1.2rem;
+  padding: 1rem 1rem 0.9rem;
+  border-radius: 16px;
+  border: 1px solid rgba(108, 201, 255, 0.12);
+  background:
+    linear-gradient(180deg, rgba(11, 16, 25, 0.76), rgba(8, 12, 20, 0.54)),
+    linear-gradient(135deg, rgba(108, 201, 255, 0.04), rgba(242, 200, 255, 0.02));
+}
+
+.mero-dashboard .dashboard-meta h2 {
+  margin: 0 0 0.7rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #9be7ff;
+}
+
+.mero-dashboard .dashboard-meta table {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .mero-dashboard .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mero-dashboard .dashboard-card,
+  .mero-dashboard .dashboard-card--wide,
+  .mero-dashboard .dashboard-card--narrow,
+  .mero-dashboard .dashboard-card--full {
+    grid-column: 1 / -1;
+  }
+
+  .mero-dashboard .dashboard-hero {
+    min-height: 236px;
+  }
+
+  .mero-dashboard .dashboard-wallpaper {
+    height: 120px;
+  }
+
+  .mero-dashboard .dashboard-kicker,
+  .mero-dashboard .dashboard-hero h1,
+  .mero-dashboard .dashboard-title,
+  .mero-dashboard .dashboard-subtitle,
+  .mero-dashboard .dashboard-quicklinks,
+  .mero-dashboard .dashboard-hero + p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

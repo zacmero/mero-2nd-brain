@@ -1,6 +1,8 @@
 {
-  "accentColor": "",
+  "accentColor": "#b161ff",
   "enabledCssSnippets": [
     "mero-cyberpunk"
-  ]
+  ],
+  "baseFontSize": 18,
+  "cssTheme": "Minimal"
 }

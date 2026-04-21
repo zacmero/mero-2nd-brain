@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Accounts - Suzy.md",
+                "file": "2_ Areas Stack/Finances/Finanças Casa 2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Accounts - Suzy"
+              "title": "Finanças Casa 2026"
             }
           }
         ]
@@ -160,8 +160,8 @@
         "state": {
           "type": "smart-connections-view",
           "state": {},
-          "icon": "smart-connections",
-          "title": "Connections"
+          "icon": "lucide-ghost",
+          "title": "smart-connections-view"
         }
       }
     ],
@@ -175,15 +175,12 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Smart Connections: Open random connection": false,
-      "smart-connections:Smart Lookup: Open lookup view": false,
-      "smart-lookup:Smart Lookup: Open lookup view": false
+      "bases:Create new base": false
     }
   },
   "active": "52aa82ccc9e2fc5e",
   "lastOpenFiles": [
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Accounts - Suzy.md",
     "2_ Areas Stack/Finances/Finanças Casa 2026.md",
     "Untitled.md",
     "3_ Resources Stack/Crypto/Crypto Yield Farming Tutorial (Strategies Explained).md",
@@ -209,7 +206,6 @@
     "3_ Resources Stack/Photography _ Cinematography/Lens.md",
     "3_ Resources Stack/Photography _ Cinematography/Video Editing Techniques.md",
     "3_ Resources Stack/Photography _ Cinematography/Make Photage Look Like Film.md",
-    "3_ Resources Stack/A.I./How to Train and Run a Simple Language Model __ Luke Salamone's Blog.md",
     "3_ Resources Stack/Crypto",
     "3_ Resources Stack/Philosophy",
     "3_ Resources Stack/Cidadania Italiana",
