@@ -1,4 +1,5 @@
 [
   "dataview",
-  "highlightr-plugin"
+  "highlightr-plugin",
+  "templater-obsidian"
 ]
