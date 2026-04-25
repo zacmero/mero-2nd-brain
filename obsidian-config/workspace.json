@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Check Later/Things to do.md",
+                "file": "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Things to do"
+              "title": "Marketing Accounts - APIs - Social Net Automation"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"aliases\"]",
+                "query": "Sarah@",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,11 +194,33 @@
       "smart-connections:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "af76f320a2d35138",
+  "active": "a670e30564a07b23",
   "lastOpenFiles": [
-    "Home.md",
-    "Vault Index.base",
+    "Check Later/IMG_7472.png",
+    "5_ Knowledge_Library/Information Theory/Decoding the Universe - Charles Seife.md",
+    "5_ Knowledge_Library/Chaos Theory/Strange Attractors.md",
+    "5_ Knowledge_Library/Sci-Fi/The Three Body Problem.md",
+    "5_ Knowledge_Library/Information Theory/Brainstorming.md",
+    "5_ Knowledge_Library/Chaos Theory/Questionings.md",
+    "5_ Knowledge_Library/Chaos Theory/Main concepts_.md",
+    "5_ Knowledge_Library/Psychology/BUILDING A SECOND BRAIN - TIAGO FORTE.md",
+    "5_ Knowledge_Library/Psychology/Think Again - Adam Grant.md",
+    "5_ Knowledge_Library/Chaos Theory/Tasks - Chaos Theory.md",
+    "5_ Knowledge_Library/Information Theory/The Information - A History, a Theory, a Flood - James Gleick.md",
+    "5_ Knowledge_Library/Chaos Theory/Chaos_economy.md",
+    "5_ Knowledge_Library/Psychology/Learning to Learn - Book Acrivities.md",
+    "5_ Knowledge_Library/Information Theory",
+    "5_ Knowledge_Library/Psychology",
+    "5_ Knowledge_Library/Sci-Fi",
+    "5_ Knowledge_Library/Chaos Theory",
+    "5_ Knowledge_Library",
+    "3_ Resources Stack/Online Marketing/Produtos Para Anunciar_.md",
+    "3_ Resources Stack/Online Marketing/Garimpagem_Finding Products.md",
+    "3_ Resources Stack/Online Marketing/Pixel - Google Ads.md",
     "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
+    "Vault Index.base",
+    "Check Later/Things to do.md",
+    "Home.md",
     "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Crystalizing Suzy.md",
     "1_ Projects Stack/Master Trader/Bubble Achetype Roadmap.md",
     "3_ Resources Stack/A.I./A.I Tools.md",
@@ -217,28 +239,9 @@
     "Attachments/Illustrated_Book_-_Make_it_“Hard_Rock”.resources/embedded.1.svg",
     "2_ Areas Stack/Finances/Finanças Casa 2026.md",
     "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Zora NFT Network.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Voice Models.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Vps Services.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Frameworks OS.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Agent Runtime ElizaOS_Documentation.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Logo Ideas.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Avatar Generation.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/API's.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/AEE Features.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/AlphaGo Moment for Suzy.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Accounts - Suzy.md",
-    "1_ Projects Stack/Love Excess/Tags_.md",
-    "1_ Projects Stack/Relaxing Paradise/Youtube Shorts Post Model.md",
-    "1_ Projects Stack/Relaxing Paradise/Video Description Ideas.md",
-    "1_ Projects Stack/Relaxing Paradise/Img References.md",
-    "Mero's Diaries 📓/Tarot Diary/The Sanctuary Spread(Custom).md",
-    "Mero's Diaries 📓/Tarot Diary/Advice From the Universe.md",
     "Attachments/Audio_Vô.resources/unknown_filename.mp4",
     "Untitled.canvas",
     "Attachments/passos.resources/passos.txt~",
-    "Attachments/Manual.resources/unknown_filename.pdf",
-    "Attachments/determinismo_vs_livre_arbítrio.resources/determinvslivrearb.txt",
-    "Attachments/passos.resources/passos.txt",
-    "Attachments/mental_drugs.resources/medicines.txt"
+    "Attachments/Manual.resources/unknown_filename.pdf"
   ]
 }
