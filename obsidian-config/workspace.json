@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1e8696981fa2535b",
+        "id": "f870f63b79538b46",
         "type": "tabs",
         "children": [
           {
-            "id": "af76f320a2d35138",
+            "id": "e56e6656aed194a5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Marketing Accounts - APIs - Social Net Automation"
+              "title": "New tab"
             }
           }
         ]
@@ -181,6 +177,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -196,6 +193,9 @@
   },
   "active": "a670e30564a07b23",
   "lastOpenFiles": [
+    "test2 12345.md",
+    "Test for PI agent 1234.md",
+    "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
     "Check Later/IMG_7472.png",
     "5_ Knowledge_Library/Information Theory/Decoding the Universe - Charles Seife.md",
     "5_ Knowledge_Library/Chaos Theory/Strange Attractors.md",
@@ -217,7 +217,6 @@
     "3_ Resources Stack/Online Marketing/Produtos Para Anunciar_.md",
     "3_ Resources Stack/Online Marketing/Garimpagem_Finding Products.md",
     "3_ Resources Stack/Online Marketing/Pixel - Google Ads.md",
-    "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
     "Vault Index.base",
     "Check Later/Things to do.md",
     "Home.md",
@@ -236,9 +235,7 @@
     "Attachments/wallpapers/home-dashboard.png",
     "Attachments/wallpapers",
     "Attachments/Illustrated_Book_-_Make_it_“Hard_Rock”.resources/342712273_952949525718423_5165853335467265096_n.jpg",
-    "Attachments/Illustrated_Book_-_Make_it_“Hard_Rock”.resources/embedded.1.svg",
     "2_ Areas Stack/Finances/Finanças Casa 2026.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Zora NFT Network.md",
     "Attachments/Audio_Vô.resources/unknown_filename.mp4",
     "Untitled.canvas",
     "Attachments/passos.resources/passos.txt~",
