@@ -1,13 +1,18 @@
 {
   "command_timeout": 5,
   "templates_folder": "Templates",
-  "templates_pairs": [
-    [
-      "",
-      "Templates/Default.md"
-    ]
+  "folder_templates": [
+    {
+      "folder": "/",
+      "template": "Templates/Default.md"
+    },
+    {
+      "folder": "",
+      "template": "Templates/Default.md"
+    }
   ],
   "trigger_on_file_creation": true,
+  "enable_folder_templates": true,
   "auto_jump_to_cursor": false,
   "enable_system_commands": false
 }

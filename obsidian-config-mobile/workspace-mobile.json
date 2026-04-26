@@ -11,14 +11,10 @@
             "id": "905c76ee1fd71eaf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Test3.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Test3"
+              "title": "New tab"
             }
           }
         ]
@@ -171,6 +167,8 @@
   },
   "active": "905c76ee1fd71eaf",
   "lastOpenFiles": [
+    "test4.sync-conflict-20260426-002535-AXGJQFK.md",
+    "Test5.md",
     "test4.md",
     "Test3.md",
     "Home.md",
@@ -197,8 +195,6 @@
     "3_ Resources Stack/Cidadania Italiana/Herança de Terras - Antepassados.md",
     "3_ Resources Stack/Cidadania Italiana/Nascimento Ines gardini.1.md",
     "3_ Resources Stack/Cidadania Italiana/Audio Vô.md",
-    "3_ Resources Stack/Cidadania Italiana/Casamento Abel Gardini - Corrigido.md",
-    "3_ Resources Stack/Cidadania Italiana/Pistas.md",
     "3_ Resources Stack/Crypto",
     "3_ Resources Stack/Philosophy",
     "3_ Resources Stack/Cidadania Italiana",

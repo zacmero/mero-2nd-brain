@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f870f63b79538b46",
+        "id": "45214db836169f3e",
         "type": "tabs",
         "children": [
           {
-            "id": "e56e6656aed194a5",
+            "id": "02ed7d47c247413d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Home"
             }
           }
         ]
@@ -173,11 +177,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 254.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -185,16 +188,29 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "terminal:Open terminal": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Connections: Open random connection": false,
-      "smart-connections:Smart Lookup: Open lookup view": false
+      "smart-connections:Smart Lookup: Open lookup view": false,
+      "terminal:Open terminal": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "a670e30564a07b23",
+  "active": "02ed7d47c247413d",
   "lastOpenFiles": [
-    "Test3.md",
+    "Untitled.md",
+    "Home.md",
+    "Vault Index.base",
+    "test 30.md",
+    "test11.md",
+    "test10.md",
+    "Untitled",
+    "test7.md",
+    "pi_test.md",
+    "Test6.md",
+    "Check Later/TestSubFolder.md",
+    "Test5.md",
     "test4.md",
+    "Test3.md",
     "Test for PI agent 1234.md",
     "test2 12345.md",
     "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
@@ -210,22 +226,11 @@
     "5_ Knowledge_Library/Chaos Theory/Tasks - Chaos Theory.md",
     "5_ Knowledge_Library/Information Theory/The Information - A History, a Theory, a Flood - James Gleick.md",
     "5_ Knowledge_Library/Chaos Theory/Chaos_economy.md",
-    "5_ Knowledge_Library/Psychology/Learning to Learn - Book Acrivities.md",
     "5_ Knowledge_Library/Information Theory",
     "5_ Knowledge_Library/Psychology",
     "5_ Knowledge_Library/Sci-Fi",
     "5_ Knowledge_Library/Chaos Theory",
     "5_ Knowledge_Library",
-    "3_ Resources Stack/Online Marketing/Produtos Para Anunciar_.md",
-    "3_ Resources Stack/Online Marketing/Garimpagem_Finding Products.md",
-    "3_ Resources Stack/Online Marketing/Pixel - Google Ads.md",
-    "Vault Index.base",
-    "Check Later/Things to do.md",
-    "Home.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Crystalizing Suzy.md",
-    "1_ Projects Stack/Master Trader/Bubble Achetype Roadmap.md",
-    "3_ Resources Stack/A.I./A.I Tools.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Mero Protocol V25 - The Sovereign Actuator & The Searchlight.md",
     "Attachments/Como_Vender_Produtos_Físicos_ou_Encapsulados_na_Re.resources/hqdefault.jpg",
     "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_t9spijgkbot91.png",
     "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_kilpomt3l5c51.png",
@@ -238,7 +243,6 @@
     "Attachments/Illustrated_Book_-_Make_it_“Hard_Rock”.resources/342712273_952949525718423_5165853335467265096_n.jpg",
     "Attachments/Audio_Vô.resources/unknown_filename.mp4",
     "Untitled.canvas",
-    "Attachments/passos.resources/passos.txt~",
-    "Attachments/Manual.resources/unknown_filename.pdf"
+    "Attachments/passos.resources/passos.txt~"
   ]
 }

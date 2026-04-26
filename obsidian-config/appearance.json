@@ -3,7 +3,7 @@
   "cssTheme": "Minimal",
   "interfaceFontFamily": "CaskaydiaCove Nerd Font",
   "textFontFamily": "CaskaydiaCove Nerd Font",
-  "baseFontSize": 18,
+  "baseFontSize": 20,
   "baseFontSizeAction": true,
   "translucency": true,
   "nativeMenus": false,
