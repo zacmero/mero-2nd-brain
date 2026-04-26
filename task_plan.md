@@ -1,20 +1,33 @@
-# Task Plan
+# Task Plan - Obsidian Thinking Partner Skills
 
 ## Goal
-Implement a robust, automated indexing system for the Obsidian vault using Templater, enabling fast retrieval for the AI agent without breaking the user's Syncthing setup or modifying core Obsidian application files.
+Implement a suite of 12 specialized slash commands (Skills) for the Pi agent that leverage the Obsidian vault and `vault_index.json` to act as a cognitive partner.
 
 ## Phases
-- [x] **Phase 1: Initial Setup** - Set up Templater script to generate `vault_index.json` on file creation.
-- [x] **Phase 2: Configuration Push** - Apply configurations to desktop (`obsidian-config`) and mobile (`.obsidian-mobile`).
-- [x] **Phase 3: Serena Integration** - Install and configure Serena MCP server.
-- [x] **Phase 4: Verification & Debugging** - Verify that new notes automatically trigger the index update. Fix if necessary without aggressive application restarts.
-- [x] **Phase 5: Refinement** - Ensure the process is stable across devices. Added index sync to `Home.md` and updated `AGENTS.md`.
+- [x] **Phase 1: Architecture Design**
+    - [x] Research the exact format for Pi Skills/Slash commands. (Using Prompt Templates)
+    - [x] Map out how each command will interact with `vault_index.json` and `ripgrep`.
+- [x] **Phase 2: Core Context Skills**
+    - [x] `/context` - Life/Work state summary.
+    - [x] `/today` - Daily planning.
+    - [x] `/closeday` - EOD logging.
+- [x] **Phase 3: Semantic & Evolution Skills**
+    - [x] `/trace` - Idea evolution.
+    - [x] `/connect` - Bridge domains.
+    - [x] `/drift` - Loosely connected themes.
+    - [x] `/emerge` - Pattern clustering.
+- [x] **Phase 4: Synthesis & Writing Skills**
+    - [x] `/ghost` - Emulate user's voice.
+    - [x] `/challenge` - Belief pressure-testing.
+    - [x] `/ideas` - Emerging pattern report.
+- [x] **Phase 5: Knowledge Management Skills**
+    - [x] `/graduate` - Promote daily notes to notes.
+    - [x] `/schedule` - Priority mapping to time blocks.
+
+## Current Status
+All 12 commands implemented as Prompt Templates in `.pi/prompts/`.
 
 ## Errors Encountered
 | Error | Attempt | Resolution |
 |-------|---------|------------|
-| Templater didn't trigger | 1 | Noticed app needed restart. Restarted app aggressively, causing `obsidian.json` corruption. Restored `obsidian.json`. Changed `templates_pairs` to include `/` instead of just `""`. |
-| Vault not found | 1 | Restored `~/.config/obsidian/obsidian.json` with correct vault path. |
-
-## Current Status
-In Progress - Verifying if the new note triggered the Templater index generation after the configuration fix and safe restart.
+| N/A | | |

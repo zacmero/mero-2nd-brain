@@ -11,3 +11,4 @@
 - **Discovery**: The index triggers at the precise millisecond of creation, meaning it indexes the note under its original "Untitled" name before the user types the new name "test11". The automation itself is solid.
 - **Completion**: Added a DataviewJS version of the indexer to `Home.md` to serve as a passive/manual sync button.
 - **Completion**: Updated `AGENTS.md` with a new Core Principle (Principle 0) to ensure the agent always maintains and uses the `vault_index.json`.
+- **Completion**: Implemented all 12 "Thinking Partner" slash commands as Pi Prompt Templates in `.pi/prompts/`.

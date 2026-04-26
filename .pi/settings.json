@@ -1,3 +1,4 @@
 {
-  "sessionDir": "agent/conversations"
+  "sessionDir": "agent/conversations",
+  "prompts": [".pi/prompts"]
 }
