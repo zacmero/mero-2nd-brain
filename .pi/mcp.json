@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "serena": {
+      "command": "/home/zacmero/projects/mero-2nd-brain/.venv/bin/serena",
+      "args": ["start-mcp-server"]
+    }
+  }
+}
