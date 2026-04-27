@@ -11,10 +11,14 @@
             "id": "787eb35d0505e977",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Logo Ideas.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Logo Ideas"
             }
           }
         ]
@@ -191,8 +195,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a670e30564a07b23",
+  "active": "787eb35d0505e977",
   "lastOpenFiles": [
+    "Home.md",
+    "Templates/Default.md",
+    "1_ Projects Stack/ArchMerOS/Inspiration.md",
+    "3_ Resources Stack/Online Marketing/Como criar e instalar o PIXEL DO PINTEREST - YouTube.md",
     "3_ Resources Stack/A.I./LLM Wiki - AI’s Second Brain.md",
     "3_ Resources Stack/Metaprogramming/Metaprogramming as Reality-Building.md",
     "3_ Resources Stack/Philosophy/Early Wittgenstain.md",
@@ -203,7 +211,6 @@
     "3_ Resources Stack/A.I./A.I. For Ads.md",
     "Untitled.md",
     "3_ Resources Stack/A.I./A.I Tools.md",
-    "Home.md",
     "Vault Index.base",
     "test 30.md",
     "test11.md",
@@ -221,9 +228,6 @@
     "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
     "Check Later/IMG_7472.png",
     "5_ Knowledge_Library/Information Theory/Decoding the Universe - Charles Seife.md",
-    "5_ Knowledge_Library/Chaos Theory/Strange Attractors.md",
-    "5_ Knowledge_Library/Sci-Fi/The Three Body Problem.md",
-    "5_ Knowledge_Library/Information Theory/Brainstorming.md",
     "5_ Knowledge_Library/Information Theory",
     "5_ Knowledge_Library/Psychology",
     "5_ Knowledge_Library/Sci-Fi",
