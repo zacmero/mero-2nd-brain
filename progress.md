@@ -17,3 +17,4 @@
 - **Documentation**: Created `agent/README.md` to document the infrastructure and the 12 new slash commands for future reference.
 - **CLI Integration**: Installed `obsidian-cli` in the project venv. Prepared the infrastructure for Local REST API integration.
 - **Completion**: Built a custom python script at `agent/bin/obsidian-cli` specifically wrapping the Local REST API to allow for UI handoff, live active file checking, and vault searching using the provided API key.
+- **Workflow Expansion**: Created `/inbox` and `/quiz` prompt templates to handle careful inbox processing (max 5 items) and active recall testing. Updated `agent/README.md`.

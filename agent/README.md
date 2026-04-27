@@ -27,6 +27,8 @@ The following slash commands are available within this project. They leverage th
 | `/drift` | Surfaces subconscious themes recurring across unrelated notes. | `/drift` |
 | `/emerge` | Identifies clusters of ideas ready to become formal projects. | `/emerge` |
 | `/schedule` | Maps priorities to actual time blocks and flags mismatches. | `/schedule` |
+| `/inbox` | Processes a small batch (max 5) of inbox notes with suggestions. | `/inbox` |
+| `/quiz` | Tests your understanding of a random complex concept. | `/quiz` |
 
 ## ⚙️ Core Principles (from AGENTS.md)
 
