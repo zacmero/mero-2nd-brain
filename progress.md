@@ -15,3 +15,5 @@
 - **Execution**: Performed a `/drift` analysis and expanded the "Metaprogramming as Reality-Building" theme into a structured note in `3_ Resources Stack/Metaprogramming/`.
 - **Refinement**: User manually enriched the "Metaprogramming as Reality-Building" note. The vault now feels "alive" and integrated. Fast-retrieval architecture is confirmed as high-value.
 - **Documentation**: Created `agent/README.md` to document the infrastructure and the 12 new slash commands for future reference.
+- **CLI Integration**: Installed `obsidian-cli` in the project venv. Prepared the infrastructure for Local REST API integration.
+- **Completion**: Built a custom python script at `agent/bin/obsidian-cli` specifically wrapping the Local REST API to allow for UI handoff, live active file checking, and vault searching using the provided API key.

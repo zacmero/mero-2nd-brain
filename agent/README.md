@@ -7,6 +7,7 @@ This folder contains the local "brain" of the Pi agent as it operates within the
 - **Conversation Logs**: Saved in `conversations/` as `.jsonl` files.
 - **MCP Server**: Integrated with **Serena** for advanced code analysis and project manipulation.
 - **Dynamic Index**: Utilizes `vault_index.json` (root) for fast, token-efficient knowledge retrieval.
+- **Obsidian CLI**: A custom python script is located at `agent/bin/obsidian-cli`. It securely connects to the **Local REST API** plugin to allow the agent to interact with the Obsidian UI (e.g. opening notes in real-time on your screen) and reading the live active tab.
 
 ## 🚀 Thinking Partner Commands
 

@@ -23,6 +23,10 @@ Implement a suite of 12 specialized slash commands (Skills) for the Pi agent tha
 - [x] **Phase 5: Knowledge Management Skills**
     - [x] `/graduate` - Promote daily notes to notes.
     - [x] `/schedule` - Priority mapping to time blocks.
+- [x] **Phase 6: Integration Expansion**
+    - [x] Install `obsidian-cli` in the local venv.
+    - [x] Configure Local REST API in Obsidian.
+    - [x] Link `obsidian-cli` to the API key.
 
 ## Current Status
 All 12 commands implemented as Prompt Templates in `.pi/prompts/`.

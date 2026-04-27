@@ -8,5 +8,6 @@
   "obsidian-style-settings",
   "smart-connections",
   "terminal",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-local-rest-api"
 ]

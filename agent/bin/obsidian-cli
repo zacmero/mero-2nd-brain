@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+import sys
+import json
+import argparse
+import requests
+import urllib3
+import os
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# We find the token and port from the vault config if possible
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), '../../obsidian-config/plugins/obsidian-local-rest-api/data.json')
+try:
+    with open(CONFIG_PATH, 'r') as f:
+        data = json.load(f)
+        API_KEY = data.get('apiKey')
+        PORT = data.get('port', 27124)
+except Exception:
+    API_KEY = os.environ.get('OBSIDIAN_REST_API_KEY', '6e8520afc6e4c0132f5504940693cba242d87d6b95f426147d50e2f0d55620b1')
+    PORT = 27124
+
+BASE_URL = f"https://127.0.0.1:{PORT}"
+HEADERS = {
+    "Authorization": f"Bearer {API_KEY}",
+    "Accept": "application/json"
+}
+
+def request(method, endpoint, **kwargs):
+    url = f"{BASE_URL}{endpoint}"
+    try:
+        response = requests.request(method, url, headers=HEADERS, verify=False, **kwargs)
+        response.raise_for_status()
+        if response.headers.get('Content-Type') == 'application/json':
+            return response.json()
+        return response.text
+    except Exception as e:
+        print(f"Error: {e}")
+        if hasattr(e, 'response') and e.response is not None:
+            print(e.response.text)
+        sys.exit(1)
+
+def main():
+    parser = argparse.ArgumentParser(description="Custom Obsidian CLI via Local REST API")
+    subparsers = parser.add_subparsers(dest="command")
+
+    # Command: active
+    subparsers.add_parser("active", help="Get the currently active file in Obsidian")
+
+    # Command: open
+    open_parser = subparsers.add_parser("open", help="Open a file in Obsidian UI")
+    open_parser.add_argument("path", help="Path of the file to open (e.g. 'Home.md')")
+
+    # Command: search
+    search_parser = subparsers.add_parser("search", help="Search the vault")
+    search_parser.add_argument("query", help="Search query")
+
+    # Command: get
+    get_parser = subparsers.add_parser("get", help="Get file content or metadata")
+    get_parser.add_argument("path", help="Path to the file")
+
+    args = parser.parse_args()
+
+    if args.command == "active":
+        print(json.dumps(request("GET", "/active/"), indent=2))
+    elif args.command == "open":
+        # Local REST API expects POST to /open/path/to/file
+        path = args.path
+        if not path.startswith('/'):
+            path = '/' + path
+        request("POST", f"/open{path}")
+        print(f"Opened {args.path} in Obsidian.")
+    elif args.command == "search":
+        # POST to /search/
+        res = request("POST", "/search/", params={"query": args.query})
+        print(json.dumps(res, indent=2))
+    elif args.command == "get":
+        path = args.path
+        if not path.startswith('/'):
+            path = '/' + path
+        res = request("GET", f"/vault{path}")
+        print(res)
+    else:
+        parser.print_help()
+
+if __name__ == "__main__":
+    main()
