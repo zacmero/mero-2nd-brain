@@ -11,10 +11,14 @@
             "id": "905c76ee1fd71eaf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "3_ Resources Stack/A.I./LLM Wiki - AI’s Second Brain.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "LLM Wiki - AI’s Second Brain"
             }
           }
         ]
@@ -165,13 +169,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "905c76ee1fd71eaf",
+  "active": "7a2e7539523483e5",
   "lastOpenFiles": [
+    "Home.md",
+    "3_ Resources Stack/A.I./LLM Wiki - AI’s Second Brain.md",
     "test4.sync-conflict-20260426-002535-AXGJQFK.md",
     "Test5.md",
     "test4.md",
     "Test3.md",
-    "Home.md",
     "Test for PI agent 1234.md",
     "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
     "Check Later/IMG_7472.png",
@@ -194,7 +199,6 @@
     "3_ Resources Stack/Cidadania Italiana/Chegada portuária.md",
     "3_ Resources Stack/Cidadania Italiana/Herança de Terras - Antepassados.md",
     "3_ Resources Stack/Cidadania Italiana/Nascimento Ines gardini.1.md",
-    "3_ Resources Stack/Cidadania Italiana/Audio Vô.md",
     "3_ Resources Stack/Crypto",
     "3_ Resources Stack/Philosophy",
     "3_ Resources Stack/Cidadania Italiana",

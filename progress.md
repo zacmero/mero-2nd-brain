@@ -14,3 +14,4 @@
 - **Completion**: Implemented all 12 "Thinking Partner" slash commands as Pi Prompt Templates in `.pi/prompts/`.
 - **Execution**: Performed a `/drift` analysis and expanded the "Metaprogramming as Reality-Building" theme into a structured note in `3_ Resources Stack/Metaprogramming/`.
 - **Refinement**: User manually enriched the "Metaprogramming as Reality-Building" note. The vault now feels "alive" and integrated. Fast-retrieval architecture is confirmed as high-value.
+- **Documentation**: Created `agent/README.md` to document the infrastructure and the 12 new slash commands for future reference.
