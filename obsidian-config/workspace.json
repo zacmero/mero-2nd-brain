@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2f7af45b4fea6fd1",
+        "id": "0ad9af9185a95cb2",
         "type": "tabs",
         "children": [
           {
-            "id": "671e5eb32a519a26",
+            "id": "787eb35d0505e977",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3_ Resources Stack/A.I./LLM Wiki - AI’s Second Brain.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "LLM Wiki - AI’s Second Brain"
+              "title": "New tab"
             }
           }
         ]
@@ -195,8 +191,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "671e5eb32a519a26",
+  "active": "a670e30564a07b23",
   "lastOpenFiles": [
+    "3_ Resources Stack/A.I./LLM Wiki - AI’s Second Brain.md",
     "3_ Resources Stack/Metaprogramming/Metaprogramming as Reality-Building.md",
     "3_ Resources Stack/Philosophy/Early Wittgenstain.md",
     "3_ Resources Stack/Philosophy/Bertrand Russell.md",
@@ -227,7 +224,6 @@
     "5_ Knowledge_Library/Chaos Theory/Strange Attractors.md",
     "5_ Knowledge_Library/Sci-Fi/The Three Body Problem.md",
     "5_ Knowledge_Library/Information Theory/Brainstorming.md",
-    "5_ Knowledge_Library/Chaos Theory/Questionings.md",
     "5_ Knowledge_Library/Information Theory",
     "5_ Knowledge_Library/Psychology",
     "5_ Knowledge_Library/Sci-Fi",
