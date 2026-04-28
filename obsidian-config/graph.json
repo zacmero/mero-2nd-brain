@@ -6,17 +6,60 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "colorGroups": [
+    {
+      "query": "path:\"1_ Projects Stack\"",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"5_ Knowledge_Library\"",
+      "color": {
+        "a": 1,
+        "rgb": 10040319
+      }
+    },
+    {
+      "query": "path:\"3_ Resources Stack\"",
+      "color": {
+        "a": 1,
+        "rgb": 5025616
+      }
+    },
+    {
+      "query": "path:\"Mero's Diaries\"",
+      "color": {
+        "a": 1,
+        "rgb": 16766720
+      }
+    },
+    {
+      "query": "path:\"Check Later\"",
+      "color": {
+        "a": 1,
+        "rgb": 16737792
+      }
+    },
+    {
+      "query": "path:\"4_ Archives\"",
+      "color": {
+        "a": 1,
+        "rgb": 8421504
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.02503949447077,
+  "lineSizeMultiplier": 1.02503949447077,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.17972764515218662,
+  "scale": 0.17972764515218667,
   "close": true
 }

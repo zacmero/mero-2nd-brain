@@ -1,0 +1,23 @@
+/* Projects: Red */
+.nav-folder-title[data-path="1_ Projects Stack"] .nav-folder-title-content { color: #e03131 !important; font-weight: bold; }
+.nav-folder-title[data-path="1_ Projects Stack"] svg { color: #e03131 !important; }
+
+/* Knowledge: Purple */
+.nav-folder-title[data-path="5_ Knowledge_Library"] .nav-folder-title-content { color: #9c36b5 !important; font-weight: bold; }
+.nav-folder-title[data-path="5_ Knowledge_Library"] svg { color: #9c36b5 !important; }
+
+/* Resources: Green */
+.nav-folder-title[data-path="3_ Resources Stack"] .nav-folder-title-content { color: #2f9e44 !important; font-weight: bold; }
+.nav-folder-title[data-path="3_ Resources Stack"] svg { color: #2f9e44 !important; }
+
+/* Diaries: Gold */
+.nav-folder-title[data-path="Mero's Diaries 📓"] .nav-folder-title-content { color: #f59f00 !important; font-weight: bold; }
+.nav-folder-title[data-path="Mero's Diaries 📓"] svg { color: #f59f00 !important; }
+
+/* Inbox: Orange */
+.nav-folder-title[data-path="Check Later"] .nav-folder-title-content { color: #fd7e14 !important; font-weight: bold; }
+.nav-folder-title[data-path="Check Later"] svg { color: #fd7e14 !important; }
+
+/* Archives: Grey */
+.nav-folder-title[data-path="4_ Archives"] .nav-folder-title-content { color: #868e96 !important; }
+.nav-folder-title[data-path="4_ Archives"] svg { color: #868e96 !important; }

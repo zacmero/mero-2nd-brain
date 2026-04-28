@@ -9,6 +9,7 @@
   "nativeMenus": false,
   "accentColor": "#6cc9ff",
   "enabledCssSnippets": [
-    "mero-cyberpunk"
+    "mero-cyberpunk",
+    "folder-colors"
   ]
 }
