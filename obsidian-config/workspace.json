@@ -11,10 +11,14 @@
             "id": "9ac1d4eeac42032c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Mero's Diaries 📓/Daily Journal/2026/Daily Journal - 27_4_2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily Journal - 27_4_2026"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.50831985473633
+    "width": 464.5083198547363
   },
   "right": {
     "id": "f0e6e285c9d0d9f9",
@@ -193,33 +197,36 @@
   },
   "active": "9ac1d4eeac42032c",
   "lastOpenFiles": [
-    "Check Later/https___www.integralworld.net_visser99.html.md",
-    "Check Later/GTA V 100% Completion Checklist - PS3Trophies.org - Google Drive.md",
-    "Todoist.md",
+    "Mero's Diaries 📓/Daily Journal/Daily Journal - 27_4_2026.md",
+    "Mero's Diaries 📓/Daily Journal/2026/Daily Journal - 27_4_2026.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 7_12_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 6_12_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 5_12_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 4_12_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 30_11_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 29_11_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 28_12_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 28_11_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2026",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 27_11_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 26_12_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 26_11_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 24_12_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 24_11_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 23_11_2024 - copy 1.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 22_12_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 22_11_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 2_12_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 20_12_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 18_12_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 14_12_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 12_5_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 12_31_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 12_30_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 12_29_2024.md",
+    "Mero's Diaries 📓/Daily Journal/2025",
+    "Mero's Diaries 📓/Daily Journal/2024",
     "Attachments/wallpapers/todoist-hero.png",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Zora NFT Network.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Voice Models.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Startup Troubleshoot.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Reasoning Conplexity.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Project Requirements Document_ The Urlist Website.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/sharedImage.png.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Plugins Installation.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Music API providers_.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/NFT - Solana.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Path for Deployment.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Frameworks OS.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Gpt Roadmap.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/IMG_4771.jpg.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Financial Autonomy Without a Token.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/ElizaOS Character File_Training.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Eliza OS Beta 1.0.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Drift and Decay_ Evolution Through Real Randomness.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Crystalizing Suzy.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Creator and Suzy's IDs.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Character Template json Generator.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Avatar Generation.md",
-    "Home.md",
-    "3_ Resources Stack/Philosophy/The Physics of Consciousness.md",
     "Attachments/Screen_Capture_-_Jul_16,_10_00_AM.resources/unknown_filename.png",
     "3_ Resources Stack/Metaprogramming",
     "Attachments/Obsidian + Claude Codebook (doc).pdf",
@@ -229,8 +236,6 @@
     "5_ Knowledge_Library/Information Theory",
     "5_ Knowledge_Library/Psychology",
     "5_ Knowledge_Library/Sci-Fi",
-    "5_ Knowledge_Library/Chaos Theory",
-    "5_ Knowledge_Library",
     "Attachments/Como_Vender_Produtos_Físicos_ou_Encapsulados_na_Re.resources/hqdefault.jpg",
     "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_t9spijgkbot91.png",
     "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_kilpomt3l5c51.png",
@@ -238,7 +243,6 @@
     "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_bbdfh656tyy31.jpg",
     "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/commenter_120.png",
     "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/8e9kxzi5zfw91.jpg",
-    "Attachments/wallpapers",
     "Untitled.canvas"
   ]
 }
