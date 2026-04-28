@@ -29,6 +29,7 @@ The following slash commands are available within this project. They leverage th
 | `/schedule` | Maps priorities to actual time blocks and flags mismatches. | `/schedule` |
 | `/inbox` | Processes a small batch (max 5) of inbox notes with suggestions. | `/inbox` |
 | `/quiz` | Tests your understanding of a random complex concept. | `/quiz` |
+| `/kindle` | Synthesizes new raw highlights into structured book notes. | `/kindle` |
 
 ## ⚙️ Core Principles (from AGENTS.md)
 
