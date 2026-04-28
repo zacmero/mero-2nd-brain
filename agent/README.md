@@ -7,11 +7,13 @@ This folder contains the local "brain" of the Pi agent as it operates within the
 - **Conversation Logs**: Saved in `conversations/` as `.jsonl` files.
 - **MCP Server**: Integrated with **Serena** for advanced code analysis and project manipulation.
 - **Dynamic Index**: Utilizes `vault_index.json` (root) for fast, token-efficient knowledge retrieval.
-- **Obsidian CLI**: A custom python script is located at `agent/bin/obsidian-cli`. It securely connects to the **Local REST API** plugin to allow the agent to interact with the Obsidian UI (e.g. opening notes in real-time on your screen) and reading the live active tab.
+- **Obsidian CLI**: Custom script at `agent/bin/obsidian-cli` using Local REST API for UI sync.
+- **Kindle Sync**: Use the `notesync` alias in KTerm on the Kindle to push highlights to the VPS.
+- **Kindle Parser**: `scripts/parse_clippings.py` (VPS) processes the pushed clippings into individual book notes.
 
 ## 🚀 Thinking Partner Commands
 
-The following slash commands are available within this project. They leverage the vault index and semantic search to act as a cognitive amplifier.
+The following slash commands are available within this project.
 
 | Command | Purpose | Usage |
 |:---|:---|:---|
@@ -33,9 +35,6 @@ The following slash commands are available within this project. They leverage th
 
 ## ⚙️ Core Principles (from AGENTS.md)
 
-1. **Principle 0: Dynamic Indexing**: The agent MUST verify or rebuild `vault_index.json` before starting any complex retrieval task.
-2. **Human Authorship is Primary**: The agent supports, suggests, and organizes but never overrides the author's intent.
-3. **Preserve Nuance**: Information extraction must avoid destructive simplification.
-
----
-*This documentation is maintained by the Assistant to ensure the owner knows exactly how to utilize the agent's capabilities.*
+1. **Principle 0: Dynamic Indexing**: Rebuild `vault_index.json` before complex retrieval.
+2. **Human Authorship is Primary**: Suggestions only, never override intent.
+3. **Preserve Nuance**: Avoid destructive simplification.
