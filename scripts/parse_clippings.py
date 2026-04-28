@@ -6,10 +6,13 @@ from pathlib import Path
 import shutil
 
 # --- CONFIGURATION ---
-VAULT_ROOT = Path(os.environ.get("VAULT_ROOT", "/mero-2nd-brain"))
+# The root of the vault on the VPS, matching the Docker volume mount.
+VAULT_ROOT = Path("/home/ubuntu/mero-2nd-brain/vps-infra/data/vault")
+# The final destination for the processed clippings file inside the vault.
 RAW_NOTES_DIR = VAULT_ROOT / "5_ Knowledge_Library" / "raw_book_notes"
 CLIPPINGS_FILE_IN_VAULT = RAW_NOTES_DIR / "My Clippings.txt"
-INCOMING_CLIPPINGS_PATH = Path.home() / "My_Clippings.txt" # Using underscore to be safe
+# The absolute path where the Kindle securely copies the file.
+INCOMING_CLIPPINGS_PATH = RAW_NOTES_DIR / "My_Clippings.txt"
 
 def get_hash(text):
     return hashlib.md5(text.encode('utf-8')).hexdigest()
@@ -41,19 +44,10 @@ def parse_clippings(file_path):
     return clippings
 
 def main():
-    if not INCOMING_CLIPPINGS_PATH.exists():
-        print("No new clippings file found in home directory. Nothing to do.")
-        return
-
-    print(f"Found incoming clippings at {INCOMING_CLIPPINGS_PATH}")
-    if not RAW_NOTES_DIR.exists():
-        RAW_NOTES_DIR.mkdir(parents=True, exist_ok=True)
-    
-    shutil.move(INCOMING_CLIPPINGS_PATH, CLIPPINGS_FILE_IN_VAULT)
-    print(f"Moved clippings into vault at {CLIPPINGS_FILE_IN_VAULT}")
-
+    # --- Step 1: Parse the clippings file ---
     clippings = parse_clippings(CLIPPINGS_FILE_IN_VAULT)
     if not clippings:
+        print("No clippings to process.")
         return
 
     books = {}
@@ -75,6 +69,11 @@ def main():
                 f.write("".join(new_highlights))
             print(f"Added {len(new_highlights)} new clippings to '{title}'")
     
+    # --- Step 2: Cleanup ---
+    if CLIPPINGS_FILE_IN_VAULT.exists():
+        os.remove(CLIPPINGS_FILE_IN_VAULT)
+        print("Processed file removed.")
+
     print("Processing complete.")
 
 if __name__ == "__main__":
