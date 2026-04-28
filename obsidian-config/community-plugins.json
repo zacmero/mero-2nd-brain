@@ -9,5 +9,6 @@
   "smart-connections",
   "terminal",
   "templater-obsidian",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "todoist-sync-plugin"
 ]

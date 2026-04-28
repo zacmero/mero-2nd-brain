@@ -1,5 +1,6 @@
 [
   "dataview",
   "highlightr-plugin",
-  "templater-obsidian"
+  "templater-obsidian",
+  "todoist-sync-plugin"
 ]

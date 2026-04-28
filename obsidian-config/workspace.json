@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0ad9af9185a95cb2",
+        "id": "0bd06fe3b14cbf68",
         "type": "tabs",
         "children": [
           {
-            "id": "787eb35d0505e977",
+            "id": "9ac1d4eeac42032c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Logo Ideas.md",
+                "file": "Todoist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Logo Ideas"
+              "title": "Todoist"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Sarah@",
+                "query": "determinis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5083198547363
+    "width": 238.50831985473633
   },
   "right": {
     "id": "f0e6e285c9d0d9f9",
@@ -195,39 +195,40 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "787eb35d0505e977",
+  "active": "9ac1d4eeac42032c",
   "lastOpenFiles": [
     "Home.md",
-    "Templates/Default.md",
-    "1_ Projects Stack/ArchMerOS/Inspiration.md",
-    "3_ Resources Stack/Online Marketing/Como criar e instalar o PIXEL DO PINTEREST - YouTube.md",
-    "3_ Resources Stack/A.I./LLM Wiki - AI’s Second Brain.md",
-    "3_ Resources Stack/Metaprogramming/Metaprogramming as Reality-Building.md",
-    "3_ Resources Stack/Philosophy/Early Wittgenstain.md",
-    "3_ Resources Stack/Philosophy/Bertrand Russell.md",
+    "Todoist.md",
+    "3_ Resources Stack/Philosophy/The Physics of Consciousness.md",
+    "3_ Resources Stack/Philosophy/determinismo vs livre arbítrio.md",
+    "Check Later/Listen Later 🎧/To discover.md",
+    "Check Later/sharedImage.png.1.md",
+    "Check Later/sharedImage.png.md",
+    "3_ Resources Stack/Online Marketing/Robotheism.md",
+    "Check Later/Listen Later 🎧/Shared notes.md",
+    "Check Later/Listen Later 🎧/Shared notes.1.md",
+    "Check Later/Listen Later 🎧/To discover.1.md",
+    "Check Later/Shared notes.md",
+    "Check Later/google ads custo abril.md",
+    "Check Later/Screen Capture - Nov 8, 11_28 PM.md",
+    "Check Later/Screen Capture - Aug 6, 2_04 AM.md",
+    "Check Later/Screen Capture - Jul 25, 11_04 PM.md",
+    "Check Later/Screen Capture - Aug 1, 5_11 PM.md",
+    "Check Later/Screen Capture - Jul 16, 10_00 AM.md",
+    "Attachments/Screen_Capture_-_Jul_16,_10_00_AM.resources/unknown_filename.png",
+    "Check Later/Untitled note.md",
+    "Check Later/Genera Pergunta_.md",
+    "Check Later/Games To Play.md",
+    "Check Later/Fundamentals of Software Architecture_ An Engineering Approach.3.md",
+    "Check Later/Fundamentals of Software Architecture_ An Engineering Approach.2.md",
+    "Check Later/Fundamentals of Software Architecture_ An Engineering Approach.1.md",
+    "Check Later/Fundamentals of Software Architecture_ An Engineering Approach.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Logo Ideas.md",
     "3_ Resources Stack/Metaprogramming",
-    "3_ Resources Stack/A.I./Skills For Obsidian Agent.md",
     "Attachments/Obsidian + Claude Codebook (doc).pdf",
-    "3_ Resources Stack/A.I./A.I. For Ads.md",
-    "Untitled.md",
-    "3_ Resources Stack/A.I./A.I Tools.md",
     "Vault Index.base",
-    "test 30.md",
-    "test11.md",
-    "test10.md",
     "Untitled",
-    "test7.md",
-    "pi_test.md",
-    "Test6.md",
-    "Check Later/TestSubFolder.md",
-    "Test5.md",
-    "test4.md",
-    "Test3.md",
-    "Test for PI agent 1234.md",
-    "test2 12345.md",
-    "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
     "Check Later/IMG_7472.png",
-    "5_ Knowledge_Library/Information Theory/Decoding the Universe - Charles Seife.md",
     "5_ Knowledge_Library/Information Theory",
     "5_ Knowledge_Library/Psychology",
     "5_ Knowledge_Library/Sci-Fi",
@@ -242,7 +243,6 @@
     "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/8e9kxzi5zfw91.jpg",
     "Attachments/wallpapers/home-dashboard.png",
     "Attachments/wallpapers",
-    "Attachments/Illustrated_Book_-_Make_it_“Hard_Rock”.resources/342712273_952949525718423_5165853335467265096_n.jpg",
     "Untitled.canvas"
   ]
 }
