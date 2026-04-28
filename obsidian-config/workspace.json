@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0bd06fe3b14cbf68",
+        "id": "c0fa950e76fb16b8",
         "type": "tabs",
         "children": [
           {
-            "id": "9ac1d4eeac42032c",
+            "id": "de28fcf28c08a620",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mero's Diaries 📓/Daily Journal/2026/Daily Journal - 27_4_2026.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Daily Journal - 27_4_2026"
+              "title": "New tab"
             }
           }
         ]
@@ -195,11 +191,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a670e30564a07b23",
+  "active": "6560dfe3d3cb029c",
   "lastOpenFiles": [
+    "Mero's Diaries 📓/Daily Journal/2026/Daily Journal - 27_4_2026.md",
     "5_ Knowledge_Library/raw_book_notes",
     "Mero's Diaries 📓/Daily Journal/Daily Journal - 27_4_2026.md",
-    "Mero's Diaries 📓/Daily Journal/2026/Daily Journal - 27_4_2026.md",
     "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 7_12_2024.md",
     "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 6_12_2024.md",
     "Mero's Diaries 📓/Daily Journal/2024/Daily Journal - 5_12_2024.md",
@@ -235,7 +231,6 @@
     "Check Later/IMG_7472.png",
     "5_ Knowledge_Library/Information Theory",
     "5_ Knowledge_Library/Psychology",
-    "5_ Knowledge_Library/Sci-Fi",
     "Attachments/Como_Vender_Produtos_Físicos_ou_Encapsulados_na_Re.resources/hqdefault.jpg",
     "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_t9spijgkbot91.png",
     "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_kilpomt3l5c51.png",

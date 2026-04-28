@@ -3,23 +3,21 @@ import os
 import hashlib
 import re
 from pathlib import Path
-import shutil
 
 # --- CONFIGURATION ---
-# The root of the vault on the VPS, matching the Docker volume mount.
-VAULT_ROOT = Path("/home/ubuntu/mero-2nd-brain/vps-infra/data/vault")
-# The final destination for the processed clippings file inside the vault.
-RAW_NOTES_DIR = VAULT_ROOT / "5_ Knowledge_Library" / "raw_book_notes"
+# The root of the git repository on the VPS host.
+REPO_ROOT = Path("/home/ubuntu/mero-2nd-brain")
+# The path to the directory that is ACTUALLY synced by Docker.
+VAULT_ROOT_ON_HOST = REPO_ROOT / "vps-infra" / "data" / "vault"
+# The destination for the processed clippings file inside the vault.
+RAW_NOTES_DIR = VAULT_ROOT_ON_HOST / "5_ Knowledge_Library" / "raw_book_notes"
 CLIPPINGS_FILE_IN_VAULT = RAW_NOTES_DIR / "My Clippings.txt"
-# The absolute path where the Kindle securely copies the file.
-INCOMING_CLIPPINGS_PATH = RAW_NOTES_DIR / "My_Clippings.txt"
 
 def get_hash(text):
     return hashlib.md5(text.encode('utf-8')).hexdigest()
 
 def parse_clippings(file_path):
     if not file_path.exists():
-        print(f"Clippings file not found at {file_path}")
         return []
 
     with open(file_path, 'r', encoding='utf-8-sig') as f:
@@ -32,10 +30,8 @@ def parse_clippings(file_path):
         if len(lines) >= 3:
             title_line = lines[0]
             match = re.match(r'^(.*)\s\((.*?)\)$', title_line)
-            if match:
-                title, author = match.group(1).strip(), match.group(2).strip()
-            else:
-                title, author = title_line.strip(), "Unknown"
+            title = match.group(1).strip() if match else title_line.strip()
+            author = match.group(2).strip() if match else "Unknown"
             
             meta, text = lines[1], "\n".join(lines[2:])
             safe_title = re.sub(r'[\\/*?:"<>|]', "", title)
@@ -44,37 +40,34 @@ def parse_clippings(file_path):
     return clippings
 
 def main():
-    # --- Step 1: Parse the clippings file ---
-    clippings = parse_clippings(CLIPPINGS_FILE_IN_VAULT)
-    if not clippings:
-        print("No clippings to process.")
+    if not CLIPPINGS_FILE_IN_VAULT.exists() or CLIPPINGS_FILE_IN_VAULT.stat().st_size == 0:
+        print("No new clippings to process.")
         return
 
+    clippings = parse_clippings(CLIPPINGS_FILE_IN_VAULT)
+    
+    # Organize clippings by book
     books = {}
     for clip in clippings:
         books.setdefault(clip['title'], []).append(clip)
 
     for title, clips in books.items():
         book_file = RAW_NOTES_DIR / f"{title}.md"
-        existing_content = book_file.read_text(encoding='utf-8') if book_file.exists() else f"# {title}\n\n*Raw Kindle Highlights*\n\n"
         
-        new_highlights = []
+        # Build the new content for the book
+        new_content = f"# {title}\n\n*Raw Kindle Highlights*\n\n"
         for clip in clips:
-            hash_marker = f"<!-- hash: {clip['hash']} -->"
-            if hash_marker not in existing_content:
-                new_highlights.append(f"{hash_marker}\n> {clip['text']}\n> *{clip['meta']}*\n\n")
+            new_content += f"<!-- hash: {clip['hash']} -->\n"
+            new_content += f"> {clip['text']}\n"
+            new_content += f"> *{clip['meta']}*\n\n"
         
-        if new_highlights:
-            with open(book_file, 'a', encoding='utf-8') as f:
-                f.write("".join(new_highlights))
-            print(f"Added {len(new_highlights)} new clippings to '{title}'")
+        # Atomically update the file
+        book_file.write_text(new_content, encoding='utf-8')
+        print(f"Synced {len(clips)} highlights to '{title}'")
     
-    # --- Step 2: Cleanup ---
-    if CLIPPINGS_FILE_IN_VAULT.exists():
-        os.remove(CLIPPINGS_FILE_IN_VAULT)
-        print("Processed file removed.")
-
-    print("Processing complete.")
+    # Truncate raw file to signal completion while keeping it for embeds
+    open(CLIPPINGS_FILE_IN_VAULT, 'w').close()
+    print("Processing complete and raw file cleared.")
 
 if __name__ == "__main__":
     main()
