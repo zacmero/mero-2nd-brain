@@ -49,4 +49,5 @@ When promoting a raw book note into the Knowledge Library, follow these strict f
    - Highlights should be slightly white/light grey: `> <span style="color:#e8e8e8">highlight text</span>`
    - Notes must be placed immediately on the next line (no blank lines), with the arrow/Note in blue and bold (using HTML `<b>`), and the text in bright white:
      `<span style="color:#5db0d7">↑ <b>Note:</b></span> <span style="color:#ffffff">[The user's note text]</span>`
-4. **Deduplicate Fragmented Notes**: Automatically collapse fragmented notes (created by typing on Kindle) into the final, longest version before inserting.
+4. **Collapsible Table of Contents**: Generate an Obsidian callout-based TOC at the beginning of the file using `> [!info]- 📑 Table of Contents`.
+5. **Deduplicate Fragmented Notes**: Automatically collapse fragmented notes (created by typing on Kindle) into the final, longest version before inserting.

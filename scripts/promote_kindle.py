@@ -104,10 +104,27 @@ Tag(s): #Neal-Stephenson #Sci-Fi #Cyberpunk
             sec += "\n"
         return sec
 
-    markdown += write_section("1. The Metaverse and Technology", metaverse_quotes)
-    markdown += write_section("2. Language, Sumerian Myth, and Metaviruses", language_quotes)
-    markdown += write_section("3. Programming and Hackers", programming_quotes)
-    markdown += write_section("4. World and Society", society_quotes)
+    sections_data = [
+        ("1. The Metaverse and Technology", metaverse_quotes),
+        ("2. Language, Sumerian Myth, and Metaviruses", language_quotes),
+        ("3. Programming and Hackers", programming_quotes),
+        ("4. World and Society", society_quotes)
+    ]
+
+    # Generate collapsible Table of Contents using Obsidian callout syntax
+    toc = "> [!info]- 📑 Table of Contents\n"
+    has_toc = False
+    for title, entries in sections_data:
+        if entries:
+            has_toc = True
+            # Obsidian automatically strips HTML tags from header links
+            toc += f"> - [[#{title}|{title}]]\n"
+
+    if has_toc:
+        markdown += toc + "\n\n"
+
+    for title, entries in sections_data:
+        markdown += write_section(title, entries)
 
     target_path.write_text(markdown, encoding='utf-8')
     print(f"File promoted successfully to {target_path}")

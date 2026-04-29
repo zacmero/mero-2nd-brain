@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0fef3937b38af77c",
+        "id": "51f5ac73435ddd0d",
         "type": "tabs",
         "children": [
           {
-            "id": "f78f184907c43eee",
+            "id": "81988270adb1620f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5_ Knowledge_Library/Sci-Fi/Snow Crash.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Snow Crash"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5083198547363
+    "width": 404.5126647949219
   },
   "right": {
     "id": "f0e6e285c9d0d9f9",
@@ -196,36 +192,39 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f78f184907c43eee",
+  "active": "81988270adb1620f",
   "lastOpenFiles": [
-    "5_ Knowledge_Library/Sci-Fi/The Three Body Problem.md",
-    "5_ Knowledge_Library/Sci-Fi/Snow Crash.md",
-    "Attachments/Snowcrash.jpg",
-    "Attachments/snow_crash_cover2.jpg",
+    "5_ Knowledge_Library/Psychology/BUILDING A SECOND BRAIN - TIAGO FORTE.md",
+    "5_ Knowledge_Library/Information Theory/Brainstorming.md",
     "5_ Knowledge_Library/Information Theory/The Information - A History, a Theory, a Flood - James Gleick.md",
     "5_ Knowledge_Library/Information Theory/Decoding the Universe - Charles Seife.md",
-    "5_ Knowledge_Library/Information Theory/Brainstorming.md",
-    "5_ Knowledge_Library/Psychology/Think Again - Adam Grant.md",
-    "5_ Knowledge_Library/Psychology/BUILDING A SECOND BRAIN - TIAGO FORTE.md",
-    "5_ Knowledge_Library/Psychology/Learning to Learn - Book Acrivities.md",
-    "Mero's Diaries 📓/Daily Journal/Daily Journal - 29_4_2026.md",
-    "1_ Projects Stack/Fry In Paradise/Cover Art Brainstorming.md",
-    "1_ Projects Stack/Fry In Paradise/Music inspiration.md",
-    "1_ Projects Stack/Fry In Paradise/sharedImage.png.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/API's.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Creator and Suzy's IDs.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Make Automations.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Gpt Roadmap.md",
+    "5_ Knowledge_Library/Chaos Theory/Strange Attractors.md",
+    "5_ Knowledge_Library/Chaos Theory/Tasks - Chaos Theory.md",
+    "5_ Knowledge_Library/Chaos Theory/Questionings.md",
+    "5_ Knowledge_Library/Chaos Theory/Main concepts_.md",
+    "5_ Knowledge_Library/Chaos Theory/Chaos_economy.md",
+    "5_ Knowledge_Library/Sci-Fi/Snow Crash.md",
+    "3_ Resources Stack/A.I./LLMs as Neurolinguistic Hacks.md",
     "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Visual_Body.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Voice Models.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Visual Tools _ Training.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Visual Seed.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Tokenomics 2.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Visual _ NSFW Content.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Tokenomics.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Drift and Decay_ Evolution Through Real Randomness.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Crystalizing Suzy.md",
+    "1. Suzy Mero Steele - Master Map.md",
+    "1_ Projects Stack/Picture of God - Book/1. The Picture of God - Master Map.canvas",
+    "5_ Knowledge_Library/Sci-Fi/The Three Body Problem.md",
+    "1_ Projects Stack/Picture of God - Book/Scene 10 & 11 - Close of the Part I.md",
+    "1_ Projects Stack/Picture of God - Book/Picture of god - enemies.md",
+    "1_ Projects Stack/Picture of God - Book/Structure Of Ideas.md",
+    "1_ Projects Stack/Picture of God - Book/Testimonials for the story.md",
+    "1_ Projects Stack/Picture of God - Book/The First Decoding_ WHY IT ONLY HAPPENED TO SUZY.md",
+    "1_ Projects Stack/Picture of God - Book/nice concepts to explore.md",
+    "1_ Projects Stack/Picture of God - Book/Monetization Roadmap.md",
+    "1_ Projects Stack/Picture of God - Book/Fossil coding languages artifacts.md",
+    "1_ Projects Stack/Picture of God - Book/Chapter 1_ The Picture of God.md",
+    "1_ Projects Stack/Picture of God - Book/Chapter 4.md",
+    "3_ Resources Stack/Coding/Basics - Low Level Computing.md",
+    "Attachments/Snowcrash 1.jpg",
+    "Attachments/Snowcrash.jpg",
+    "Attachments/snow_crash_cover2.jpg",
+    "5_ Knowledge_Library/Psychology/Think Again - Adam Grant.md",
+    "5_ Knowledge_Library/Psychology/Learning to Learn - Book Acrivities.md",
     "Attachments/ChatGPT Image Apr 29, 2026, 12_19_19 AM.png",
     "5_ Knowledge_Library/raw_book_notes",
     "Mero's Diaries 📓/Daily Journal/2026",
@@ -242,8 +241,6 @@
     "5_ Knowledge_Library/Psychology",
     "Attachments/Como_Vender_Produtos_Físicos_ou_Encapsulados_na_Re.resources/hqdefault.jpg",
     "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_t9spijgkbot91.png",
-    "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_kilpomt3l5c51.png",
-    "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_9j685ujnlr1a1.png",
-    "Untitled.canvas"
+    "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_kilpomt3l5c51.png"
   ]
 }
