@@ -38,3 +38,15 @@ The following slash commands are available within this project.
 1. **Principle 0: Dynamic Indexing**: Rebuild `vault_index.json` before complex retrieval.
 2. **Human Authorship is Primary**: Suggestions only, never override intent.
 3. **Preserve Nuance**: Avoid destructive simplification.
+
+## 📖 Promoting Kindle Notes
+
+When promoting a raw book note into the Knowledge Library, follow these strict formatting rules:
+1. **Never erase or modify the original raw file**: The promoted file must be created separately, preserving the raw notes for embeds.
+2. **Intelligent Colored Headers**: Organize the highlights using logical `##` and `###` headers representing themes or chapters. To differentiate them from location numbers, wrap the header text in a light yellow span: `## <span style="color:#e5c07b">Chapter Name</span>`.
+3. **Format Locations, Highlights, and Notes**:
+   - Location should be greyed out as it is secondary: `<span style="color:#888888">Location [loc]</span>`
+   - Highlights should be slightly white/light grey: `> <span style="color:#e8e8e8">highlight text</span>`
+   - Notes must be placed immediately on the next line (no blank lines), with the arrow/Note in blue and bold (using HTML `<b>`), and the text in bright white:
+     `<span style="color:#5db0d7">↑ <b>Note:</b></span> <span style="color:#ffffff">[The user's note text]</span>`
+4. **Deduplicate Fragmented Notes**: Automatically collapse fragmented notes (created by typing on Kindle) into the final, longest version before inserting.
