@@ -10,5 +10,7 @@ Implement an idempotent, robust sync pipeline for Kindle clippings that mirrors 
 - [ ] **Phase 4: Validation** - Verify update/delete/edit scenarios.
 
 ## Current Status
-- Initializing planning files.
-- Acknowledging failure of "append-only" architecture. Moving to full-state mirror.
+- **PROJECT IN "SAFE/NON-DESTRUCTIVE MODE"**: All automated promotion scripts (`promote_kindle.py`) have been disabled. 
+- All future knowledge integration must be manual or explicitly pre-approved by the owner.
+- The pipeline is now "Append-Only" for highlights, but headers and structure must remain untouched.
+

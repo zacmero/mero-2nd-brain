@@ -2,3 +2,9 @@
 .kindle-book h2 {
     color: #f3db9d !important;
 }
+
+/* Hide YAML properties in Kindle notes (Minimal theme specific) */
+.kindle-book .metadata-container,
+.kindle-book .cm-metadata {
+    display: none !important;
+}
