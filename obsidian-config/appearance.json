@@ -10,6 +10,7 @@
   "accentColor": "#6cc9ff",
   "enabledCssSnippets": [
     "mero-cyberpunk",
-    "folder-colors"
+    "folder-colors",
+    "kindle-headers"
   ]
 }

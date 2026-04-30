@@ -1,0 +1,4 @@
+/* CSS to color H2 headings in Kindle promoted notes */
+.kindle-book h2 {
+    color: #f3db9d !important;
+}

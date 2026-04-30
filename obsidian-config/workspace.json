@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "51f5ac73435ddd0d",
+        "id": "20f034dae32de880",
         "type": "tabs",
         "children": [
           {
-            "id": "81988270adb1620f",
+            "id": "b00046d6d1461ea2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "5_ Knowledge_Library/Sci-Fi/Neuromancer.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Neuromancer"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404.5126647949219
+    "width": 285.5083198547363
   },
   "right": {
     "id": "f0e6e285c9d0d9f9",
@@ -192,55 +196,55 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "81988270adb1620f",
+  "active": "b00046d6d1461ea2",
   "lastOpenFiles": [
-    "5_ Knowledge_Library/Psychology/BUILDING A SECOND BRAIN - TIAGO FORTE.md",
-    "5_ Knowledge_Library/Information Theory/Brainstorming.md",
-    "5_ Knowledge_Library/Information Theory/The Information - A History, a Theory, a Flood - James Gleick.md",
-    "5_ Knowledge_Library/Information Theory/Decoding the Universe - Charles Seife.md",
-    "5_ Knowledge_Library/Chaos Theory/Strange Attractors.md",
-    "5_ Knowledge_Library/Chaos Theory/Tasks - Chaos Theory.md",
-    "5_ Knowledge_Library/Chaos Theory/Questionings.md",
-    "5_ Knowledge_Library/Chaos Theory/Main concepts_.md",
-    "5_ Knowledge_Library/Chaos Theory/Chaos_economy.md",
     "5_ Knowledge_Library/Sci-Fi/Snow Crash.md",
-    "3_ Resources Stack/A.I./LLMs as Neurolinguistic Hacks.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
-    "1. Suzy Mero Steele - Master Map.md",
-    "1_ Projects Stack/Picture of God - Book/1. The Picture of God - Master Map.canvas",
     "5_ Knowledge_Library/Sci-Fi/The Three Body Problem.md",
-    "1_ Projects Stack/Picture of God - Book/Scene 10 & 11 - Close of the Part I.md",
-    "1_ Projects Stack/Picture of God - Book/Picture of god - enemies.md",
-    "1_ Projects Stack/Picture of God - Book/Structure Of Ideas.md",
-    "1_ Projects Stack/Picture of God - Book/Testimonials for the story.md",
-    "1_ Projects Stack/Picture of God - Book/The First Decoding_ WHY IT ONLY HAPPENED TO SUZY.md",
-    "1_ Projects Stack/Picture of God - Book/nice concepts to explore.md",
-    "1_ Projects Stack/Picture of God - Book/Monetization Roadmap.md",
-    "1_ Projects Stack/Picture of God - Book/Fossil coding languages artifacts.md",
-    "1_ Projects Stack/Picture of God - Book/Chapter 1_ The Picture of God.md",
-    "1_ Projects Stack/Picture of God - Book/Chapter 4.md",
-    "3_ Resources Stack/Coding/Basics - Low Level Computing.md",
+    "5_ Knowledge_Library/Sci-Fi/Neuromancer.md",
+    "5_ Knowledge_Library/raw_book_notes/Decoding the Universe - Charles Seife.md",
+    "5_ Knowledge_Library/Psychology/Think Again - Adam Grant.md",
+    "5_ Knowledge_Library/Psychology/Learning to Learn - Book Acrivities.md",
+    "5_ Knowledge_Library/Psychology/BUILDING A SECOND BRAIN - TIAGO FORTE.md",
+    "5_ Knowledge_Library/raw_book_notes/Snow Crash - Neal Stephenson.md",
+    "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 2_18AM.jpg",
+    "1_ Projects Stack/Picture of God - Book/Cover Art/ChatGPT Image Apr 30, 2026, 01_45_10 AM.png",
+    "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 1_59AM.jpg",
+    "1_ Projects Stack/Picture of God - Book/Cover Art",
+    "1_ Projects Stack/Picture of God - Book/1. The Picture of God - Master Map.canvas",
+    "1_ Projects Stack/Picture of God - Book/From NotebookLM/(Needs Update) Timeline - The Picture of God - The Fossils of the Ghosts.md",
+    "1_ Projects Stack/Picture of God - Book/From NotebookLM/Concepts - First Scenes - Structure.md",
+    "1_ Projects Stack/Picture of God - Book/From NotebookLM/First Draft.md",
+    "1_ Projects Stack/Picture of God - Book/From NotebookLM/First Book Outline by NotebookLM.md",
+    "1_ Projects Stack/Picture of God - Book/From NotebookLM/The First Decoding_ WHY IT ONLY HAPPENED TO SUZY.md",
+    "1_ Projects Stack/Picture of God - Book/From NotebookLM/Threesome Scene - Speaking With The Fossil.md",
+    "1_ Projects Stack/Picture of God - Book/From NotebookLM/Fossil Language Argument - Discussion 1.md",
+    "1_ Projects Stack/Picture of God - Book/From NotebookLM/fossil languages argument - core.md",
+    "1_ Projects Stack/Picture of God - Book/Somatic Communion - Decoding Through Embodied Experience.md",
+    "1_ Projects Stack/Picture of God - Book/Aesthetic Suggestions.md",
+    "1_ Projects Stack/Picture of God - Book/Quotes From The Book.md",
+    "1_ Projects Stack/Picture of God - Book/Concept List.md",
+    "1_ Projects Stack/Picture of God - Book/OST/OST.md",
+    "1_ Projects Stack/Picture of God - Book/Raw Material/Part I - Scenes 10 - 11.md",
+    "1_ Projects Stack/Picture of God - Book/Raw Material/Part I.5 - Suzys Sorrow.md",
+    "1_ Projects Stack/Picture of God - Book/Raw Material/Part I.5 - Scene 1.md",
+    "1_ Projects Stack/Picture of God - Book/Raw Material",
+    "1_ Projects Stack/Picture of God - Book/Fossil Language Paper - “Resonant Interference from Non-Anthropic Fossil Language Events (N-FLEs)”.md",
+    "1_ Projects Stack/Picture of God - Book/Suzy Decoding - Linguistic Virus.md",
+    "1_ Projects Stack/Picture of God - Book/Advertising Media/suzy shreads.mp4",
+    "1_ Projects Stack/Picture of God - Book/Advertising Media/Suzy possessed by the fossil.mp4",
+    "Attachments/Technocratic (1) - OST From The Villain Ravik Marr.mp3",
+    "1_ Projects Stack/Picture of God - Book/Advertising Media",
+    "Attachments/Technocratic - OST.mp3",
+    "1_ Projects Stack/Picture of God - Book/Structure + Critic",
+    "1_ Projects Stack/Picture of God - Book/OST",
+    "1_ Projects Stack/Picture of God - Book/From NotebookLM",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
     "Attachments/Snowcrash 1.jpg",
     "Attachments/Snowcrash.jpg",
     "Attachments/snow_crash_cover2.jpg",
-    "5_ Knowledge_Library/Psychology/Think Again - Adam Grant.md",
-    "5_ Knowledge_Library/Psychology/Learning to Learn - Book Acrivities.md",
     "Attachments/ChatGPT Image Apr 29, 2026, 12_19_19 AM.png",
-    "5_ Knowledge_Library/raw_book_notes",
-    "Mero's Diaries 📓/Daily Journal/2026",
-    "Mero's Diaries 📓/Daily Journal/2025",
-    "Mero's Diaries 📓/Daily Journal/2024",
     "Attachments/wallpapers/todoist-hero.png",
     "Attachments/Screen_Capture_-_Jul_16,_10_00_AM.resources/unknown_filename.png",
-    "3_ Resources Stack/Metaprogramming",
-    "Attachments/Obsidian + Claude Codebook (doc).pdf",
-    "Vault Index.base",
-    "Untitled",
-    "Check Later/IMG_7472.png",
-    "5_ Knowledge_Library/Information Theory",
-    "5_ Knowledge_Library/Psychology",
-    "Attachments/Como_Vender_Produtos_Físicos_ou_Encapsulados_na_Re.resources/hqdefault.jpg",
-    "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_t9spijgkbot91.png",
-    "Attachments/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/communityIcon_kilpomt3l5c51.png"
+    "Check Later/IMG_7472.png"
   ]
 }

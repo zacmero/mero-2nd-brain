@@ -2,7 +2,8 @@
   "accentColor": "#b161ff",
   "enabledCssSnippets": [
     "mero-cyberpunk",
-    "folder-colors"
+    "folder-colors",
+    "kindle-headers"
   ],
   "baseFontSize": 18,
   "cssTheme": "Minimal"

@@ -10,12 +10,11 @@ def promote_book(raw_path_str, target_path_str):
     if not raw_path.exists():
         print(f"Error: {raw_path} does not exist.")
         sys.exit(1)
-        
-    target_path.parent.mkdir(parents=True, exist_ok=True)
 
+    # 1. Parse only NEW highlights from the raw file
     content = raw_path.read_text(encoding='utf-8')
     blocks = content.split('<!-- hash:')
-    parsed = []
+    new_entries = []
 
     for block in blocks[1:]:
         lines = [l.strip() for l in block.split('\n') if l.strip()]
@@ -33,103 +32,55 @@ def promote_book(raw_path_str, target_path_str):
         
         loc_match = re.search(r'Location ([\d-]+)', meta)
         loc = loc_match.group(1) if loc_match else "Unknown Location"
+        page_match = re.search(r'page (\d+)', meta)
+        page = int(page_match.group(1)) if page_match else 0
         
         if "Your Note" in meta:
-            parsed.append({'type': 'note', 'text': quote, 'loc': loc})
+            new_entries.append({'type': 'note', 'text': quote, 'loc': loc, 'page': page, 'hash': hash_val})
         else:
-            parsed.append({'type': 'highlight', 'text': quote, 'loc': loc})
+            new_entries.append({'type': 'highlight', 'text': quote, 'loc': loc, 'page': page, 'hash': hash_val})
 
-    collapsed = []
-    for item in parsed:
-        if item['type'] == 'note':
-            if collapsed and collapsed[-1]['type'] == 'note':
-                if len(item['text']) > len(collapsed[-1]['text']):
-                    collapsed[-1]['text'] = item['text']
-                else:
-                    collapsed[-1]['text'] = item['text']
-            else:
-                collapsed.append(item)
-        else:
-            collapsed.append(item)
+    # 2. Load existing target file to find where to append
+    target_content = target_path.read_text(encoding='utf-8') if target_path.exists() else ""
+    
+    # Locate the conceptual links section to append before it
+    links_marker = "## 🔗 Conceptual Links & Connections"
+    split_content = target_content.split(links_marker)
+    
+    main_body = split_content[0]
+    conceptual_links = "\n\n" + links_marker + split_content[1] if len(split_content) > 1 else ""
 
-    metaverse_quotes = []
-    language_quotes = []
-    society_quotes = []
-    programming_quotes = []
-
-    for i, item in enumerate(collapsed):
-        if item['type'] == 'note': continue
+    # 3. Format and append new entries
+    formatted_entries = ""
+    for i, entry in enumerate(new_entries):
+        if entry['type'] == 'note': continue # Notes are handled with highlights
         
-        text_lower = item['text'].lower()
+        # Check for duplicates in existing file
+        if entry['hash'] in target_content: continue
+            
         note_text = ""
-        if i + 1 < len(collapsed) and collapsed[i+1]['type'] == 'note':
-            note_text = collapsed[i+1]['text']
+        if i + 1 < len(new_entries) and new_entries[i+1]['type'] == 'note':
+            note_text = new_entries[i+1]['text']
         
-        entry = {"loc": item['loc'], "text": item['text'], "note": note_text}
-        
-        if any(k in text_lower for k in ['metaverse', 'daemon', 'avatar', 'goggle', 'optic']):
-            metaverse_quotes.append(entry)
-        elif any(k in text_lower for k in ['babel', 'asherah', 'enki', 'language', 'sumer', 'virus']):
-            language_quotes.append(entry)
-        elif any(k in text_lower for k in ['hacker', 'machine language', 'program']):
-            programming_quotes.append(entry)
-        else:
-            society_quotes.append(entry)
+        loc_str = f"Location {entry['loc']}"
+        if entry['page'] > 0:
+            loc_str = f"Page {entry['page']} | " + loc_str
+            
+        formatted_entries += f"<span style=\"color:#888888\">{loc_str}</span>\n"
+        formatted_entries += f"> <span style=\"color:#dcdcdc\">{entry['text']}</span>\n"
+        if note_text:
+            formatted_entries += f"<div style=\"margin-left: 2em;\"><span style=\"color:#5db0d7\">↑ <b>Note:</b></span> <span style=\"color:#ffffff\">{note_text}</span></div>\n"
+        formatted_entries += "\n"
 
-    markdown = """# Snow Crash
-
----
-Tag(s): #Neal-Stephenson #Sci-Fi #Cyberpunk
-
----
-
-**Neal Stephenson**
-
-* * *
-
-"""
-
-    def write_section(title, entries):
-        if not entries: return ""
-        # The light yellow color makes the section visually distinct
-        sec = f"## <span style=\"color:#e5c07b\">{title}</span>\n\n"
-        for e in entries:
-            # Location is secondary (grey), highlight is primary (light grey/white), note is brightest (white)
-            sec += f"<span style=\"color:#888888\">Location {e['loc']}</span>\n"
-            sec += f"> <span style=\"color:#e8e8e8\">{e['text']}</span>\n"
-            if e['note']:
-                # Note sits exactly below the highlight block with NO blank lines between them
-                # Using HTML <b> tag because markdown ** inside HTML spans can be ignored by Obsidian
-                sec += f"<span style=\"color:#5db0d7\">↑ <b>Note:</b></span> <span style=\"color:#ffffff\">{e['note']}</span>\n"
-            sec += "\n"
-        return sec
-
-    sections_data = [
-        ("1. The Metaverse and Technology", metaverse_quotes),
-        ("2. Language, Sumerian Myth, and Metaviruses", language_quotes),
-        ("3. Programming and Hackers", programming_quotes),
-        ("4. World and Society", society_quotes)
-    ]
-
-    # Generate collapsible Table of Contents using Obsidian callout syntax
-    toc = "> [!info]- 📑 Table of Contents\n"
-    has_toc = False
-    for title, entries in sections_data:
-        if entries:
-            has_toc = True
-            # Obsidian automatically strips HTML tags from header links
-            toc += f"> - [[#{title}|{title}]]\n"
-
-    if has_toc:
-        markdown += toc + "\n\n"
-
-    for title, entries in sections_data:
-        markdown += write_section(title, entries)
-
-    target_path.write_text(markdown, encoding='utf-8')
-    print(f"File promoted successfully to {target_path}")
+    # 4. Write back the updated file
+    target_path.write_text(main_body + formatted_entries + conceptual_links, encoding='utf-8')
+    
+    # 5. Clear raw file but keep it
+    open(raw_path, 'w').close()
+    print(f"Appended highlights to {target_path}")
 
 if __name__ == '__main__':
-    raw_path = '/home/zacmero/Documents/mero-vault/5_ Knowledge_Library/raw_book_notes/Snow Crash - Neal Stephenson.md'
-    target_path = '/home/zacmero/Documents/mero-vault/5_ Knowledge_Library/Sci-Fi/Snow Crash.md'
-    promote_book(raw_path, target_path)
+    if len(sys.argv) < 3:
+        print("Usage: promote_kindle.py <raw_path> <target_path>")
+        sys.exit(1)
+    promote_book(sys.argv[1], sys.argv[2])

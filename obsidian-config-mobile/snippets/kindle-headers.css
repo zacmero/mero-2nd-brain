@@ -1,0 +1,10 @@
+/* CSS to color H2 headings in Kindle promoted notes */
+.kindle-book h2 {
+    color: #e5c07b !important;
+}
+
+/* Also ensure the color shows correctly in Live Preview for headings */
+.kindle-book .HyperMD-header-2,
+.kindle-book .cm-header-2 {
+    color: #e5c07b !important;
+}
