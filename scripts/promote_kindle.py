@@ -75,7 +75,7 @@ def promote_book(raw_path_str, target_path_str, title=None, author=None, tags="#
         # Highlights made even brighter (#dcdcdc) but still dimmer than personal notes (#ffffff)
         formatted_entries += f"> <span style=\"color:#dcdcdc\">{entry['text']}</span>\n"
         if note_text:
-            formatted_entries += f"<div style=\"margin-left: 2em;\"><span style=\"color:#5db0d7\">↑ <b>Note:</b></span> <span style=\"color:#ffffff\">{note_text}</span></div>\n"
+            formatted_entries += f"<div style=\"margin-left: 2em;\"><span style=\"color:#5db0d7\">↑ <b>Note:</b></span> <span style=\"color:#fff9c4\">{note_text}</span></div>\n"
         formatted_entries += "\n"
 
     # 4. Write back
