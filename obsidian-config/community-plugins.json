@@ -10,5 +10,6 @@
   "terminal",
   "templater-obsidian",
   "obsidian-local-rest-api",
-  "todoist-sync-plugin"
+  "todoist-sync-plugin",
+  "colored-text"
 ]

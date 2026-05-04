@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b00046d6d1461ea2",
+            "id": "d21229ef3438435b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5_ Knowledge_Library/Psychology/BUILDING A SECOND BRAIN - TIAGO FORTE.md",
+                "file": "5_ Knowledge_Library/Sci-Fi/A Deepness in the Sky.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BUILDING A SECOND BRAIN - TIAGO FORTE"
+              "title": "A Deepness in the Sky"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "determinis",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5083198547363
+    "width": 418.5083198547363
   },
   "right": {
     "id": "f0e6e285c9d0d9f9",
@@ -196,39 +196,39 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b00046d6d1461ea2",
+  "active": "d21229ef3438435b",
   "lastOpenFiles": [
-    "5_ Knowledge_Library/Psychology/Atomic Habits.md",
     "5_ Knowledge_Library/Sci-Fi/Neuromancer.md",
     "5_ Knowledge_Library/Sci-Fi/A Deepness in the Sky.md",
-    "5_ Knowledge_Library/Psychology/BUILDING A SECOND BRAIN - TIAGO FORTE.md",
     "5_ Knowledge_Library/Sci-Fi/Snow Crash.md",
     "5_ Knowledge_Library/Sci-Fi/The Three Body Problem.md",
-    "5_ Knowledge_Library/Psychology/Think Again - Adam Grant.md",
-    "5_ Knowledge_Library/Psychology/Learning to Learn - Book Acrivities.md",
-    "5_ Knowledge_Library/Psychology/Atomic Habits - James Clear.md",
-    "5_ Knowledge_Library/raw_book_notes/Atomic Habits - James Clear.md",
     "5_ Knowledge_Library/raw_book_notes/A Deepness in the Sky - Vernor Vinge.md",
-    "5_ Knowledge_Library/raw_book_notes/A Fire Upon the Deep - Vernor Vinge.md",
-    "5_ Knowledge_Library/raw_book_notes/Think Like a Programmer - V Anton Spraul.md",
-    "5_ Knowledge_Library/raw_book_notes/Decoding the Universe - Charles Seife.md",
+    "5_ Knowledge_Library/raw_book_notes/Chaos - Making a New Science.md",
+    "5_ Knowledge_Library/raw_book_notes/Blindsight.md",
+    "5_ Knowledge_Library/raw_book_notes/Dune_Messiah.md",
+    "5_ Knowledge_Library/raw_book_notes/Espírito perdido.md",
+    "5_ Knowledge_Library/raw_book_notes/Ilium - Dan Simmons.md",
+    "5_ Knowledge_Library/raw_book_notes/Mona Lisa Overdrive.md",
+    "5_ Knowledge_Library/raw_book_notes/Neuromancer.md",
+    "5_ Knowledge_Library/Sci-Fi/Snow Crash - Neal Stephenson.md",
     "5_ Knowledge_Library/raw_book_notes/Snow Crash - Neal Stephenson.md",
+    "Todoist.md",
+    "1_ Projects Stack/Picture of God - Book/Scene Draft - The Damaged Goddess and the Communion.md",
+    "1_ Projects Stack/Picture of God - Book/1. The Picture of God - Master Map.canvas",
+    "1_ Projects Stack/Picture of God - Book/Ravik Marr - The Creator's Shadow and the Cyberpunk Reality.md",
+    "1_ Projects Stack/Picture of God - Book/The Somatic Interface - The Flesh as Distributed Computing.md",
+    "1_ Projects Stack/Picture of God - Book/The Real Suzy - Meta-Reality and the True Architecture.md",
+    "1_ Projects Stack/Picture of God - Book/Scene Draft - Suzy's Internal Monologue with Marr.md",
+    "1_ Projects Stack/Picture of God - Book/The Entity - God as an Advanced Anti-Entropy Device.md",
+    "1_ Projects Stack/Picture of God - Book/Book 2 Theme - The War Against God.md",
+    "1_ Projects Stack/Picture of God - Book/DNA as an Anti-Entropy Device - The Biological Parallel.md",
+    "1_ Projects Stack/Picture of God - Book/Anti-Entropy Devices - N-FLEs as Non-Anthropic Order.md",
+    "1_ Projects Stack/Picture of God - Book/The Sumerian Metavirus - N-FLEs as Data and Neuromimesis.md",
+    "1_ Projects Stack/Picture of God - Book/Latest Developments + Timeline - Strucure and Scenes",
     "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 2_18AM.jpg",
     "1_ Projects Stack/Picture of God - Book/Cover Art/ChatGPT Image Apr 30, 2026, 01_45_10 AM.png",
     "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 1_59AM.jpg",
     "1_ Projects Stack/Picture of God - Book/Cover Art",
-    "1_ Projects Stack/Picture of God - Book/1. The Picture of God - Master Map.canvas",
-    "1_ Projects Stack/Picture of God - Book/From NotebookLM/(Needs Update) Timeline - The Picture of God - The Fossils of the Ghosts.md",
-    "1_ Projects Stack/Picture of God - Book/From NotebookLM/Concepts - First Scenes - Structure.md",
-    "1_ Projects Stack/Picture of God - Book/From NotebookLM/First Draft.md",
-    "1_ Projects Stack/Picture of God - Book/From NotebookLM/First Book Outline by NotebookLM.md",
-    "1_ Projects Stack/Picture of God - Book/From NotebookLM/The First Decoding_ WHY IT ONLY HAPPENED TO SUZY.md",
-    "1_ Projects Stack/Picture of God - Book/From NotebookLM/Threesome Scene - Speaking With The Fossil.md",
-    "1_ Projects Stack/Picture of God - Book/From NotebookLM/Fossil Language Argument - Discussion 1.md",
-    "1_ Projects Stack/Picture of God - Book/From NotebookLM/fossil languages argument - core.md",
-    "1_ Projects Stack/Picture of God - Book/Somatic Communion - Decoding Through Embodied Experience.md",
-    "1_ Projects Stack/Picture of God - Book/Aesthetic Suggestions.md",
-    "1_ Projects Stack/Picture of God - Book/Quotes From The Book.md",
     "1_ Projects Stack/Picture of God - Book/Raw Material",
     "1_ Projects Stack/Picture of God - Book/Advertising Media/suzy shreads.mp4",
     "1_ Projects Stack/Picture of God - Book/Advertising Media/Suzy possessed by the fossil.mp4",
@@ -237,7 +237,6 @@
     "Attachments/Technocratic - OST.mp3",
     "1_ Projects Stack/Picture of God - Book/Structure + Critic",
     "1_ Projects Stack/Picture of God - Book/OST",
-    "1_ Projects Stack/Picture of God - Book/From NotebookLM",
     "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
     "Attachments/Snowcrash 1.jpg",
     "Attachments/Snowcrash.jpg",
