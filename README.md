@@ -15,11 +15,41 @@ To set up this configuration on a new desktop machine:
    - Windows: `.\install.ps1`
 3. Point Syncthing at the vault directory printed by the installer.
 
+### Required sync apps
+This repo does not install the file-sync apps for you.
+
+- Desktop machines need **Syncthing** installed and running.
+- iPhone/iPad devices need **Möbius Sync** installed and configured.
+
+The repo assumes the raw vault files are synchronized by Syncthing/Möbius, while this repo only keeps the Obsidian config and VPS infra in sync.
+
+### How to verify the sync service on this machine
+If you are on Arch/Linux and this machine is meant to sync automatically, check:
+
+```bash
+systemctl --user status syncthing
+```
+
+Useful follow-ups:
+
+```bash
+journalctl --user -u syncthing -f
+systemctl --user is-enabled syncthing
+```
+
+If `syncthing.service` is `active (running)` and `enabled`, this machine has a permanent user service watching the vault folder.
+
 ## Sync model
 - `obsidian-config/`: versioned Obsidian desktop config
 - `.obsidian-mobile/` inside the vault: iPhone override config when needed
 - actual vault files: synced directly as files by Syncthing
 - `vps-infra/`: Docker-based Syncthing node for the VPS
+
+### Device roles
+- Desktop: install Syncthing and keep it running as a user service.
+- iPhone: install Möbius Sync and point it at the vault folder you want Obsidian to open.
+- VPS: run the repo-managed Syncthing container under `vps-infra/`.
+- Obsidian itself only reads/writes files; it does not perform the sync transport.
 
 ## Auto pull on always-on machines
 If a machine should stay close to the latest repo state, install the user timer:
@@ -61,6 +91,21 @@ That variant does the same fast-forward pull, then refreshes `vps-infra/docker-c
 - iPhone can use `.obsidian-mobile` as its override config folder.
 - The local Git `pre-commit` hook copies `~/Documents/mero-vault/.obsidian-mobile/` into `obsidian-config-mobile/` inside this repo before each commit.
 - That means iPhone-side config changes can still be captured in Git without syncing the desktop `.obsidian` symlink onto mobile.
+
+## Sync health checklist
+When a device is not syncing, check the app/service first:
+
+- Desktop/Linux:
+  - `systemctl --user status syncthing`
+  - `journalctl --user -u syncthing -f`
+- iPhone:
+  - open Möbius Sync and confirm the folder/device shows connected
+  - if iOS suspended the app, bring Möbius to the foreground to force a sync pass
+- VPS:
+  - `docker ps`
+  - `docker logs mero-syncthing`
+
+If Syncthing reports NAT-PMP/UPnP port mapping failures, that usually means the router refused automatic port forwarding or the port is already occupied. It is not always fatal, but direct connectivity is better if port `22000` is reachable.
 
 ## Existing LiveSync installs
 This repo no longer treats LiveSync/CouchDB as the source of truth.

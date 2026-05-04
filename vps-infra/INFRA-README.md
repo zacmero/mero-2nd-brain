@@ -7,6 +7,21 @@ This directory now provisions a **Syncthing node** for the raw vault files.
 - It does **not** manage or remove unrelated VM services.
 - The legacy CouchDB/Caddy stack can be removed with `scripts/remove-legacy-stack.sh`, which only touches containers and files owned by this repo directory.
 
+## Client prerequisites
+The VPS is only one peer in the sync topology. The other devices still need their sync apps installed:
+
+- Desktop machines: install and run **Syncthing**.
+- iPhone/iPad devices: install **Möbius Sync**.
+- Obsidian is separate from sync; it just opens the synced vault folder.
+
+If you want to confirm the desktop side is alive on Arch/Linux, run:
+
+```bash
+systemctl --user status syncthing
+```
+
+If that shows `active (running)` and `enabled`, the machine has a permanent user service keeping the desktop vault peer online.
+
 ## Why this replaces LiveSync
 - Raw `.md`, `.txt`, `.pdf`, and attachment files live directly on disk on the VPS.
 - Syncthing moves files, not chunked database documents.
@@ -83,6 +98,21 @@ http://127.0.0.1:8385
 ```
 
 Set a GUI username/password immediately on the VPS UI.
+
+### Service checks on the VPS
+To confirm the VPS side is healthy:
+
+```bash
+docker ps
+docker logs mero-syncthing
+```
+
+If you installed the repo autopull timer on the VPS, also check:
+
+```bash
+systemctl --user status mero-2nd-brain-vps-autopull.timer
+systemctl --user status mero-2nd-brain-vps-autopull.service
+```
 
 ## Add the VPS as a Syncthing device
 The VPS has its own Syncthing device ID. Add that VPS device to your existing Arch Syncthing and your iPhone/MobiusSync.
@@ -163,6 +193,8 @@ At the end, all three devices should know each other directly:
 - The Syncthing GUI stays bound to localhost on the VPS; administer it through SSH tunneling instead of exposing it publicly.
 - At the cloud provider layer, allow only `22000/tcp` and `22000/udp`. Do not expose `8384` publicly.
 - After migration, rotate any secrets that were previously stored for LiveSync/CouchDB.
+
+If Syncthing reports NAT-PMP/UPnP open-port failures, that means it tried to ask the router for a port mapping and the router refused or did not support it. The service can still run, but direct inbound connectivity may be limited until `22000` is reachable.
 
 ## Auto pull and reload on the VPS
 If this VPS should keep itself aligned with the repo automatically, install the VPS timer from the repo root:
