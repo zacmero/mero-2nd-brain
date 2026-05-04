@@ -11,17 +11,14 @@
             "id": "905c76ee1fd71eaf",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "1_ Projects Stack/Picture of God - Book/1. The Picture of God - Master Map.canvas",
-                "viewState": {
-                  "x": -70,
-                  "y": -70,
-                  "zoom": -0.6990271115062628
-                }
+                "file": "1_ Projects Stack/Picture of God - Book/The picture of god_.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "1. The Picture of God - Master Map"
+              "icon": "lucide-file",
+              "title": "The picture of god_"
             }
           }
         ]
@@ -174,14 +171,18 @@
   },
   "active": "905c76ee1fd71eaf",
   "lastOpenFiles": [
+    "1_ Projects Stack/Picture of God - Book/1. The Picture of God - Master Map.canvas",
+    "1_ Projects Stack/Picture of God - Book/The picture of god_.md",
+    "1_ Projects Stack/Picture of God - Book/OST/Song Lyrics.md",
+    "1_ Projects Stack/Picture of God - Book/OST/First Songs.md",
+    "1_ Projects Stack/Picture of God - Book/Ravik Marr - The Creator's Shadow and the Cyberpunk Reality.md",
+    "5_ Knowledge_Library/raw_book_notes/A Deepness in the Sky - Vernor Vinge.md",
     "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 2_18AM.jpg",
     "1_ Projects Stack/Picture of God - Book/Cover Art/ChatGPT Image Apr 30, 2026, 01_45_10 AM.png",
     "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 1_59AM.jpg",
-    "1_ Projects Stack/Picture of God - Book/OST/First Songs.md",
     "5_ Knowledge_Library/Sci-Fi/A Deepness in the Sky.md",
     "5_ Knowledge_Library/Sci-Fi/The Three Body Problem.md",
     "5_ Knowledge_Library/Sci-Fi/Snow Crash.md",
-    "5_ Knowledge_Library/raw_book_notes/A Deepness in the Sky - Vernor Vinge.md",
     "5_ Knowledge_Library/Sci-Fi/Neuromancer.md",
     "5_ Knowledge_Library/raw_book_notes/Olympos (Ilium series Book 2).md",
     "5_ Knowledge_Library/raw_book_notes/Mona Lisa Overdrive.md",
@@ -201,9 +202,6 @@
     "Check Later/Programming tattoo4.md",
     "Check Later/Programming tattoo2.md",
     "2_ Areas Stack/Finances/Finanças Casa 2026.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Accounts - Suzy.md",
-    "3_ Resources Stack/Crypto/Crypto Yield Farming Tutorial (Strategies Explained).md",
-    "3_ Resources Stack/Crypto/NFTs.md",
     "3_ Resources Stack/Crypto",
     "3_ Resources Stack/Philosophy",
     "3_ Resources Stack/Cidadania Italiana",
@@ -218,7 +216,6 @@
     "Attachments/Funghi_Pasta.resources/unknown_filename.jpeg",
     "Attachments/Funghi_Pasta.resources/unknown_filename.1.jpeg",
     "Attachments/Afogamento.resources/unknown_filename.jpeg",
-    "Attachments/Insta_zac_mero_backup_codes.resources/unknown_filename.png",
-    "Attachments/Shared_notes.1.resources/unknown_filename.1.png"
+    "Attachments/Insta_zac_mero_backup_codes.resources/unknown_filename.png"
   ]
 }

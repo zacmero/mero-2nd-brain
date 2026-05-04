@@ -2,5 +2,6 @@
   "dataview",
   "highlightr-plugin",
   "templater-obsidian",
-  "todoist-sync-plugin"
+  "todoist-sync-plugin",
+  "colored-text"
 ]
