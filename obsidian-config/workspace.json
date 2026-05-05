@@ -11,17 +11,28 @@
             "id": "d21229ef3438435b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "5_ Knowledge_Library/Sci-Fi/Snow Crash.md",
-                "mode": "source",
-                "source": false
+                "file": "Attachments/IMG_7502.png"
               },
-              "icon": "lucide-file",
-              "title": "Snow Crash"
+              "icon": "lucide-image",
+              "title": "IMG_7502"
+            }
+          },
+          {
+            "id": "b09f0682a1b41490",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/Obsidian + Claude Codebook (doc).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Obsidian + Claude Codebook (doc)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sarah nutri link tree",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,11 +207,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d21229ef3438435b",
+  "active": "b09f0682a1b41490",
   "lastOpenFiles": [
+    "Attachments/IMG_7502.png",
+    "Attachments/IMG_7498.jpeg",
+    "1_ Projects Stack/Traders/Insights on trading.md",
+    "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
+    "5_ Knowledge_Library/Sci-Fi/Snow Crash.md",
     "Attachments/download.jpg",
     "5_ Knowledge_Library/Sci-Fi/The Three Body Problem.md",
-    "5_ Knowledge_Library/Sci-Fi/Snow Crash.md",
     "5_ Knowledge_Library/Sci-Fi/Neuromancer.md",
     "5_ Knowledge_Library/Sci-Fi/A Deepness in the Sky.md",
     "5_ Knowledge_Library/raw_book_notes/A Deepness in the Sky - Vernor Vinge.md",
@@ -223,8 +238,6 @@
     "1_ Projects Stack/Picture of God - Book/The Entity - God as an Advanced Anti-Entropy Device.md",
     "1_ Projects Stack/Picture of God - Book/Book 2 Theme - The War Against God.md",
     "1_ Projects Stack/Picture of God - Book/DNA as an Anti-Entropy Device - The Biological Parallel.md",
-    "1_ Projects Stack/Picture of God - Book/Anti-Entropy Devices - N-FLEs as Non-Anthropic Order.md",
-    "1_ Projects Stack/Picture of God - Book/The Sumerian Metavirus - N-FLEs as Data and Neuromimesis.md",
     "1_ Projects Stack/Picture of God - Book/Latest Developments + Timeline - Strucure and Scenes",
     "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 2_18AM.jpg",
     "1_ Projects Stack/Picture of God - Book/Cover Art/ChatGPT Image Apr 30, 2026, 01_45_10 AM.png",
@@ -243,8 +256,6 @@
     "Attachments/Snowcrash.jpg",
     "Attachments/snow_crash_cover2.jpg",
     "Attachments/ChatGPT Image Apr 29, 2026, 12_19_19 AM.png",
-    "Attachments/wallpapers/todoist-hero.png",
-    "Attachments/Screen_Capture_-_Jul_16,_10_00_AM.resources/unknown_filename.png",
-    "Check Later/IMG_7472.png"
+    "Attachments/wallpapers/todoist-hero.png"
   ]
 }
