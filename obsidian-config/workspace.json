@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Attachments/IMG_7502.png"
+                "file": "Attachments 📎/IMG_7502.png"
               },
               "icon": "lucide-image",
               "title": "IMG_7502"
@@ -23,12 +23,12 @@
             "id": "b09f0682a1b41490",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "Attachments/Obsidian + Claude Codebook (doc).pdf"
+                "file": "Attachments 📎/Afogamento.resources/unknown_filename.jpeg"
               },
-              "icon": "lucide-file-text",
-              "title": "Obsidian + Claude Codebook (doc)"
+              "icon": "lucide-image",
+              "title": "unknown_filename"
             }
           }
         ],
@@ -209,12 +209,18 @@
   },
   "active": "b09f0682a1b41490",
   "lastOpenFiles": [
-    "Attachments/IMG_7502.png",
-    "Attachments/IMG_7498.jpeg",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
+    "Attachments 📎/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/95irw0j5zfw91.jpg",
+    "Attachments 📎/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/8e9kxzi5zfw91.jpg",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/NSFW Content ideas.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/NFT - Solana.md",
+    "Attachments 📎/Obsidian + Claude Codebook (doc).pdf",
+    "Attachments 📎/IMG_7502.png",
+    "Attachments 📎/IMG_7498.jpeg",
     "1_ Projects Stack/Traders/Insights on trading.md",
     "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
     "5_ Knowledge_Library/Sci-Fi/Snow Crash.md",
-    "Attachments/download.jpg",
+    "Attachments 📎/download.jpg",
     "5_ Knowledge_Library/Sci-Fi/The Three Body Problem.md",
     "5_ Knowledge_Library/Sci-Fi/Neuromancer.md",
     "5_ Knowledge_Library/Sci-Fi/A Deepness in the Sky.md",
@@ -236,8 +242,6 @@
     "1_ Projects Stack/Picture of God - Book/The Real Suzy - Meta-Reality and the True Architecture.md",
     "1_ Projects Stack/Picture of God - Book/Scene Draft - Suzy's Internal Monologue with Marr.md",
     "1_ Projects Stack/Picture of God - Book/The Entity - God as an Advanced Anti-Entropy Device.md",
-    "1_ Projects Stack/Picture of God - Book/Book 2 Theme - The War Against God.md",
-    "1_ Projects Stack/Picture of God - Book/DNA as an Anti-Entropy Device - The Biological Parallel.md",
     "1_ Projects Stack/Picture of God - Book/Latest Developments + Timeline - Strucure and Scenes",
     "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 2_18AM.jpg",
     "1_ Projects Stack/Picture of God - Book/Cover Art/ChatGPT Image Apr 30, 2026, 01_45_10 AM.png",
@@ -246,16 +250,11 @@
     "1_ Projects Stack/Picture of God - Book/Raw Material",
     "1_ Projects Stack/Picture of God - Book/Advertising Media/suzy shreads.mp4",
     "1_ Projects Stack/Picture of God - Book/Advertising Media/Suzy possessed by the fossil.mp4",
-    "Attachments/Technocratic (1) - OST From The Villain Ravik Marr.mp3",
+    "Attachments 📎/Technocratic (1) - OST From The Villain Ravik Marr.mp3",
     "1_ Projects Stack/Picture of God - Book/Advertising Media",
-    "Attachments/Technocratic - OST.mp3",
+    "Attachments 📎/Technocratic - OST.mp3",
     "1_ Projects Stack/Picture of God - Book/Structure + Critic",
-    "1_ Projects Stack/Picture of God - Book/OST",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
-    "Attachments/Snowcrash 1.jpg",
-    "Attachments/Snowcrash.jpg",
-    "Attachments/snow_crash_cover2.jpg",
-    "Attachments/ChatGPT Image Apr 29, 2026, 12_19_19 AM.png",
-    "Attachments/wallpapers/todoist-hero.png"
+    "Attachments 📎/Snowcrash 1.jpg",
+    "Attachments 📎/Snowcrash.jpg"
   ]
 }
