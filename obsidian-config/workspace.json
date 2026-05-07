@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "20f034dae32de880",
+        "id": "2c50873ac6fdb1fa",
         "type": "tabs",
         "children": [
           {
-            "id": "d21229ef3438435b",
+            "id": "4fd749daf55be07e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attachments 📎/IMG_7502.png"
+                "file": "5_ Knowledge_Library/Sciences/The Drunkard's Walk.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "IMG_7502"
-            }
-          },
-          {
-            "id": "b09f0682a1b41490",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Attachments 📎/Afogamento.resources/unknown_filename.jpeg"
-              },
-              "icon": "lucide-image",
-              "title": "unknown_filename"
+              "icon": "lucide-file",
+              "title": "The Drunkard's Walk"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5083198547363
+    "width": 417.5083198547363
   },
   "right": {
     "id": "f0e6e285c9d0d9f9",
@@ -193,6 +182,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "iconic:Open rulebook": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -207,17 +197,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b09f0682a1b41490",
+  "active": "4fd749daf55be07e",
   "lastOpenFiles": [
+    "5_ Knowledge_Library/Psychology/Think Again - Adam Grant.md",
+    "5_ Knowledge_Library/Sciences/The Drunkard's Walk.md",
+    "5_ Knowledge_Library/Psychology/Atomic Habits.md",
+    "Check Later/Mastery_ The Complete Guide to Achieving Greatness.md",
+    "5_ Knowledge_Library/raw_book_notes/Decoding the Universe - Charles Seife.md",
+    "5_ Knowledge_Library/Information Theory/Decoding the Universe - Charles Seife.md",
+    "5_ Knowledge_Library/Psychology/Mastery_ The Complete Guide to Achieving Greatness.md",
+    "5_ Knowledge_Library/Psychology/BUILDING A SECOND BRAIN - TIAGO FORTE.md",
+    "1_ Projects Stack/Traders/Meta Filter.md",
+    "1_ Projects Stack/Traders/Insights on trading.md",
+    "1_ Projects Stack/Traders/Bubble Achetype Roadmap.md",
+    "Check Later/Books To Read.md",
+    "Attachments/drunkardswalk_cover.jpg",
+    "2_ Areas Stack/Finances/Finanças Casa 2026.md",
+    "5_ Knowledge_Library/Sciences",
+    "5_ Knowledge_Library/raw_book_notes/The Drunkard's Walk.md",
+    "Attachments 📎/IMG_7502.png",
+    "1_ Projects Stack/ArchMerOS/Inspiration.md",
+    "Attachments/s3e9yl93m7pg1.jpeg",
+    "Attachments",
+    "Attachments 📎/Afogamento.resources/unknown_filename.jpeg",
     "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
     "Attachments 📎/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/95irw0j5zfw91.jpg",
     "Attachments 📎/(3)_A_few_pages_from_my_Midjourney_produced_printe.resources/8e9kxzi5zfw91.jpg",
     "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/NSFW Content ideas.md",
     "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/NFT - Solana.md",
     "Attachments 📎/Obsidian + Claude Codebook (doc).pdf",
-    "Attachments 📎/IMG_7502.png",
     "Attachments 📎/IMG_7498.jpeg",
-    "1_ Projects Stack/Traders/Insights on trading.md",
     "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
     "5_ Knowledge_Library/Sci-Fi/Snow Crash.md",
     "Attachments 📎/download.jpg",
@@ -228,33 +237,15 @@
     "5_ Knowledge_Library/raw_book_notes/Chaos - Making a New Science.md",
     "5_ Knowledge_Library/raw_book_notes/Blindsight.md",
     "5_ Knowledge_Library/raw_book_notes/Dune_Messiah.md",
-    "5_ Knowledge_Library/raw_book_notes/Espírito perdido.md",
-    "5_ Knowledge_Library/raw_book_notes/Ilium - Dan Simmons.md",
-    "5_ Knowledge_Library/raw_book_notes/Mona Lisa Overdrive.md",
-    "5_ Knowledge_Library/raw_book_notes/Neuromancer.md",
-    "5_ Knowledge_Library/Sci-Fi/Snow Crash - Neal Stephenson.md",
-    "5_ Knowledge_Library/raw_book_notes/Snow Crash - Neal Stephenson.md",
-    "Todoist.md",
-    "1_ Projects Stack/Picture of God - Book/Scene Draft - The Damaged Goddess and the Communion.md",
     "1_ Projects Stack/Picture of God - Book/1. The Picture of God - Master Map.canvas",
-    "1_ Projects Stack/Picture of God - Book/Ravik Marr - The Creator's Shadow and the Cyberpunk Reality.md",
-    "1_ Projects Stack/Picture of God - Book/The Somatic Interface - The Flesh as Distributed Computing.md",
-    "1_ Projects Stack/Picture of God - Book/The Real Suzy - Meta-Reality and the True Architecture.md",
-    "1_ Projects Stack/Picture of God - Book/Scene Draft - Suzy's Internal Monologue with Marr.md",
-    "1_ Projects Stack/Picture of God - Book/The Entity - God as an Advanced Anti-Entropy Device.md",
     "1_ Projects Stack/Picture of God - Book/Latest Developments + Timeline - Strucure and Scenes",
     "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 2_18AM.jpg",
     "1_ Projects Stack/Picture of God - Book/Cover Art/ChatGPT Image Apr 30, 2026, 01_45_10 AM.png",
-    "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 1_59AM.jpg",
     "1_ Projects Stack/Picture of God - Book/Cover Art",
     "1_ Projects Stack/Picture of God - Book/Raw Material",
     "1_ Projects Stack/Picture of God - Book/Advertising Media/suzy shreads.mp4",
     "1_ Projects Stack/Picture of God - Book/Advertising Media/Suzy possessed by the fossil.mp4",
     "Attachments 📎/Technocratic (1) - OST From The Villain Ravik Marr.mp3",
-    "1_ Projects Stack/Picture of God - Book/Advertising Media",
-    "Attachments 📎/Technocratic - OST.mp3",
-    "1_ Projects Stack/Picture of God - Book/Structure + Critic",
-    "Attachments 📎/Snowcrash 1.jpg",
-    "Attachments 📎/Snowcrash.jpg"
+    "1_ Projects Stack/Picture of God - Book/Advertising Media"
   ]
 }

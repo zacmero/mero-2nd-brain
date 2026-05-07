@@ -2,6 +2,12 @@
 
 This folder contains the local "brain" of the Pi agent as it operates within the Mero Vault. All interactions are logged locally to ensure continuity across machines and sessions.
 
+- **On the desktop ArchMerOS, the vault is located in "/home/zacmero/Documents/mero-vault/"**
+- **On the VM, where the syncthing main service is, the vault is on "/home/ubuntu/mero-2nd-brain/vps-infra/data/vault"**
+- **On the iPhone it is on the folder "On My iPhone/Obsidian/Mero Vault"**
+
+
+
 ## 🛠 Setup & Infrastructure
 
 - **Conversation Logs**: Saved in `conversations/` as `.jsonl` files.
@@ -53,3 +59,17 @@ When promoting a raw book note into the Knowledge Library, follow these strict f
 5. **Deduplicate Fragmented Notes**: Automatically collapse fragmented notes (created by typing on Kindle) into the final, longest version before inserting.
 6. **Format Notes with Safe Indentation**: Do NOT use `&nbsp;` to indent notes, as it may render as literal text in some themes. Use a clean CSS margin wrap instead: `<div style="margin-left: 2em;"><span style="color:#5db0d7">↑ <b>Note:</b></span> <span style="color:#ffffff">[The user's note text]</span></div>`. Note text should be bright white (`#ffffff`), while the highlight should be slightly dimmer (`#d4d4d4`). Location should be dim grey (`#888888`).
 7. **Preserve Appended User Content**: Always check if `## <span style="color:#e5c07b">🔗 Conceptual Links & Connections</span>` exists in the target file before overwriting it, and append that entire block back to the end of the new output so user-generated links are never lost.
+8. **Preserve Cover Art**: When re-promoting a note, manually extract and retain the existing cover image (`![cover.jpeg](...)`) below the new main title.
+
+## 🔗 Bidirectional & Rich Block Linking Conventions
+
+When establishing connections between notes (especially books and conceptual project notes), you **must** adhere to the following quality-of-life linking styles:
+
+1. **No Generic One-Way Links**: Never use lazy, general links at the bottom of a page pointing to a whole book. The notes need to explicitly "talk to each other" based on specific concepts.
+2. **Use Block Anchors (`^anchor-name`)**: When targeting a specific highlight, paragraph, or concept, append a block anchor (e.g., `^outcomes-vs-process`) to the end of that specific line in the destination file.
+3. **Disambiguate File Paths**: Always use the full or explicit folder path in the link (e.g., `[[5_ Knowledge_Library/Information Theory/Decoding the Universe - Charles Seife#^randomness-information|Decoding the Universe - Charles Seife]]`) to prevent Obsidian from accidentally routing the link to the `raw_book_notes/` version.
+4. **True Bidirectional Linking**: 
+   - **Forward Link**: The source note should have an entry in its `## <span style="color:#e5c07b">🔗 Conceptual Links & Connections</span>` section pointing directly to the target block anchor, including a short explanation of *why* they connect.
+   - **Return Link (Backlink)**: In the destination note, place a visual return link immediately next to the targeted block anchor to instantly jump back. 
+     *Example:* `...end of highlight text. ^target-anchor [[1_ Projects Stack/Traders/Origin Note#^origin-anchor|🔗 Origin Note]]`
+5. **Always Verify Link Integrity**: Before considering a linking task done, double-check that both sides of the bidirectional link are active, correct, and point to the promoted notes (not the raw clippings).
