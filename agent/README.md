@@ -80,3 +80,4 @@ The custom script at `agent/bin/obsidian-cli` (which hooks into the Local REST A
 1. **Visualizing Context:** You need to open specific notes on the user's screen or trigger UI updates to guide their attention.
 2. **Advanced Searching:** Raw `grep`/`rg` is fast for simple strings, but the CLI allows you to leverage Obsidian's native search engine, enabling powerful queries using tags, properties, paths, and DataView logic.
 3. **Safe Refactoring:** If you are renaming or moving files, using the CLI (if supported by your commands) ensures Obsidian can automatically update all internal links across the vault, which raw bash `mv` commands cannot do natively.
+4. **Canvas Editing & Visual Feedback:** The `screenshot` feature in the CLI is **crucial** when helping the user with Canvas editing or any visual spatial organization, as it allows the agent to "see" the current state of the UI.
