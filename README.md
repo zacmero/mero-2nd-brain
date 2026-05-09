@@ -92,6 +92,12 @@ That variant does the same fast-forward pull, then refreshes `vps-infra/docker-c
 - The local Git `pre-commit` hook copies `~/Documents/mero-vault/.obsidian-mobile/` into `obsidian-config-mobile/` inside this repo before each commit.
 - That means iPhone-side config changes can still be captured in Git without syncing the desktop `.obsidian` symlink onto mobile.
 
+### Attachment folder rule
+- Both desktop and mobile should use `Attachments` as the Obsidian attachment folder.
+- Keep the folder name plain ASCII. Avoid emoji or alternate variants like `Attachments 📎`, because they create duplicate attachment trees and break path consistency.
+- If you rename the attachment folder, do it inside Obsidian so `alwaysUpdateLinks` can update the references. External renames can leave old links behind.
+- New attachments from iPhone should land in `Attachments/` once `.obsidian-mobile/app.json` has the same `attachmentFolderPath` setting as desktop.
+
 ## Sync health checklist
 When a device is not syncing, check the app/service first:
 

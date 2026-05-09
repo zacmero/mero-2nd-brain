@@ -1,1 +1,6 @@
-{}
+{
+  "attachmentFolderPath": "Attachments",
+  "newFileLocation": "root",
+  "useMarkdownLinks": false,
+  "alwaysUpdateLinks": true
+}
