@@ -73,3 +73,10 @@ When establishing connections between notes (especially books and conceptual pro
    - **Return Link (Backlink)**: In the destination note, place a visual return link immediately next to the targeted block anchor to instantly jump back. 
      *Example:* `...end of highlight text. ^target-anchor [[1_ Projects Stack/Traders/Origin Note#^origin-anchor|🔗 Origin Note]]`
 5. **Always Verify Link Integrity**: Before considering a linking task done, double-check that both sides of the bidirectional link are active, correct, and point to the promoted notes (not the raw clippings).
+
+## 🖥 Leveraging the Obsidian CLI
+
+The custom script at `agent/bin/obsidian-cli` (which hooks into the Local REST API) is an incredibly powerful tool for deep vault interactions. Future agents should utilize it when:
+1. **Visualizing Context:** You need to open specific notes on the user's screen or trigger UI updates to guide their attention.
+2. **Advanced Searching:** Raw `grep`/`rg` is fast for simple strings, but the CLI allows you to leverage Obsidian's native search engine, enabling powerful queries using tags, properties, paths, and DataView logic.
+3. **Safe Refactoring:** If you are renaming or moving files, using the CLI (if supported by your commands) ensures Obsidian can automatically update all internal links across the vault, which raw bash `mv` commands cannot do natively.
