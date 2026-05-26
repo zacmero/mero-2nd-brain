@@ -92,6 +92,26 @@ That variant does the same fast-forward pull, then refreshes `vps-infra/docker-c
 - The local Git `pre-commit` hook copies `~/Documents/mero-vault/.obsidian-mobile/` into `obsidian-config-mobile/` inside this repo before each commit.
 - That means iPhone-side config changes can still be captured in Git without syncing the desktop `.obsidian` symlink onto mobile.
 
+## Templater workflow
+The active desktop template lives in `~/Documents/mero-vault/Templates/Default.md` and is loaded automatically by Templater for new files.
+
+### Active template behavior
+- Keeps the note body clean at the top.
+- Appends a metadata callout at the bottom.
+- Uses Templater for static creation fields like `Created` and `UUID`.
+- Uses Dataview inline metadata for the live `Modified` field:
+  - `**Modified:** \`= dateformat(this.file.mtime, "yyyy-MM-dd HH:mm")\``
+- The `Modified` line only evaluates if Dataview is enabled on the device.
+
+### Backup template
+- `~/Documents/mero-vault/Templates/Default_bak.md` is the backup copy.
+- Leave it untouched unless you are intentionally migrating template behavior.
+
+### Daily note template
+- `~/Documents/mero-vault/Templates/daily_notes.md` is the fast daily-diary template.
+- It is designed for low-friction journaling when you want a quick daily entry instead of a structured project note.
+- It can be assigned in Templater or used manually as a starting point.
+
 ### Attachment folder rule
 - Both desktop and mobile should use `Attachments` as the Obsidian attachment folder.
 - Keep the folder name plain ASCII. Avoid emoji or alternate variants like `Attachments 📎`, because they create duplicate attachment trees and break path consistency.

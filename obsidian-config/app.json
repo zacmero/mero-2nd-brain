@@ -2,5 +2,8 @@
   "attachmentFolderPath": "Attachments",
   "newFileLocation": "root",
   "useMarkdownLinks": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "vimMode": true,
+  "propertiesInDocument": "visible"
 }

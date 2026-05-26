@@ -4,5 +4,6 @@
   "templater-obsidian",
   "todoist-sync-plugin",
   "colored-text",
-  "iconic"
+  "iconic",
+  "obsidian-linter"
 ]

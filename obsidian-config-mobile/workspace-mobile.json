@@ -8,20 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "905c76ee1fd71eaf",
+            "id": "726d188f3662be76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_ Areas Stack/Health/Hair.md",
+                "file": "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Hex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hair"
+              "title": "Hex"
+            }
+          },
+          {
+            "id": "279b030817c4ae4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nature of (artificial)Thinking.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nature of (artificial)Thinking"
+            }
+          },
+          {
+            "id": "b7a15bb4659c3a0f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -145,7 +170,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "1_ Projects Stack/Traders/Meta Filter.md",
+            "file": "Nature of (artificial)Thinking.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -170,10 +195,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "905c76ee1fd71eaf",
+  "active": "b7a15bb4659c3a0f",
   "lastOpenFiles": [
-    "Attachments/IMG_7518.png",
+    "Playhtml.md",
+    "Nature of (artificial)Thinking.md",
+    "1_ Projects Stack/Master's Degree/Raw Vector Streaming - The key to interoception fluidity!.md",
+    "1_ Projects Stack/Master's Degree/Raw Communication Protocols for Micro-Reasoners.md",
+    "1_ Projects Stack/Master's Degree/Heterogeneous Multi-Agent System (HMAS).md",
+    "1_ Projects Stack/Master's Degree/AOP and More on Metaprogramming.md",
+    "Language Models as a Higher Order of Metaprogramming_ From Syntax to Semantic Reflection/Expansion on Classical Metaprogramming with LMs + Experiments.md",
+    "Check Later/Untitled note.md",
+    "1_ Projects Stack/Ethos of Dusk/Colabs.md",
+    "Attachments/IMG_7560.png",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Hex.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
+    "Attachments/1ADDD37C-3553-4725-B439-DF160E4801C4.png",
+    "Check Later/Books To Read.md",
+    "1_ Projects Stack/Master's Degree/Documentos.md",
+    "Mero's Diaries 📓/Daily Journal/Daily Journal - 15_5_2026.md",
+    "3_ Resources Stack/Coding/Vim Motions.md",
+    "Check Later/Premortem skill.md",
+    "Attachments/IMG_7547.png",
+    "Attachments/IMG_7548.png",
+    "2_ Areas Stack/Finances/Finanças Casa 2026.md",
     "2_ Areas Stack/Health/Hair.md",
+    "Attachments/IMG_7518.png",
     "2_ Areas Stack/Health/MacDonald 2012 - Dramatic Improvement in Sexual Function Induced by Intranasal Oxytocin.md",
     "2_ Areas Stack/Health/IMG_5624.jpg.9.md",
     "2_ Areas Stack/Health/IMG_5624.jpg.5.md",
@@ -183,28 +229,12 @@
     "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Backup of db gh actions to a secure place.md",
     "1_ Projects Stack/Traders/Meta Filter.md",
     "1_ Projects Stack/Traders/Insights on trading.md",
-    "2_ Areas Stack/Finances/Finanças Casa 2026.md",
-    "4_ Archives/Finanças Casa 2024.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/NSFW Content ideas.md",
     "IMG_7502.png",
     "IMG_7498.jpeg",
-    "5_ Knowledge_Library/Sci-Fi/A Deepness in the Sky.md",
-    "1_ Projects Stack/Picture of God - Book/The picture of god_.md",
     "1_ Projects Stack/Picture of God - Book/1. The Picture of God - Master Map.canvas",
-    "1_ Projects Stack/Picture of God - Book/OST/Song Lyrics.md",
-    "1_ Projects Stack/Picture of God - Book/OST/First Songs.md",
-    "1_ Projects Stack/Picture of God - Book/Ravik Marr - The Creator's Shadow and the Cyberpunk Reality.md",
-    "5_ Knowledge_Library/raw_book_notes/A Deepness in the Sky - Vernor Vinge.md",
     "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 2_18AM.jpg",
     "1_ Projects Stack/Picture of God - Book/Cover Art/ChatGPT Image Apr 30, 2026, 01_45_10 AM.png",
     "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 1_59AM.jpg",
-    "5_ Knowledge_Library/Sci-Fi/The Three Body Problem.md",
-    "5_ Knowledge_Library/Sci-Fi/Snow Crash.md",
-    "5_ Knowledge_Library/Sci-Fi/Neuromancer.md",
-    "5_ Knowledge_Library/raw_book_notes/Olympos (Ilium series Book 2).md",
-    "5_ Knowledge_Library/raw_book_notes/Mona Lisa Overdrive.md",
-    "5_ Knowledge_Library/raw_book_notes/A Fire Upon the Deep - Vernor Vinge.md",
-    "Check Later/IMG_7472.png",
     "Vault Index.base",
     "3_ Resources Stack/Crypto",
     "3_ Resources Stack/Philosophy",
@@ -214,9 +244,6 @@
     "3_ Resources Stack/Music Theory",
     "3_ Resources Stack/Productivity",
     "3_ Resources Stack/Culinary",
-    "3_ Resources Stack/Coupons",
-    "Attachments/Screen_Capture_-_Nov_8,_11_28_PM.resources/unknown_filename.png",
-    "Attachments/Release_Retain.resources/unknown_filename.jpeg",
-    "Attachments/Funghi_Pasta.resources/unknown_filename.jpeg"
+    "3_ Resources Stack/Coupons"
   ]
 }
