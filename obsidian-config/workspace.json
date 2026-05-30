@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "431e344180c1fa05",
+        "id": "fc2bc4397ef89061",
         "type": "tabs",
         "children": [
           {
-            "id": "8c0b89ef06d0c34a",
+            "id": "758831f2863a7b24",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1_ Projects Stack/Picture of God - Book/From NotebookLM/First Draft.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "First Draft"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5083198547363
+    "width": 509.5083198547363
   },
   "right": {
     "id": "f0e6e285c9d0d9f9",
@@ -197,55 +193,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8c0b89ef06d0c34a",
+  "active": "758831f2863a7b24",
   "lastOpenFiles": [
-    "1_ Projects Stack/Picture of God - Book/From NotebookLM/First Draft.md.new",
-    "1_ Projects Stack/Picture of God - Book/TODO.md",
-    "1_ Projects Stack/Picture of God - Book/From NotebookLM/Threesome Scene - Speaking With The Fossil.md",
-    "1_ Projects Stack/Picture of God - Book/From NotebookLM/First Draft.md",
-    "1_ Projects Stack/Picture of God - Book/From NotebookLM/First Book Outline by NotebookLM.md",
-    "1_ Projects Stack/Picture of God - Book/Core Concepts/Willian Hahn.md",
-    "1_ Projects Stack/Picture of God - Book/Core Concepts",
-    "1_ Projects Stack/Picture of God - Book/Scene Draft - The Damaged Goddess and the Communion.md",
+    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_11 - The Caged Echo.md",
     "1_ Projects Stack/Picture of God - Book/1. The Picture of God - Master Map.canvas",
+    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_10 - The Reawakening Pattern.md",
+    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_12 - Syntax Collapse.md",
+    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_16 - The Skin of Peace.md",
+    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_18 - Lia’s Return.md",
+    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_19 - The Night of the Language.md",
+    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_15(Way Later) - The Fossils of the Ghosts and The Picture of God (Neurosomatic Terrorism).md",
+    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_14(Way Later) - The Flesh of the Signal.md",
+    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_13(Way Later) - Signal in the Static.md",
+    "1_ Projects Stack/Picture of God - Book/Scene 10 & 11 - Close of the Part I.md",
+    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_08 - Am I Still Me?.md",
+    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_07 - Interview with God.md",
+    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_06 - After Possession.md",
+    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_05 - The Gift.md",
+    "1_ Projects Stack/Picture of God - Book/Raw Material/Part I - Scenes 10 - 11.md",
+    "1_ Projects Stack/Picture of God - Book/Fossil Language Paper - “Resonant Interference from Non-Anthropic Fossil Language Events (N-FLEs)”.md",
+    "1_ Projects Stack/Picture of God - Book/Anti-Entropy Devices - N-FLEs as Non-Anthropic Order.md",
+    "1_ Projects Stack/Picture of God - Book/Aesthetic Suggestions.md",
+    "1_ Projects Stack/Picture of God - Book/Raw Material/Part I.5 - Scene 1.md",
+    "1_ Projects Stack/Picture of God - Book/Raw Material/Part I.5 - Suzys Sorrow.md",
+    "1_ Projects Stack/Picture of God - Book/Testimonials for the story.md",
+    "1_ Projects Stack/Picture of God - Book/Suzy Decoding - Linguistic Virus.md",
+    "1_ Projects Stack/Picture of God - Book/Advertising Media/Suzy possessed by the fossil.mp4",
+    "1_ Projects Stack/Picture of God - Book/Advertising Media/suzy shreads.mp4",
+    "1_ Projects Stack/Picture of God - Book/Already Extracted/First Draft.md",
+    "1_ Projects Stack/Picture of God - Book/Already Extracted/Chapter 4_ (discussion-concept).md",
+    "1_ Projects Stack/Picture of God - Book/Book 2 Theme - The War Against God.md",
+    "1_ Projects Stack/Picture of God - Book/Already Extracted",
+    "1_ Projects Stack/Picture of God - Book/Chapters/test.txt",
+    "1_ Projects Stack/Picture of God - Book/Chapters/chapter_05.txt",
+    "1_ Projects Stack/Picture of God - Book/Chapters/chapter_04.txt",
+    "1_ Projects Stack/Picture of God - Book/Chapters/chapter_03.txt",
+    "1_ Projects Stack/Picture of God - Book/Chapters/chapter_02.txt",
+    "1_ Projects Stack/Picture of God - Book/Chapters/chapter_01.txt",
+    "1_ Projects Stack/Picture of God - Book/Chapters",
     "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 2_18AM.jpg",
     "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 1_59AM.jpg",
     "1_ Projects Stack/Picture of God - Book/Cover Art/ChatGPT Image Apr 30, 2026, 01_45_10 AM.png",
-    "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/API's.md",
-    "5_ Knowledge_Library/raw_book_notes/AI Engineering - Building Applications with Foundation Models - Chip Huyen.md",
-    "5_ Knowledge_Library/raw_book_notes/A Fire Upon the Deep - Vernor Vinge.md",
-    "Mero's Diaries 📓/Daily Journal/Daily Journal - 27_5_2026.md",
-    "Mero's Diaries 📓/Daily Journal/Daily Journal - 15_5_2026.md",
-    "Mero's Diaries 📓/Daily Journal/Daily Journal - 29_4_2026.md",
-    "Templates/daily_notes.md",
     "Attachments/IMG_7547 1.png",
     "Attachments/IMG_7548 1.png",
-    "3_ Resources Stack/A.I./Skills.md",
     "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
-    "Todoist.md",
-    "Home.md",
-    "hello.md",
-    "Vault Index.base",
-    "tes.md",
-    "frfrfrfr.md",
-    "Templates/Default.md",
-    "Templates/Default_bak.md",
-    "Untitfrfrfrfled].md",
-    "Untitledgg.md",
-    "rer.md",
     "Attachments/cartão_cpf.png",
     "Attachments/rg.jpeg",
-    "3_ Resources Stack/Documents",
-    "1_ Projects Stack/Master's Degree",
     "Attachments/immortal_excess_v2_4k_(banana_pro).jpg",
     "Attachments/drunkardswalk_cover.jpg",
-    "5_ Knowledge_Library/Sciences",
-    "Attachments 📎/IMG_7502.png",
-    "Attachments",
-    "Attachments 📎/Obsidian + Claude Codebook (doc).pdf",
-    "1_ Projects Stack/Picture of God - Book/Latest Developments + Timeline - Strucure and Scenes",
-    "1_ Projects Stack/Picture of God - Book/Cover Art",
-    "1_ Projects Stack/Picture of God - Book/Raw Material"
+    "Attachments 📎/IMG_7502.png"
   ]
 }
