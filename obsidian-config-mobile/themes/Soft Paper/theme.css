@@ -342,18 +342,18 @@ settings:
   --ctp-sapphire: 17, 183, 197;
   --ctp-blue: 140, 170, 238;
   --ctp-lavender: 187, 147, 214;
-  --ctp-text: 198, 206, 239;
-  --ctp-subtext1: 181, 189, 220;
+  --ctp-text: 230, 234, 246;
+  --ctp-subtext1: 188, 196, 222;
   --ctp-subtext0: 251, 53, 216;
   --ctp-overlay2: 10, 209, 208;
   --ctp-overlay1: 255, 166, 0;
   --ctp-overlay0: 76, 255, 210;
-  --ctp-surface2: 98, 103, 126;
-  --ctp-surface1: 81, 86, 108;
-  --ctp-surface0: 65, 69, 89;
-  --ctp-base: 48, 52, 70;
-  --ctp-mantle: 41, 44, 60;
-  --ctp-crust: 35, 38, 52;
+  --ctp-surface2: 86, 91, 113;
+  --ctp-surface1: 68, 73, 94;
+  --ctp-surface0: 52, 56, 75;
+  --ctp-base: 36, 39, 54;
+  --ctp-mantle: 30, 32, 45;
+  --ctp-crust: 25, 27, 37;
 
   /* Color mappings to Obsidian variables */
   --mono-rgb-0: var(--ctp-text);

@@ -620,3 +620,29 @@ iframe {
     margin-right: 1rem;
   }
 }
+
+/* Scratchpad & Dashboard embed polish */
+.mero-dashboard .internal-embed[src*="Scratchpad"],
+.mero-dashboard .callout[data-callout="note"] .internal-embed {
+  border: none !important;
+  background: transparent !important;
+  padding: 0.2rem 0 0 !important;
+  margin: 0 !important;
+}
+
+.mero-dashboard .internal-embed[src*="Scratchpad"] .markdown-embed-link,
+.mero-dashboard .callout[data-callout="note"] .markdown-embed-link {
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.mero-dashboard .internal-embed[src*="Scratchpad"] .markdown-embed-link:hover,
+.mero-dashboard .callout[data-callout="note"] .markdown-embed-link:hover {
+  opacity: 1;
+}
+
+/* Guard against accidental cursor-focus code explosions on query blocks in Live Preview */
+.mero-dashboard .cm-embed-block:has(.block-language-dataview, .block-language-dataviewjs, .block-language-todoist, .block-language-smart-connections) {
+  cursor: default;
+}
+

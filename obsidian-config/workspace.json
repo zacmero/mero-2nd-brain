@@ -1,27 +1,24 @@
 {
   "main": {
-    "id": "498198fa7acfe92a",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "68a9c9434f1f93ad",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "fb6ce4e1fd659c5b",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
-                "viewState": {
-                  "x": -49.22441359202547,
-                  "y": -86.73460193552759,
-                  "zoom": -0.6515422264045991
-                }
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "1. Suzy Mero Steele - Master Map"
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -83,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.21932220458984
+    "width": 271.3295211791992
   },
   "right": {
     "id": "f0e6e285c9d0d9f9",
@@ -117,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
+                "file": "1_ Projects Stack/Agent 02_ Anima Mero/Evo 2_ The AI Foundation Model for the Language of Life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -188,6 +185,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "iconic:Open rulebook": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -203,14 +201,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fb6ce4e1fd659c5b",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "1_ Projects Stack/Picture of God - Book/1. The Picture of God - Master Map.canvas",
+    "Scratchpad.md",
+    "Todoist.md",
+    "Home.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Mero Protocol V25 - The Sovereign Actuator & The Searchlight.md",
+    "1_ Projects Stack/Agent 02_ Anima Mero/Evo 2_ The AI Foundation Model for the Language of Life.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/AEE Features.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/Accounts - Suzy.md",
     "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
+    "1_ Projects Stack/Picture of God - Book/1. The Picture of God - Master Map.canvas",
     "3_ Resources Stack/Metaprogramming/Metaprogramming as Reality-Building.md",
     "Vault Index.base",
     "5_ Knowledge_Library/Sciences/The Drunkard's Walk.md",
-    "Todoist.md",
     "3_ Resources Stack/A.I./GPT 5.6 - SOl Jailbreak.md",
     "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/VIP NSFW Group Ideas.md",
     "Attachments/archmeros-20260828-220046.png",
@@ -230,12 +234,7 @@
     "Check Later/Indicaçoes.md",
     "Check Later/IMG_7472.png",
     "Check Later/Untitled note.md",
-    "2_ Areas Stack/Mero Home/Credentials.md",
-    "2_ Areas Stack/Mero Home/Manual do Usuário - Tomada Inteligente WiFi.md",
     "2_ Areas Stack/Mero Home",
-    "4_ Archives/aMIZING.md",
-    "2_ Areas Stack/Finances/Finanças Casa 2026.md",
-    "4_ Archives/The Keys/Zac Mero.md",
     "2_ Areas Stack/Mom",
     "1_ Projects Stack/Picture of God - Book/Cover Art/ChatGPT Image Apr 30, 2026, 01_45_10 AM.png",
     "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 1_59AM.jpg",

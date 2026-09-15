@@ -12,5 +12,7 @@
   "obsidian-local-rest-api",
   "todoist-sync-plugin",
   "colored-text",
-  "iconic"
+  "iconic",
+  "homepage",
+  "obsidian-view-mode-by-frontmatter"
 ]

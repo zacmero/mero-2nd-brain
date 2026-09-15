@@ -1,8 +1,18 @@
 [
   "dataview",
+  "file-tree-alternative",
   "highlightr-plugin",
+  "obsidian-hider",
+  "obsidian-minimal-settings",
+  "obsidian-shellcommands",
+  "obsidian-style-settings",
+  "smart-connections",
+  "terminal",
   "templater-obsidian",
+  "obsidian-local-rest-api",
   "todoist-sync-plugin",
   "colored-text",
-  "iconic"
+  "iconic",
+  "homepage",
+  "obsidian-view-mode-by-frontmatter"
 ]
