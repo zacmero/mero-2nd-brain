@@ -1,10 +1,11 @@
 {
-  "accentColor": "#b161ff",
+  "theme": "obsidian",
+  "cssTheme": "Soft Paper",
+  "accentColor": "#c577e9",
   "enabledCssSnippets": [
     "mero-cyberpunk",
     "folder-colors",
     "kindle-headers"
   ],
-  "baseFontSize": 18,
-  "cssTheme": "Minimal"
+  "baseFontSize": 18
 }

@@ -1,5 +1,8 @@
-/* Mero cyberpunk layer on top of Minimal, tuned for mobile too */
+/* Mero cyberpunk layer on top of Minimal, tuned for desktop too */
 
+/* Minimal theme layer — bypassed while Soft Paper theme is active.
+   To reactivate when using Minimal theme, change 'not all' to 'all'. */
+@media not all {
 body {
   --text-accent: #6cc9ff;
   --text-accent-hover: #9be7ff;
@@ -70,8 +73,8 @@ body.theme-light {
 .nav-files-container .tree-item.nav-file > .tree-item-self::before {
   content: "";
   position: absolute;
-  top: 0.08rem;
-  bottom: 0.08rem;
+  top: 0.04rem;
+  bottom: 0.04rem;
   left: var(--row-highlight-left, 0.14rem);
   right: 0.14rem;
   background: var(--row-highlight-fill, linear-gradient(90deg, rgba(108, 201, 255, 0.06), rgba(108, 201, 255, 0.02)));
@@ -87,12 +90,12 @@ body.theme-light {
 .nav-folder.mod-root > .nav-folder-title,
 .tree-item.nav-folder.mod-root > .tree-item-self {
   color: #effbff;
-  --row-highlight-left: 0.52rem;
+  --row-highlight-left: 0.44rem;
   --row-highlight-fill: linear-gradient(90deg, rgba(108, 201, 255, 0.26), rgba(108, 201, 255, 0.07));
   --row-highlight-accent: rgba(108, 201, 255, 0.8);
-  padding-block: 0.26rem;
+  padding-block: 0.3rem;
   margin-top: 0.2rem;
-  margin-bottom: 0.48rem;
+  margin-bottom: 0.52rem;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.025), 0 0 10px rgba(108, 201, 255, 0.05);
   --nav-collapse-icon-color: #9be7ff;
   --nav-collapse-icon-color-collapsed: #6cc9ff;
@@ -112,12 +115,12 @@ body.theme-light {
 .nav-files-container .nav-folder-children > .nav-folder > .nav-folder-title,
 .nav-files-container .tree-item-children > .tree-item.nav-folder > .tree-item-self {
   color: #f3fffd;
-  --row-highlight-left: 0.84rem;
+  --row-highlight-left: 0.72rem;
   --row-highlight-fill: linear-gradient(90deg, rgba(194, 255, 242, 0.07), rgba(194, 255, 242, 0.018));
   --row-highlight-accent: rgba(194, 255, 242, 0.76);
   --nav-collapse-icon-color: #dcfffa;
   --nav-collapse-icon-color-collapsed: #c2fff2;
-  padding-block: 0.22rem;
+  padding-block: 0.24rem;
   margin-top: 0.18rem;
   margin-bottom: 0.18rem;
 }
@@ -126,12 +129,12 @@ body.theme-light {
 .nav-files-container .nav-folder-children .nav-folder-children > .nav-folder > .nav-folder-title,
 .nav-files-container .tree-item-children .tree-item-children > .tree-item.nav-folder > .tree-item-self {
   color: #e8e0ff;
-  --row-highlight-left: 1.12rem;
+  --row-highlight-left: 0.98rem;
   --row-highlight-fill: linear-gradient(90deg, rgba(186, 151, 255, 0.11), rgba(186, 151, 255, 0.03));
   --row-highlight-accent: rgba(186, 151, 255, 0.74);
   --nav-collapse-icon-color: #d8c4ff;
   --nav-collapse-icon-color-collapsed: #b895ff;
-  padding-block: 0.22rem;
+  padding-block: 0.24rem;
   margin-top: 0.18rem;
   margin-bottom: 0.18rem;
 }
@@ -140,12 +143,12 @@ body.theme-light {
 .nav-files-container .nav-folder-children .nav-folder-children .nav-folder-children > .nav-folder > .nav-folder-title,
 .nav-files-container .tree-item-children .tree-item-children .tree-item-children > .tree-item.nav-folder > .tree-item-self {
   color: #e8e0ff;
-  --row-highlight-left: 1.38rem;
+  --row-highlight-left: 1.24rem;
   --row-highlight-fill: linear-gradient(90deg, rgba(204, 182, 255, 0.1), rgba(204, 182, 255, 0.028));
   --row-highlight-accent: rgba(204, 182, 255, 0.72);
   --nav-collapse-icon-color: #e0d2ff;
   --nav-collapse-icon-color-collapsed: #cdb7ff;
-  padding-block: 0.22rem;
+  padding-block: 0.24rem;
   margin-top: 0.18rem;
   margin-bottom: 0.18rem;
 }
@@ -153,12 +156,12 @@ body.theme-light {
 .nav-files-container .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children > .nav-folder > .nav-folder-title,
 .nav-files-container .tree-item-children .tree-item-children .tree-item-children .tree-item-children > .tree-item.nav-folder > .tree-item-self {
   color: #ece4ff;
-  --row-highlight-left: 1.64rem;
+  --row-highlight-left: 1.5rem;
   --row-highlight-fill: linear-gradient(90deg, rgba(214, 198, 255, 0.09), rgba(214, 198, 255, 0.025));
   --row-highlight-accent: rgba(214, 198, 255, 0.7);
   --nav-collapse-icon-color: #ebdeff;
   --nav-collapse-icon-color-collapsed: #d9c9ff;
-  padding-block: 0.22rem;
+  padding-block: 0.24rem;
   margin-top: 0.18rem;
   margin-bottom: 0.18rem;
 }
@@ -167,12 +170,12 @@ body.theme-light {
 .nav-files-container .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children > .nav-folder > .nav-folder-title,
 .nav-files-container .tree-item-children .tree-item-children .tree-item-children .tree-item-children .tree-item-children > .tree-item.nav-folder > .tree-item-self {
   color: #f0ebff;
-  --row-highlight-left: 1.9rem;
+  --row-highlight-left: 1.76rem;
   --row-highlight-fill: linear-gradient(90deg, rgba(224, 214, 255, 0.09), rgba(224, 214, 255, 0.025));
   --row-highlight-accent: rgba(224, 214, 255, 0.68);
   --nav-collapse-icon-color: #f0e8ff;
   --nav-collapse-icon-color-collapsed: #e0d0ff;
-  padding-block: 0.22rem;
+  padding-block: 0.24rem;
   margin-top: 0.18rem;
   margin-bottom: 0.18rem;
 }
@@ -180,12 +183,12 @@ body.theme-light {
 .nav-files-container .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder-children > .nav-folder > .nav-folder-title,
 .nav-files-container .tree-item-children .tree-item-children .tree-item-children .tree-item-children .tree-item-children .tree-item-children > .tree-item.nav-folder > .tree-item-self {
   color: #f5f0ff;
-  --row-highlight-left: 2.16rem;
+  --row-highlight-left: 2.02rem;
   --row-highlight-fill: linear-gradient(90deg, rgba(233, 224, 255, 0.08), rgba(233, 224, 255, 0.022));
   --row-highlight-accent: rgba(233, 224, 255, 0.66);
   --nav-collapse-icon-color: #f5edff;
   --nav-collapse-icon-color-collapsed: #e7d9ff;
-  padding-block: 0.22rem;
+  padding-block: 0.24rem;
   margin-top: 0.18rem;
   margin-bottom: 0.18rem;
 }
@@ -193,8 +196,8 @@ body.theme-light {
 .nav-folder-children .nav-folder,
 .nav-folder-children .nav-file {
   position: relative;
-  margin-top: 0.28rem;
-  margin-bottom: 0.28rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
 .nav-folder-children .nav-folder::before,
@@ -229,7 +232,7 @@ body.theme-light {
 .nav-files-container .nav-folder-icon {
   color: #f2c8ff;
   opacity: 1;
-  margin-inline-end: 0.24rem;
+  margin-inline-end: 0.28rem;
   filter: drop-shadow(0 0 6px rgba(242, 200, 255, 0.22));
 }
 
@@ -237,7 +240,7 @@ body.theme-light {
 .nav-files-container .nav-file-title,
 .nav-files-container .tree-item.nav-file > .tree-item-self {
   color: #f2c8ff;
-  --row-highlight-left: 1.04rem;
+  --row-highlight-left: 0.92rem;
   --row-highlight-fill: linear-gradient(90deg, rgba(214, 120, 255, 0.1), rgba(214, 120, 255, 0.026));
   --row-highlight-accent: rgba(214, 120, 255, 0.78);
 }
@@ -261,7 +264,7 @@ body.theme-light {
 .nav-files-container .nav-file-title.is-active,
 .nav-files-container .tree-item.nav-file > .tree-item-self.is-active {
   color: #fff2ff;
-  --row-highlight-left: 1.04rem;
+  --row-highlight-left: 0.92rem;
   --row-highlight-fill: linear-gradient(90deg, rgba(214, 120, 255, 0.24), rgba(214, 120, 255, 0.07));
 }
 
@@ -332,4 +335,288 @@ iframe {
   display: block;
   margin: 1rem auto;
   width: min(100%, 72rem);
+}
+}
+
+/* Dashboard home */
+.mero-dashboard .markdown-preview-view,
+.mero-dashboard .markdown-source-view,
+.mero-dashboard .markdown-reading-view {
+  padding-top: 0.35rem;
+}
+
+.mero-dashboard .metadata-container,
+.mero-dashboard .frontmatter-container,
+.mero-dashboard .inline-title {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.mero-dashboard .dashboard-hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  padding: 0;
+  min-height: 260px;
+  margin-bottom: 1rem;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+}
+
+.mero-dashboard .dashboard-wallpaper {
+  position: relative;
+  height: 142px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.mero-dashboard .dashboard-wallpaper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  filter: saturate(0.9) contrast(1.02) brightness(0.88);
+}
+
+.mero-dashboard .dashboard-wallpaper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(30, 30, 46, 0.08), rgba(30, 30, 46, 0.55));
+  pointer-events: none;
+}
+
+.mero-dashboard .dashboard-hero::before,
+.mero-dashboard .dashboard-hero::after {
+  content: none !important;
+  display: none !important;
+}
+
+.mero-dashboard .dashboard-kicker {
+  position: relative;
+  z-index: 1;
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--text-accent);
+  margin: 1rem 1.4rem 0.55rem;
+}
+
+.mero-dashboard .dashboard-hero h1 {
+  position: relative;
+  z-index: 1;
+  margin: 0 1.4rem;
+  font-size: clamp(2rem, 3vw, 3.3rem);
+  line-height: 0.96;
+  letter-spacing: -0.05em;
+  color: #f5fbff;
+}
+
+.mero-dashboard .dashboard-title {
+  position: relative;
+  z-index: 1;
+  margin: 0 1.4rem;
+  font-size: clamp(2rem, 3vw, 3.3rem);
+  line-height: 0.96;
+  letter-spacing: -0.05em;
+  color: #f5fbff;
+  font-weight: 700;
+}
+
+.mero-dashboard .dashboard-subtitle {
+  position: relative;
+  z-index: 1;
+  max-width: 44rem;
+  margin: 0.9rem 1.4rem 1.1rem;
+  color: rgba(214, 245, 255, 0.82);
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.mero-dashboard .dashboard-quicklinks {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 1.4rem 1.1rem;
+}
+
+.mero-dashboard .dashboard-quicklinks a.internal-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(197, 119, 233, 0.09);
+  border: 1px solid rgba(197, 119, 233, 0.15);
+  color: #ede0f8;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.02), 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.mero-dashboard .dashboard-hero + p {
+  margin: 0 1.4rem 1rem;
+  color: rgba(214, 245, 255, 0.78);
+  line-height: 1.8;
+}
+
+.mero-dashboard .dashboard-hero + p a.internal-link {
+  color: #ede0f8;
+  text-decoration: none;
+}
+
+.mero-dashboard .dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.mero-dashboard .dashboard-card {
+  grid-column: span 6;
+  padding: 1rem 1rem 0.9rem;
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(11, 16, 25, 0.84), rgba(8, 12, 20, 0.64)),
+    linear-gradient(135deg, rgba(197, 119, 233, 0.06), rgba(242, 200, 255, 0.03));
+  border: 1px solid rgba(197, 119, 233, 0.12);
+  box-shadow:
+    0 18px 44px rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+.mero-dashboard .dashboard-card h2 {
+  margin: 0 0 0.8rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #d4a5f5;
+}
+
+.mero-dashboard .dashboard-card--wide {
+  grid-column: span 7;
+}
+
+.mero-dashboard .dashboard-card--narrow {
+  grid-column: span 5;
+}
+
+.mero-dashboard .dashboard-card--full {
+  grid-column: 1 / -1;
+}
+
+.mero-dashboard .dashboard-graph-tile {
+  min-height: 17rem;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(197, 119, 233, 0.18), transparent 24%),
+    radial-gradient(circle at 82% 18%, rgba(242, 200, 255, 0.14), transparent 18%),
+    radial-gradient(circle at 45% 80%, rgba(197, 160, 255, 0.12), transparent 22%),
+    linear-gradient(180deg, rgba(11, 16, 25, 0.84), rgba(8, 12, 20, 0.64));
+}
+
+.mero-dashboard .callout[data-callout="tip"] {
+  border: 1px solid rgba(197, 119, 233, 0.14);
+  background:
+    radial-gradient(circle at 18% 12%, rgba(197, 119, 233, 0.12), transparent 20%),
+    linear-gradient(180deg, rgba(11, 16, 25, 0.8), rgba(8, 12, 20, 0.6));
+}
+
+.mero-dashboard .dashboard-graph-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  align-items: center;
+  margin: 0 0 0.75rem;
+  padding: 0.55rem 0.7rem;
+  border-radius: 12px;
+  background: rgba(197, 119, 233, 0.06);
+  border: 1px solid rgba(197, 119, 233, 0.1);
+  color: #ede0f8;
+  font-size: 0.88rem;
+  letter-spacing: 0.02em;
+}
+
+.mero-dashboard .dashboard-graph-summary strong {
+  color: #f5fbff;
+  font-weight: 700;
+}
+
+.mero-dashboard .dashboard-graph-tile table {
+  width: 100%;
+}
+
+.mero-dashboard .dashboard-graph-tile table th,
+.mero-dashboard .dashboard-graph-tile table td {
+  padding-top: 0.28rem;
+  padding-bottom: 0.28rem;
+}
+
+.mero-dashboard .dashboard-idea {
+  font-size: 1.12rem;
+  line-height: 1.55;
+  color: #f3d4ff;
+}
+
+.mero-dashboard .dashboard-table table {
+  width: 100%;
+}
+
+.mero-dashboard .dashboard-table th,
+.mero-dashboard .dashboard-table td {
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
+
+.mero-dashboard .dashboard-meta {
+  margin-top: 1.2rem;
+  padding: 1rem 1rem 0.9rem;
+  border-radius: 16px;
+  border: 1px solid rgba(197, 119, 233, 0.12);
+  background:
+    linear-gradient(180deg, rgba(11, 16, 25, 0.76), rgba(8, 12, 20, 0.54)),
+    linear-gradient(135deg, rgba(197, 119, 233, 0.04), rgba(242, 200, 255, 0.02));
+}
+
+.mero-dashboard .dashboard-meta h2 {
+  margin: 0 0 0.7rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #d4a5f5;
+}
+
+.mero-dashboard .dashboard-meta table {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .mero-dashboard .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mero-dashboard .dashboard-card,
+  .mero-dashboard .dashboard-card--wide,
+  .mero-dashboard .dashboard-card--narrow,
+  .mero-dashboard .dashboard-card--full {
+    grid-column: 1 / -1;
+  }
+
+  .mero-dashboard .dashboard-hero {
+    min-height: 236px;
+  }
+
+  .mero-dashboard .dashboard-wallpaper {
+    height: 120px;
+  }
+
+  .mero-dashboard .dashboard-kicker,
+  .mero-dashboard .dashboard-hero h1,
+  .mero-dashboard .dashboard-title,
+  .mero-dashboard .dashboard-subtitle,
+  .mero-dashboard .dashboard-quicklinks,
+  .mero-dashboard .dashboard-hero + p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }

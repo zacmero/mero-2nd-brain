@@ -1,23 +1,504 @@
-/* Projects: Red */
-.nav-folder-title[data-path="1_ Projects Stack"] .nav-folder-title-content { color: #e03131 !important; font-weight: bold; }
-.nav-folder-title[data-path="1_ Projects Stack"] svg { color: #e03131 !important; }
+/*==============================================================================
+ * RAINBOW FOLDERS — CARD TREE (Desktop & Mobile)
+ * Faithful to Soft Paper / AnuPpuccin Design (Matching Reference Image 2)
+ *============================================================================*/
 
-/* Knowledge: Purple */
-.nav-folder-title[data-path="5_ Knowledge_Library"] .nav-folder-title-content { color: #9c36b5 !important; font-weight: bold; }
-.nav-folder-title[data-path="5_ Knowledge_Library"] svg { color: #9c36b5 !important; }
+/* 1. Global Font and Icon Hygiene for File Explorer */
+.nav-files-container {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, "Helvetica Neue", Arial, sans-serif !important;
+  letter-spacing: -0.01em !important;
+  line-height: 1.35 !important;
+}
 
-/* Resources: Green */
-.nav-folder-title[data-path="3_ Resources Stack"] .nav-folder-title-content { color: #2f9e44 !important; font-weight: bold; }
-.nav-folder-title[data-path="3_ Resources Stack"] svg { color: #2f9e44 !important; }
+/* Completely suppress Soft Paper's duplicate pseudo-element masks so they never overlap or clip into stray brackets */
+.nav-file .nav-file-title::before,
+.nav-folder .nav-folder-title::before,
+.nav-file .nav-file-title[data-path]::before,
+.nav-folder .nav-folder-title[data-path]::before {
+  display: none !important;
+  content: none !important;
+}
 
-/* Diaries: Gold */
-.nav-folder-title[data-path="Mero's Diaries 📓"] .nav-folder-title-content { color: #f59f00 !important; font-weight: bold; }
-.nav-folder-title[data-path="Mero's Diaries 📓"] svg { color: #f59f00 !important; }
+/* 2. 11-Color Catppuccin Mocha Rainbow Palette (RGB tuples) */
+:root {
+  --sp-rf-1: 243, 139, 168;  /* Red / Coral #f38ba8 */
+  --sp-rf-2: 235, 160, 172;  /* Maroon #eba0ac */
+  --sp-rf-3: 250, 179, 135;  /* Peach / Orange #fab387 */
+  --sp-rf-4: 249, 226, 175;  /* Yellow / Amber #f9e2af */
+  --sp-rf-5: 166, 227, 161;  /* Green / Mint #a6e3a1 */
+  --sp-rf-6: 148, 226, 213;  /* Teal / Turquoise #94e2d5 */
+  --sp-rf-7: 137, 220, 235;  /* Sky / Ice Aqua #89dceb */
+  --sp-rf-8: 116, 199, 236;  /* Sapphire / Azure #74c7ec */
+  --sp-rf-9: 137, 180, 250;  /* Blue / Periwinkle #89b4fa */
+  --sp-rf-10: 180, 190, 254; /* Lavender #b4befe */
+  --sp-rf-11: 203, 166, 247; /* Mauve / Purple #cba6f7 */
+}
 
-/* Inbox: Orange */
-.nav-folder-title[data-path="Check Later"] .nav-folder-title-content { color: #fd7e14 !important; font-weight: bold; }
-.nav-folder-title[data-path="Check Later"] svg { color: #fd7e14 !important; }
+/* 3. Nth-child 11-Color Rainbow Cycle for Root Folders */
+.nav-files-container > div > .nav-folder:nth-child(11n + 1),
+.nav-files-container > .nav-folder:nth-child(11n + 1),
+.nav-files-container > div > .tree-item.nav-folder:nth-child(11n + 1),
+.nav-files-container > .tree-item.nav-folder:nth-child(11n + 1) { --rainbow-folder-color: var(--sp-rf-1); }
 
-/* Archives: Grey */
-.nav-folder-title[data-path="4_ Archives"] .nav-folder-title-content { color: #868e96 !important; }
-.nav-folder-title[data-path="4_ Archives"] svg { color: #868e96 !important; }
+.nav-files-container > div > .nav-folder:nth-child(11n + 2),
+.nav-files-container > .nav-folder:nth-child(11n + 2),
+.nav-files-container > div > .tree-item.nav-folder:nth-child(11n + 2),
+.nav-files-container > .tree-item.nav-folder:nth-child(11n + 2) { --rainbow-folder-color: var(--sp-rf-2); }
+
+.nav-files-container > div > .nav-folder:nth-child(11n + 3),
+.nav-files-container > .nav-folder:nth-child(11n + 3),
+.nav-files-container > div > .tree-item.nav-folder:nth-child(11n + 3),
+.nav-files-container > .tree-item.nav-folder:nth-child(11n + 3) { --rainbow-folder-color: var(--sp-rf-3); }
+
+.nav-files-container > div > .nav-folder:nth-child(11n + 4),
+.nav-files-container > .nav-folder:nth-child(11n + 4),
+.nav-files-container > div > .tree-item.nav-folder:nth-child(11n + 4),
+.nav-files-container > .tree-item.nav-folder:nth-child(11n + 4) { --rainbow-folder-color: var(--sp-rf-4); }
+
+.nav-files-container > div > .nav-folder:nth-child(11n + 5),
+.nav-files-container > .nav-folder:nth-child(11n + 5),
+.nav-files-container > div > .tree-item.nav-folder:nth-child(11n + 5),
+.nav-files-container > .tree-item.nav-folder:nth-child(11n + 5) { --rainbow-folder-color: var(--sp-rf-5); }
+
+.nav-files-container > div > .nav-folder:nth-child(11n + 6),
+.nav-files-container > .nav-folder:nth-child(11n + 6),
+.nav-files-container > div > .tree-item.nav-folder:nth-child(11n + 6),
+.nav-files-container > .tree-item.nav-folder:nth-child(11n + 6) { --rainbow-folder-color: var(--sp-rf-6); }
+
+.nav-files-container > div > .nav-folder:nth-child(11n + 7),
+.nav-files-container > .nav-folder:nth-child(11n + 7),
+.nav-files-container > div > .tree-item.nav-folder:nth-child(11n + 7),
+.nav-files-container > .tree-item.nav-folder:nth-child(11n + 7) { --rainbow-folder-color: var(--sp-rf-7); }
+
+.nav-files-container > div > .nav-folder:nth-child(11n + 8),
+.nav-files-container > .nav-folder:nth-child(11n + 8),
+.nav-files-container > div > .tree-item.nav-folder:nth-child(11n + 8),
+.nav-files-container > .tree-item.nav-folder:nth-child(11n + 8) { --rainbow-folder-color: var(--sp-rf-8); }
+
+.nav-files-container > div > .nav-folder:nth-child(11n + 9),
+.nav-files-container > .nav-folder:nth-child(11n + 9),
+.nav-files-container > div > .tree-item.nav-folder:nth-child(11n + 9),
+.nav-files-container > .tree-item.nav-folder:nth-child(11n + 9) { --rainbow-folder-color: var(--sp-rf-9); }
+
+.nav-files-container > div > .nav-folder:nth-child(11n + 10),
+.nav-files-container > .nav-folder:nth-child(11n + 10),
+.nav-files-container > div > .tree-item.nav-folder:nth-child(11n + 10),
+.nav-files-container > .tree-item.nav-folder:nth-child(11n + 10) { --rainbow-folder-color: var(--sp-rf-10); }
+
+.nav-files-container > div > .nav-folder:nth-child(11n + 11),
+.nav-files-container > .nav-folder:nth-child(11n + 11),
+.nav-files-container > div > .tree-item.nav-folder:nth-child(11n + 11),
+.nav-files-container > .tree-item.nav-folder:nth-child(11n + 11) { --rainbow-folder-color: var(--sp-rf-11); }
+
+/* Semantic Stack Preservations */
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="Projects Stack"]),
+.nav-files-container .tree-item.nav-folder:has(> .tree-item-self[data-path*="Projects Stack"]) { --rainbow-folder-color: var(--sp-rf-1) !important; }
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="Areas Stack"]),
+.nav-files-container .tree-item.nav-folder:has(> .tree-item-self[data-path*="Areas Stack"]) { --rainbow-folder-color: var(--sp-rf-8) !important; }
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="Resources Stack"]),
+.nav-files-container .tree-item.nav-folder:has(> .tree-item-self[data-path*="Resources Stack"]) { --rainbow-folder-color: var(--sp-rf-5) !important; }
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="Archives"]),
+.nav-files-container .tree-item.nav-folder:has(> .tree-item-self[data-path*="Archives"]) { --rainbow-folder-color: var(--sp-rf-10) !important; }
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="Knowledge_Library"]),
+.nav-files-container .tree-item.nav-folder:has(> .tree-item-self[data-path*="Knowledge_Library"]) { --rainbow-folder-color: var(--sp-rf-11) !important; }
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="Check Later"]),
+.nav-files-container .tree-item.nav-folder:has(> .tree-item-self[data-path*="Check Later"]) { --rainbow-folder-color: var(--sp-rf-3) !important; }
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path*="Diaries"]),
+.nav-files-container .tree-item.nav-folder:has(> .tree-item-self[data-path*="Diaries"]) { --rainbow-folder-color: var(--sp-rf-4) !important; }
+
+/* 4. Top-Level Folder Cards (Soft Paper / AnuPpuccin Card Structure) */
+.nav-files-container > div > .nav-folder,
+.nav-files-container > .nav-folder,
+.nav-files-container > div > .tree-item.nav-folder,
+.nav-files-container > .tree-item.nav-folder {
+  background-color: rgba(var(--rainbow-folder-color, 148, 226, 213), 0.65) !important;
+  border: 1px solid rgba(var(--rainbow-folder-color, 148, 226, 213), 0.75) !important;
+  border-radius: 7px !important;
+  margin-bottom: 4px !important;
+  box-shadow: none !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease !important;
+}
+
+.nav-files-container > div > .nav-folder:hover,
+.nav-files-container > .nav-folder:hover,
+.nav-files-container > div > .tree-item.nav-folder:hover,
+.nav-files-container > .tree-item.nav-folder:hover {
+  background-color: rgba(var(--rainbow-folder-color, 148, 226, 213), 0.72) !important;
+  border-color: rgba(var(--rainbow-folder-color, 148, 226, 213), 0.85) !important;
+}
+
+/* 5. Contrast Text & Icons Inside the Pastel Folder Cards */
+.nav-files-container > div > .nav-folder .nav-folder-title,
+.nav-files-container > div > .nav-folder .nav-folder-title-content,
+.nav-files-container > div > .nav-folder .nav-file-title,
+.nav-files-container > div > .nav-folder .nav-file-title-content,
+.nav-files-container > .nav-folder .nav-folder-title,
+.nav-files-container > .nav-folder .nav-folder-title-content,
+.nav-files-container > .nav-folder .nav-file-title,
+.nav-files-container > .nav-folder .nav-file-title-content,
+.nav-files-container > div > .tree-item.nav-folder .tree-item-self,
+.nav-files-container > div > .tree-item.nav-folder .tree-item-inner,
+.nav-files-container > .tree-item.nav-folder .tree-item-self,
+.nav-files-container > .tree-item.nav-folder .tree-item-inner,
+.nav-files-container > div > .tree-item.nav-folder .tree-item-inner *,
+.nav-files-container > .tree-item.nav-folder .tree-item-inner * {
+  color: #2b2e3b !important;
+}
+
+/* 5. Contrast Text & Icons Inside the Pastel Folder Cards */
+.nav-files-container > div > .nav-folder .nav-folder-title,
+.nav-files-container > div > .nav-folder .nav-folder-title-content,
+.nav-files-container > div > .nav-folder .nav-file-title,
+.nav-files-container > div > .nav-folder .nav-file-title-content,
+.nav-files-container > .nav-folder .nav-folder-title,
+.nav-files-container > .nav-folder .nav-folder-title-content,
+.nav-files-container > .nav-folder .nav-file-title,
+.nav-files-container > .nav-folder .nav-file-title-content,
+.nav-files-container > div > .tree-item.nav-folder .tree-item-self,
+.nav-files-container > div > .tree-item.nav-folder .tree-item-inner,
+.nav-files-container > .tree-item.nav-folder .tree-item-self,
+.nav-files-container > .tree-item.nav-folder .tree-item-inner,
+.nav-files-container > div > .tree-item.nav-folder .tree-item-inner *,
+.nav-files-container > .tree-item.nav-folder .tree-item-inner * {
+  color: #2b2e3b !important;
+}
+
+/* Icon positioning: eliminate absolute positioning and negative margins that cut icons off on the left border */
+.nav-files-container .tree-item-self,
+.nav-files-container .nav-folder-title,
+.nav-files-container .nav-file-title {
+  display: flex !important;
+  align-items: center !important;
+  position: relative !important;
+}
+
+.nav-files-container .tree-item-icon,
+.nav-files-container .collapse-icon,
+.nav-files-container .tree-item-self > .tree-item-icon,
+.nav-files-container .tree-item-self > .collapse-icon,
+.nav-files-container .nav-folder-title > .collapse-icon,
+.nav-files-container .nav-folder-title > .tree-item-icon {
+  position: static !important;
+  margin: 0 8px 0 0 !important;
+  margin-inline-start: 0 !important;
+  margin-inline-end: 8px !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  bottom: auto !important;
+  width: 18px !important;
+  min-width: 18px !important;
+  max-width: 18px !important;
+  height: 18px !important;
+  min-height: 18px !important;
+  max-height: 18px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+  opacity: 1 !important;
+  transform: none !important;
+  color: #2b2e3b !important;
+  --icon-color: #2b2e3b !important;
+  stroke: #2b2e3b !important;
+}
+
+.nav-files-container .tree-item-icon svg,
+.nav-files-container .collapse-icon svg,
+.nav-files-container .tree-item-self > .tree-item-icon svg,
+.nav-files-container .tree-item-self > .collapse-icon svg,
+.nav-files-container .nav-folder-title > .collapse-icon svg,
+.nav-files-container .nav-folder-title > .tree-item-icon svg {
+  width: 16px !important;
+  height: 16px !important;
+  min-width: 16px !important;
+  min-height: 16px !important;
+  max-width: 16px !important;
+  max-height: 16px !important;
+  display: block !important;
+  transform: none !important;
+  color: #2b2e3b !important;
+  --icon-color: #2b2e3b !important;
+  stroke: #2b2e3b !important;
+}
+
+/* 6. Spacing, Padding & Hierarchy */
+/* Root folder header row — generous left padding so icon and text sit comfortably inside the card */
+.nav-files-container > div > .nav-folder > .nav-folder-title,
+.nav-files-container > .nav-folder > .nav-folder-title,
+.nav-files-container > div > .tree-item.nav-folder > .tree-item-self,
+.nav-files-container > .tree-item.nav-folder > .tree-item-self,
+.nav-files-container > div > .tree-item.nav-folder > .tree-item-self.mod-collapsible,
+.nav-files-container > .tree-item.nav-folder > .tree-item-self.mod-collapsible {
+  padding: 6px 14px 6px 18px !important;
+  padding-inline-start: 18px !important;
+  min-height: 30px !important;
+  font-size: 13.5px !important;
+  font-weight: 600 !important;
+  border: none !important;
+  border-radius: 6px !important;
+  background: transparent !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  transform: none !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.nav-files-container > div > .nav-folder > .nav-folder-title .nav-folder-title-content,
+.nav-files-container > .nav-folder > .nav-folder-title .nav-folder-title-content,
+.nav-files-container > div > .tree-item.nav-folder > .tree-item-self .tree-item-inner,
+.nav-files-container > .tree-item.nav-folder > .tree-item-self .tree-item-inner {
+  font-size: 13.5px !important;
+  font-weight: 600 !important;
+  flex: 1 1 auto !important;
+  margin-inline-start: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Children Indentation Guide — clean, spacious indentation without harsh lines on card root */
+.nav-files-container > div > .nav-folder > .nav-folder-children,
+.nav-files-container > .nav-folder > .nav-folder-children,
+.nav-files-container > div > .tree-item.nav-folder > .tree-item-children,
+.nav-files-container > .tree-item.nav-folder > .tree-item-children {
+  padding: 4px 8px 6px 14px !important;
+  padding-inline-start: 14px !important;
+  border-left: none !important;
+  margin-left: 12px !important;
+  margin-inline-start: 12px !important;
+  margin-bottom: 4px !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Deeply nested children (level 2+) — subtle thin guide line */
+.nav-files-container .tree-item-children .tree-item-children {
+  border-left: 1px solid rgba(0, 0, 0, 0.18) !important;
+  margin-left: 16px !important;
+  margin-inline-start: 16px !important;
+  padding-left: 14px !important;
+  padding-inline-start: 14px !important;
+}
+
+/* Nested subfolder title row — comfortable distance and breathing room */
+.nav-files-container > div > .nav-folder .nav-folder-children .nav-folder-title,
+.nav-files-container > .nav-folder .nav-folder-children .nav-folder-title,
+.nav-files-container > div > .tree-item.nav-folder .tree-item-children .tree-item.nav-folder > .tree-item-self,
+.nav-files-container > .tree-item.nav-folder .tree-item-children .tree-item.nav-folder > .tree-item-self,
+.nav-files-container > div > .tree-item.nav-folder .tree-item-children .tree-item.nav-folder > .tree-item-self.mod-collapsible,
+.nav-files-container > .tree-item.nav-folder .tree-item-children .tree-item.nav-folder > .tree-item-self.mod-collapsible {
+  padding: 4px 10px 4px 14px !important;
+  padding-inline-start: 14px !important;
+  min-height: 26px !important;
+  font-size: 13px !important;
+  font-weight: 550 !important;
+  border: none !important;
+  background: transparent !important;
+  border-radius: 5px !important;
+  margin: 2px 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Nested note/file title row */
+.nav-files-container > div > .nav-folder .nav-folder-children .nav-file-title,
+.nav-files-container > .nav-folder .nav-folder-children .nav-file-title,
+.nav-files-container > div > .tree-item.nav-folder .tree-item-children .tree-item.nav-file > .tree-item-self,
+.nav-files-container > .tree-item.nav-folder .tree-item-children .tree-item.nav-file > .tree-item-self {
+  padding: 4px 10px 4px 14px !important;
+  padding-inline-start: 14px !important;
+  min-height: 26px !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  border: none !important;
+  background: transparent !important;
+  border-radius: 5px !important;
+  margin: 2px 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Hover on item inside card */
+.nav-files-container > div > .nav-folder .nav-folder-children .nav-folder-title:hover,
+.nav-files-container > div > .nav-folder .nav-folder-children .nav-file-title:hover,
+.nav-files-container > .nav-folder .nav-folder-children .nav-folder-title:hover,
+.nav-files-container > .nav-folder .nav-folder-children .nav-file-title:hover,
+.nav-files-container > div > .tree-item.nav-folder .tree-item-children .tree-item-self:hover,
+.nav-files-container > .tree-item.nav-folder .tree-item-children .tree-item-self:hover {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Active item inside card */
+.nav-files-container > div > .nav-folder .nav-file-title.is-active,
+.nav-files-container > .nav-folder .nav-file-title.is-active,
+.nav-files-container > div > .tree-item.nav-folder .tree-item-children .tree-item-self.is-active,
+.nav-files-container > .tree-item.nav-folder .tree-item-children .tree-item-self.is-active {
+  background-color: rgba(0, 0, 0, 0.14) !important;
+  font-weight: 600 !important;
+  color: #1a1d24 !important;
+}
+
+/* Deeper indentation guides */
+.nav-files-container > div > .nav-folder .nav-folder-children .nav-folder-children,
+.nav-files-container > .nav-folder .nav-folder-children .nav-folder-children,
+.nav-files-container > div > .tree-item.nav-folder .tree-item-children .tree-item-children,
+.nav-files-container > .tree-item.nav-folder .tree-item-children .tree-item-children {
+  border-left: 1.5px solid rgba(0, 0, 0, 0.14) !important;
+  margin-left: 8px !important;
+  padding-left: 6px !important;
+  background: transparent !important;
+}
+
+/* 7. Loose Files at Vault Root (Not inside folders - like Image 2 bottom) */
+.nav-files-container > div > .nav-file,
+.nav-files-container > .nav-file,
+.nav-files-container > div > .tree-item.nav-file,
+.nav-files-container > .tree-item.nav-file {
+  margin: 1px 0 !important;
+  background: transparent !important;
+}
+
+.nav-files-container > div > .nav-file > .nav-file-title,
+.nav-files-container > .nav-file > .nav-file-title,
+.nav-files-container > div > .tree-item.nav-file > .tree-item-self,
+.nav-files-container > .tree-item.nav-file > .tree-item-self {
+  padding: 3px 6px !important;
+  min-height: 24px !important;
+  font-size: 13.5px !important;
+  color: #c6ceef !important;
+  border-radius: 4px !important;
+  background: transparent !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.nav-files-container > div > .nav-file > .nav-file-title .nav-file-title-content,
+.nav-files-container > .nav-file > .nav-file-title .nav-file-title-content,
+.nav-files-container > div > .tree-item.nav-file > .tree-item-self .tree-item-inner,
+.nav-files-container > .tree-item.nav-file > .tree-item-self .tree-item-inner {
+  color: #c6ceef !important;
+}
+
+.nav-files-container > div > .nav-file > .nav-file-title .tree-item-icon svg,
+.nav-files-container > .nav-file > .nav-file-title .tree-item-icon svg,
+.nav-files-container > div > .tree-item.nav-file > .tree-item-self .tree-item-icon svg,
+.nav-files-container > .tree-item.nav-file > .tree-item-self .tree-item-icon svg {
+  color: var(--color-accent, #c577e9) !important;
+  --icon-color: var(--color-accent, #c577e9) !important;
+  stroke: var(--color-accent, #c577e9) !important;
+}
+
+.nav-files-container > div > .nav-file > .nav-file-title:hover,
+.nav-files-container > .nav-file > .nav-file-title:hover,
+.nav-files-container > div > .tree-item.nav-file > .tree-item-self:hover,
+.nav-files-container > .tree-item.nav-file > .tree-item-self:hover {
+  background-color: rgba(255, 255, 255, 0.06) !important;
+  color: #ffffff !important;
+}
+
+.nav-files-container > div > .nav-file > .nav-file-title.is-active,
+.nav-files-container > .nav-file > .nav-file-title.is-active,
+.nav-files-container > div > .tree-item.nav-file > .tree-item-self.is-active,
+.nav-files-container > .tree-item.nav-file > .tree-item-self.is-active {
+  background-color: rgba(197, 119, 233, 0.22) !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+/* 8. Canvas Badge */
+.nav-file-tag {
+  font-size: 9px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  padding: 1px 4px !important;
+  border-radius: 3px !important;
+  background: rgba(197, 119, 233, 0.2) !important;
+  color: var(--color-accent, #c577e9) !important;
+  margin-left: auto !important;
+}
+
+/* 9. Mobile Touch Friendly Scaling */
+@media (max-width: 768px), (pointer: coarse) {
+  .nav-files-container > div > .nav-folder,
+  .nav-files-container > .nav-folder,
+  .nav-files-container > div > .tree-item.nav-folder,
+  .nav-files-container > .tree-item.nav-folder {
+    margin-bottom: 4px !important;
+  }
+  .nav-files-container > div > .nav-folder > .nav-folder-title,
+  .nav-files-container > .nav-folder > .nav-folder-title,
+  .nav-files-container > div > .tree-item.nav-folder > .tree-item-self,
+  .nav-files-container > .tree-item.nav-folder > .tree-item-self {
+    min-height: 36px !important;
+    padding: 6px 10px !important;
+    font-size: 14.5px !important;
+  }
+  .nav-files-container > div > .nav-folder .nav-folder-children .nav-folder-title,
+  .nav-files-container > div > .nav-folder .nav-folder-children .nav-file-title,
+  .nav-files-container > .nav-folder .nav-folder-children .nav-folder-title,
+  .nav-files-container > .nav-folder .nav-folder-children .nav-file-title,
+  .nav-files-container > div > .tree-item.nav-folder .tree-item-children .tree-item-self,
+  .nav-files-container > .tree-item.nav-folder .tree-item-children .tree-item-self {
+    min-height: 32px !important;
+    padding: 4px 8px !important;
+    font-size: 14px !important;
+  }
+  .nav-files-container > div > .nav-file > .nav-file-title,
+  .nav-files-container > .nav-file > .nav-file-title,
+  .nav-files-container > div > .tree-item.nav-file > .tree-item-self,
+  .nav-files-container > .tree-item.nav-file > .tree-item-self {
+    min-height: 32px !important;
+    padding: 4px 8px !important;
+    font-size: 14px !important;
+  }
+}
+
+/* 10. Hide System & JSON Files from File Tree */
+.nav-file-title[data-path$=".json"],
+.nav-file-title[data-path*="sync-conflict"],
+.tree-item-self[data-path$=".json"],
+.tree-item-self[data-path*="sync-conflict"],
+.nav-file:has([data-path$=".json"]),
+.nav-file:has([data-path*="sync-conflict"]),
+.tree-item:has([data-path$=".json"]),
+.tree-item:has([data-path*="sync-conflict"]) {
+  display: none !important;
+}
+
+/* 11. Canvas Connectors Visibility */
+.theme-dark {
+  --canvas-color: #8b92a5 !important;
+}
+.theme-light {
+  --canvas-color: #828282 !important;
+}
+.canvas-edges path.canvas-display-path {
+  stroke: var(--canvas-color, #8b92a5) !important;
+  stroke-width: calc(2px * var(--zoom-multiplier)) !important;
+}
+.canvas-edges polygon.canvas-path-end {
+  stroke: var(--canvas-color, #8b92a5) !important;
+  fill: var(--canvas-color, #8b92a5) !important;
+}
+
+/* 12. Vault Switcher & Window Control Icons */
+.theme-dark .workspace-split.mod-left-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher,
+.theme-dark .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher,
+.theme-dark .workspace-sidedock-vault-profile .workspace-drawer-vault-name,
+.theme-dark .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher-icon,
+.theme-dark .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher svg {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+.theme-dark .sidebar-toggle-button,
+.theme-dark .sidebar-toggle-button .clickable-icon,
+.theme-dark .sidebar-toggle-button svg {
+  --icon-color: #ffffff !important;
+  --icon-color-hover: #ffffff !important;
+  color: #ffffff !important;
+  stroke: #ffffff !important;
+}

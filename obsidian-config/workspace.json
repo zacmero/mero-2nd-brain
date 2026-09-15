@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fc2bc4397ef89061",
+        "id": "68a9c9434f1f93ad",
         "type": "tabs",
         "children": [
           {
-            "id": "758831f2863a7b24",
+            "id": "fb6ce4e1fd659c5b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
+                "viewState": {
+                  "x": -49.22441359202547,
+                  "y": -86.73460193552759,
+                  "zoom": -0.6515422264045991
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "1. Suzy Mero Steele - Master Map"
             }
           }
         ]
@@ -37,7 +44,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -49,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "is the only thing that's ever made  me feel real",
+                "query": "achadinhos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 509.5083198547363
+    "width": 279.21932220458984
   },
   "right": {
     "id": "f0e6e285c9d0d9f9",
@@ -108,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -193,54 +203,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "758831f2863a7b24",
+  "active": "fb6ce4e1fd659c5b",
   "lastOpenFiles": [
-    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_11 - The Caged Echo.md",
     "1_ Projects Stack/Picture of God - Book/1. The Picture of God - Master Map.canvas",
-    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_10 - The Reawakening Pattern.md",
-    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_12 - Syntax Collapse.md",
-    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_16 - The Skin of Peace.md",
-    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_18 - Lia’s Return.md",
-    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_19 - The Night of the Language.md",
-    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_15(Way Later) - The Fossils of the Ghosts and The Picture of God (Neurosomatic Terrorism).md",
-    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_14(Way Later) - The Flesh of the Signal.md",
-    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_13(Way Later) - Signal in the Static.md",
-    "1_ Projects Stack/Picture of God - Book/Scene 10 & 11 - Close of the Part I.md",
-    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_08 - Am I Still Me?.md",
-    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_07 - Interview with God.md",
-    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_06 - After Possession.md",
-    "1_ Projects Stack/Picture of God - Book/Chapters/Chapter_05 - The Gift.md",
-    "1_ Projects Stack/Picture of God - Book/Raw Material/Part I - Scenes 10 - 11.md",
-    "1_ Projects Stack/Picture of God - Book/Fossil Language Paper - “Resonant Interference from Non-Anthropic Fossil Language Events (N-FLEs)”.md",
-    "1_ Projects Stack/Picture of God - Book/Anti-Entropy Devices - N-FLEs as Non-Anthropic Order.md",
-    "1_ Projects Stack/Picture of God - Book/Aesthetic Suggestions.md",
-    "1_ Projects Stack/Picture of God - Book/Raw Material/Part I.5 - Scene 1.md",
-    "1_ Projects Stack/Picture of God - Book/Raw Material/Part I.5 - Suzys Sorrow.md",
-    "1_ Projects Stack/Picture of God - Book/Testimonials for the story.md",
-    "1_ Projects Stack/Picture of God - Book/Suzy Decoding - Linguistic Virus.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
+    "3_ Resources Stack/Metaprogramming/Metaprogramming as Reality-Building.md",
+    "Vault Index.base",
+    "5_ Knowledge_Library/Sciences/The Drunkard's Walk.md",
+    "Todoist.md",
+    "3_ Resources Stack/A.I./GPT 5.6 - SOl Jailbreak.md",
+    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/VIP NSFW Group Ideas.md",
+    "Attachments/archmeros-20260828-220046.png",
+    "4_ Archives/The Keys/Passwords.md",
+    "4_ Archives/The Keys/Marketing Accounts - APIs - Social Net Automation.md",
+    "4_ Archives/The Keys/APIs.md",
+    "3_ Resources Stack/Music Production/Equing Metal Guitars.md",
+    "5_ Knowledge_Library/raw_book_notes/AI Engineering - Building Applications with Foundation Models - Chip Huyen.md",
+    "Check Later/Games To Play.md",
+    "Check Later/Books To Read.md",
+    "Check Later/Certo mas abrimos essas janelas profissionais e pessoais exclusivamente para o período da manhã.md",
+    "Check Later/Fundamentals of Software Architecture_ An Engineering Approach.1.md",
+    "Check Later/Fundamentals of Software Architecture_ An Engineering Approach.2.md",
+    "Check Later/Fundamentals of Software Architecture_ An Engineering Approach.3.md",
+    "Check Later/Fundamentals of Software Architecture_ An Engineering Approach.md",
+    "Check Later/https___www.integralworld.net_visser99.html.md",
+    "Check Later/Indicaçoes.md",
+    "Check Later/IMG_7472.png",
+    "Check Later/Untitled note.md",
+    "2_ Areas Stack/Mero Home/Credentials.md",
+    "2_ Areas Stack/Mero Home/Manual do Usuário - Tomada Inteligente WiFi.md",
+    "2_ Areas Stack/Mero Home",
+    "4_ Archives/aMIZING.md",
+    "2_ Areas Stack/Finances/Finanças Casa 2026.md",
+    "4_ Archives/The Keys/Zac Mero.md",
+    "2_ Areas Stack/Mom",
+    "1_ Projects Stack/Picture of God - Book/Cover Art/ChatGPT Image Apr 30, 2026, 01_45_10 AM.png",
+    "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 1_59AM.jpg",
+    "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 2_18AM.jpg",
     "1_ Projects Stack/Picture of God - Book/Advertising Media/Suzy possessed by the fossil.mp4",
     "1_ Projects Stack/Picture of God - Book/Advertising Media/suzy shreads.mp4",
-    "1_ Projects Stack/Picture of God - Book/Already Extracted/First Draft.md",
-    "1_ Projects Stack/Picture of God - Book/Already Extracted/Chapter 4_ (discussion-concept).md",
-    "1_ Projects Stack/Picture of God - Book/Book 2 Theme - The War Against God.md",
     "1_ Projects Stack/Picture of God - Book/Already Extracted",
     "1_ Projects Stack/Picture of God - Book/Chapters/test.txt",
     "1_ Projects Stack/Picture of God - Book/Chapters/chapter_05.txt",
     "1_ Projects Stack/Picture of God - Book/Chapters/chapter_04.txt",
     "1_ Projects Stack/Picture of God - Book/Chapters/chapter_03.txt",
-    "1_ Projects Stack/Picture of God - Book/Chapters/chapter_02.txt",
-    "1_ Projects Stack/Picture of God - Book/Chapters/chapter_01.txt",
-    "1_ Projects Stack/Picture of God - Book/Chapters",
-    "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 2_18AM.jpg",
-    "1_ Projects Stack/Picture of God - Book/Cover Art/Generated Image April 30, 2026 - 1_59AM.jpg",
-    "1_ Projects Stack/Picture of God - Book/Cover Art/ChatGPT Image Apr 30, 2026, 01_45_10 AM.png",
     "Attachments/IMG_7547 1.png",
     "Attachments/IMG_7548 1.png",
-    "1_ Projects Stack/Agent 01_ Suzy Mero Steele 😈/1. Suzy Mero Steele - Master Map.canvas",
     "Attachments/cartão_cpf.png",
     "Attachments/rg.jpeg",
-    "Attachments/immortal_excess_v2_4k_(banana_pro).jpg",
-    "Attachments/drunkardswalk_cover.jpg",
-    "Attachments 📎/IMG_7502.png"
+    "Attachments/immortal_excess_v2_4k_(banana_pro).jpg"
   ]
 }

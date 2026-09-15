@@ -1,13 +1,13 @@
 {
   "theme": "obsidian",
-  "cssTheme": "Minimal",
+  "cssTheme": "Soft Paper",
   "interfaceFontFamily": "CaskaydiaCove Nerd Font",
   "textFontFamily": "CaskaydiaCove Nerd Font",
   "baseFontSize": 16,
   "baseFontSizeAction": true,
   "translucency": true,
   "nativeMenus": false,
-  "accentColor": "#6cc9ff",
+  "accentColor": "#c577e9",
   "enabledCssSnippets": [
     "mero-cyberpunk",
     "folder-colors",

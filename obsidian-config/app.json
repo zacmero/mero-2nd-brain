@@ -5,5 +5,10 @@
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
   "vimMode": true,
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "*.json",
+    "*sync-conflict*"
+  ]
 }

@@ -3,5 +3,9 @@
   "newFileLocation": "root",
   "useMarkdownLinks": false,
   "alwaysUpdateLinks": true,
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "*.json",
+    "*sync-conflict*"
+  ]
 }
